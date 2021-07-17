@@ -2,11 +2,9 @@
 id: VotPnQqwNxZwinuM
 title: Glucose
 desc: ''
-updated: 1626539232506
+updated: 1626539883124
 created: 1626494825710
 ---
-
-# Glucose
 
 ## Spikes
 - source: [[Glucose|r.glucose#^iTMnEFyrGtCqaGRU]]
