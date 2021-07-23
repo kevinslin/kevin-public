@@ -2,18 +2,16 @@
 id: pxrM8osCl5NXe5IT
 title: '2021-07-17'
 desc: ''
-updated: 1626540891872
+updated: 1627083968661
 created: 1626539528062
 ---
 
 ### 1. Continuous Glucose Monitoring
 
-Been using a continuous glucose monitor to check on glucose levels. While not diabetic, I used to be a big quantified self proponent. 
+Been using a continuous glucose monitor to check on glucose levels. While not diabetic, I used to be a big [[quantified self|r.entities.quantified-self]] person until I realized I wasn't actually doing anythign with my data. Now after a few years of hiatus, I find myself slowly getting back to tracking things again. 
 
-Started keeping track of [[Glucose|r.glucose]] related research. 
+I recently got a subscription to [[Levels Health|r.entities.levels-health]] which helps people track their [[glucose|r.glucose]] through a continuous glucose monitor.
 
-### 2. Reducing Git Size
+Below is my reading for this day. As you can see, I have some high spikes after every meal. Will be working on getting this down over the next couple of weeks. 
 
-The Dendron `.git` is growing big - 54.3MB big. Looking for better ways to reduce it. 
-
-We'll be doing a trim soon from the following: [Cleaning up a git repo for reducing the repository size](https://medium.com/@sangeethkumar.tvm.kpm/cleaning-up-a-git-repo-for-reducing-the-repository-size-d11fa496ba48)
+![blood glucose](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/729B6636-7AC1-4181-9AE7-83DFC2D45E8B.png)
