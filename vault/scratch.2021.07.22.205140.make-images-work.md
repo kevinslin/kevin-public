@@ -2,12 +2,22 @@
 id: qO90vP3WYbe1grtB
 title: Make Images Work
 desc: ''
-updated: 1627076759914
+updated: 1627080747351
 created: 1627012300156
 ---
 
 
 ## Tasks
 - [x] create s3 in personal account 
-- [ ] sync assets online
-- [ ] rewrite image links
+- [x] sync assets online
+- [x] rewrite image links
+- [x] check broken links
+
+## Command
+```sh
+link-checker --http-status-ignore 2xx,301 \
+  --allow-hash-href \
+  --http-redirects 2 \
+  --http-cache link-checker.cache \
+  build/site/notes | tee /tmp/out.txt
+```
