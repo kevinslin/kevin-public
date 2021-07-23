@@ -2,7 +2,7 @@
 id: P1Qbudq16kT3xCYS
 title: 2021 07 Publish Blog
 desc: ''
-updated: 1627012148106
+updated: 1627012426598
 created: 1627011693338
 ---
 
@@ -27,7 +27,8 @@ I've accumulated a bunch of notes over the past decade, most of it behind a priv
 - [x] create kevin-garden workspace
 - [x] create kevin-blog
 - [x] create kevin-public
-- [ ] make images work
+- [ ] backup existing site
+- [ ] [[make images work|scratch.2021.07.22.205140.make-images-work]]
 - [ ] let people know about kevin-garden
 
 ## Lookup
