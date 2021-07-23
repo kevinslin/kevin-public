@@ -2,13 +2,13 @@
 id: pxrM8osCl5NXe5IT
 title: '2021-07-17'
 desc: ''
-updated: 1627083968661
+updated: 1627084582319
 created: 1626539528062
 ---
 
-### 1. Continuous Glucose Monitoring
+### 1. [[Continuous Glucose Monitoring|proj.2021-07-continuous-glucose-monitoring]]
 
-Been using a continuous glucose monitor to check on glucose levels. While not diabetic, I used to be a big [[quantified self|r.entities.quantified-self]] person until I realized I wasn't actually doing anythign with my data. Now after a few years of hiatus, I find myself slowly getting back to tracking things again. 
+While not diabetic, I used to be a big [[quantified self|r.entities.quantified-self]] person until I realized I wasn't actually doing anythign with my data. Now after a few years of hiatus, I find myself slowly getting back to tracking things again. 
 
 I recently got a subscription to [[Levels Health|r.entities.levels-health]] which helps people track their [[glucose|r.glucose]] through a continuous glucose monitor.
 

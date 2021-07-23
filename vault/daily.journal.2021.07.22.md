@@ -2,10 +2,9 @@
 id: 36HpMNG5UOIMvIFv
 title: '2021-07-22'
 desc: ''
-updated: 1627015383713
+updated: 1627084007204
 created: 1627015373943
 ---
 
 
-## Podcasts
-- 
+1. Continuous Glucose Monitoring
