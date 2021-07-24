@@ -14,4 +14,4 @@ I recently got a subscription to [[Levels Health|r.entities.levels-health]] whic
 
 Below is my reading for this day. As you can see, I have some high spikes after every meal. Will be working on getting this down over the next couple of weeks. 
 
-![blood glucose](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/729B6636-7AC1-4181-9AE7-83DFC2D45E8B.png)
+![blood glucose](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/729B6636-7AC1-4181-9AE7-83DFC2D45E8B.png) ^A1uHmAj2m2IzijLw
