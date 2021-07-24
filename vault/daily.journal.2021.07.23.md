@@ -2,7 +2,7 @@
 id: pTx0ofiaZJPzyIWB
 title: '2021-07-23'
 desc: ''
-updated: 1627089198638
+updated: 1627089972399
 created: 1627084604408
 ---
 
@@ -16,7 +16,7 @@ Had a cheat day today with waffle fries and a burger. Can you guess when that ha
 
 ## 2.  [[The Tim Ferriss Show|podcasts.tim-ferris]]
 - [#522: Anne Lamott on Taming Your Inner Critic, Finding Grace, and Prayer — The Tim Ferriss Show](https://overcast.fm/+KebtmHOww)
-https://overcast.fm/+KebtmHOww
+- Human: [[Anne Lamott|people.anne-lamott]]
 
 ### Quotes
 > I’ve heard, that we have dual citizenship. We’re children of the divine or children, sons and daughters of God. And we also have these kind of screwed up biographical details. We’ve got genetic details that we would have maybe not preferred. 
@@ -43,3 +43,11 @@ https://overcast.fm/+KebtmHOww
 - you created god in your own image when he hates all the same people you do
 - i was flight attendant of family
 - twilight can be day to night or night to day
+
+## 3. [[Indie Hackers|podcasts.indie-hackers]]
+- [#218 – Making Money and Being Happy with Sam Parr and Shaan Puri of My First Million — Indie Hackers](https://overcast.fm/+JmiMmWh4g)
+
+### Notes
+- aim for perfect tuesday #system
+  - instead of finding happiness in 10 years after the perfect exit, think of your perfect day and aim to do more of that
+  - shower, wake up without alarm, etc
