@@ -2,7 +2,7 @@
 id: VotPnQqwNxZwinuM
 title: Glucose
 desc: ''
-updated: 1627090641936
+updated: 1627092619810
 created: 1626494825710
 ---
 
@@ -46,5 +46,21 @@ created: 1626494825710
         - those fasting or in ketogenic state, bad since glucose levels are already low
         - light and mild drinks doesn’t affect this
 
+- exercise [^levels]
+    - moderate aerobic activiy for 30min 3x/week over 8 weeks improves insulin resistance and glycemic control
+    - 155lb person w/10% body fat
+        - store 1,800 cal from glucose (2h exercise)
+        - 63,000 cal from fat
+    - insulin resistant obese people don't burn fat as effectively
+    - 60% VO2 or lower use fat
+    - 80% VO2 or above uses glucose
+        - will result in glucose spike during and after exercise
+        - this is fine and helps improve insulin resistance
+    - recommendation
+        - exercise more often in shorter bursts
+
+
 ## Sources
 - [levels](http://levels.link/start) ^iTMnEFyrGtCqaGRU
+[^levels]: [levels](http://levels.link/start) 
+

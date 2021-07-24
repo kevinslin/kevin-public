@@ -2,7 +2,7 @@
 id: pTx0ofiaZJPzyIWB
 title: '2021-07-23'
 desc: ''
-updated: 1627091989797
+updated: 1627092643324
 created: 1627084604408
 ---
 
@@ -13,7 +13,7 @@ Had a cheat day today with waffle fries and a burger. Can you guess when that ha
 
 ![glucose levels](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/D73D2AD1-14B5-436B-9D17-06CD4CF7CE9C.png)
 
-Researched [[low carb running|r.glucose.ref.running]].
+- Researched [[low carb running|r.glucose.ref.running]].
 
 ## 2.  [[The Tim Ferriss Show|podcasts.tim-ferris]]
 - [#522: Anne Lamott on Taming Your Inner Critic, Finding Grace, and Prayer — The Tim Ferriss Show](https://overcast.fm/+KebtmHOww)
