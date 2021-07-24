@@ -2,7 +2,7 @@
 id: pTx0ofiaZJPzyIWB
 title: '2021-07-23'
 desc: ''
-updated: 1627084732709
+updated: 1627089198638
 created: 1627084604408
 ---
 
@@ -12,3 +12,34 @@ created: 1627084604408
 Had a cheat day today with waffle fries and a burger. Can you guess when that happened?
 
 ![glucose levels](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/D73D2AD1-14B5-436B-9D17-06CD4CF7CE9C.png)
+
+
+## 2.  [[The Tim Ferriss Show|podcasts.tim-ferris]]
+- [#522: Anne Lamott on Taming Your Inner Critic, Finding Grace, and Prayer — The Tim Ferriss Show](https://overcast.fm/+KebtmHOww)
+https://overcast.fm/+KebtmHOww
+
+### Quotes
+> I’ve heard, that we have dual citizenship. We’re children of the divine or children, sons and daughters of God. And we also have these kind of screwed up biographical details. We’ve got genetic details that we would have maybe not preferred. 
+
+>  “Everything will work again if you unplug it for a few minutes, including you
+
+> laughter is carbonated holiness
+
+> The struggle ends when the gratitude begins
+> 
+>  Neale Donald Walsch
+
+> Help me get out of the way to write what wants to be written.
+
+>  “Through love, all pain will turn to medicine"
+> 
+>  Rumi poem
+
+### Notes
+- wanting to help someone is often about control, let people do their own thing
+- everyone goes through dark night of the soul
+- laughter is carbonated holiness  
+- 1 inch picture plane; write in 45min, pods
+- you created god in your own image when he hates all the same people you do
+- i was flight attendant of family
+- twilight can be day to night or night to day
