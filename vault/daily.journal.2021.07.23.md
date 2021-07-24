@@ -2,7 +2,7 @@
 id: pTx0ofiaZJPzyIWB
 title: '2021-07-23'
 desc: ''
-updated: 1627089972399
+updated: 1627091989797
 created: 1627084604408
 ---
 
@@ -13,6 +13,7 @@ Had a cheat day today with waffle fries and a burger. Can you guess when that ha
 
 ![glucose levels](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/D73D2AD1-14B5-436B-9D17-06CD4CF7CE9C.png)
 
+Researched [[low carb running|r.glucose.ref.running]].
 
 ## 2.  [[The Tim Ferriss Show|podcasts.tim-ferris]]
 - [#522: Anne Lamott on Taming Your Inner Critic, Finding Grace, and Prayer — The Tim Ferriss Show](https://overcast.fm/+KebtmHOww)
@@ -51,3 +52,12 @@ Had a cheat day today with waffle fries and a burger. Can you guess when that ha
 - aim for perfect tuesday #system
   - instead of finding happiness in 10 years after the perfect exit, think of your perfect day and aim to do more of that
   - shower, wake up without alarm, etc
+
+## 4. [[Saastr|podcasts.saastr]]
+- [SaaStr 468: Kevin Dorsey, VP of Inside Sales at PatientPop Shares the Cutting Edge Techniques for Building Trust in Today’s Competitive Market](https://overcast.fm/+OOu-hfAy8)
+
+### Notes
+- for sales #business
+  - people don’t care how much you know but know how much you care
+  - information by itself doesn’t do anything, its information in right context 
+  - work on things that don’t change, [[Jeff Bezos|people.jeff-bezos]] quote
