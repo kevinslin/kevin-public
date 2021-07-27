@@ -1,6 +1,6 @@
 ---
 id: P1Qbudq16kT3xCYS
-title: 2021 07 Publish Blog
+title: Publish Blog
 desc: ''
 updated: 1627080821356
 created: 1627011693338
