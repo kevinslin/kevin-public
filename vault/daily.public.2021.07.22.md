@@ -15,4 +15,4 @@ It's cool to see glucose levels improving.
 
 Compare the results from a week ago
 
-![[dendron://kevin-public/daily.journal.2021.07.17#^A1uHmAj2m2IzijLw]]
+![[dendron://kevin-public/daily.public.2021.07.17#^A1uHmAj2m2IzijLw]]
