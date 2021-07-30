@@ -2,7 +2,7 @@
 id: ufpfnf7xYsc0bFRZ
 title: Continuous Glucose Monitoring
 desc: ''
-updated: 1627085378904
+updated: 1627597555535
 created: 1627084038595
 startDate: "2021-07-14"
 endDate: "2021-08-14"
@@ -26,10 +26,9 @@ Interested to see my glucose spikes. Recently got a continuous glucose monitor f
 ## Tasks
 <!-- use this space to track current tasks. alternatively, you can also link to your daily journal note -->
 
-## Lookup
-<!-- relevant prior work or resources -->
-
 ## Notes
 <!-- use this space for arbitrary notes -->
 - [[Glucose|r.glucose]]
 
+## Lookup
+<!-- relevant prior work or resources -->

@@ -2,7 +2,7 @@
 id: P1Qbudq16kT3xCYS
 title: Publish Blog
 desc: ''
-updated: 1627080821356
+updated: 1627597564665
 created: 1627011693338
 ---
 
@@ -33,10 +33,9 @@ I've accumulated a bunch of notes over the past decade, most of it behind a priv
 - [ ] publish new garden
 - [ ] let people know about kevin-garden
 
-## Lookup
-<!-- relevant prior work or resources -->
-- backup: ~/Dropbox/Apps/Noah/workspaces/kevin/s3-backup
-
 ## Notes
 <!-- use this space for arbitrary notes -->
 
+## Lookup
+<!-- relevant prior work or resources -->
+- backup: ~/Dropbox/Apps/Noah/workspaces/kevin/s3-backup
