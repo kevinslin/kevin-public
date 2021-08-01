@@ -1,6 +1,6 @@
 ---
 id: yvWuuU0gVqKk0wZW
-title: Entities
+title: Thing
 desc: ''
 updated: 1627083458578
 created: 1627083447768

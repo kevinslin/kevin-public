@@ -4,8 +4,8 @@ title: Continuous Glucose Monitoring
 desc: ''
 updated: 1627597555535
 created: 1627084038595
-startDate: "2021-07-14"
-endDate: "2021-08-14"
+startDate: '2021-07-14'
+endDate: '2021-08-14'
 ---
 
 
@@ -15,7 +15,7 @@ How much can I improve my blood glucose in a month
 
 ## Context
 <!-- Background information -->
-Interested to see my glucose spikes. Recently got a continuous glucose monitor from [[levels health|r.entities.levels-health]] which made this project possible
+Interested to see my glucose spikes. Recently got a continuous glucose monitor from [[levels health|r.thing.levels-health]] which made this project possible
 
 ## Success Criteria
 <!-- milestones for this project -->

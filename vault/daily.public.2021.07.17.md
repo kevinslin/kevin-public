@@ -8,9 +8,9 @@ created: 1626539528062
 
 ### 1. [[Continuous Glucose Monitoring|proj.2021-07-continuous-glucose-monitoring]]
 
-While not diabetic, I used to be a big [[quantified self|r.entities.quantified-self]] person until I realized I wasn't actually doing anythign with my data. Now after a few years of hiatus, I find myself slowly getting back to tracking things again. 
+While not diabetic, I used to be a big [[quantified self|r.thing.quantified-self]] person until I realized I wasn't actually doing anythign with my data. Now after a few years of hiatus, I find myself slowly getting back to tracking things again. 
 
-I recently got a subscription to [[Levels Health|r.entities.levels-health]] which helps people track their [[glucose|r.glucose]] through a continuous glucose monitor.
+I recently got a subscription to [[Levels Health|r.thing.levels-health]] which helps people track their [[glucose|r.glucose]] through a continuous glucose monitor.
 
 Below is my reading for this day. As you can see, I have some high spikes after every meal. Will be working on getting this down over the next couple of weeks. 
 
