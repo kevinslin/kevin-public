@@ -2,20 +2,15 @@
 id: CPYp6pvRas4a2DVD
 title: Announce
 desc: ''
-updated: 1627421604794
+updated: 1627789802412
 created: 1627421571084
 ---
 
 ## Checklist
-- update blog
-- import into medium
 - tweet
-- linkedin
 - gitter cdk
 - post on hacker news
 - post on reddit aws
-
-
 
 ## Notes
 been working with the AWS Cloud Development Kit (CDK) for the past couple of months and just published a blog documenting the experience. tldr: using the CDK is like having cake and eating it too - cannot go back to the old ways of doing infrastructure as code

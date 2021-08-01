@@ -1,630 +1,171 @@
 ---
-id: by9Ix8ExUcaF6JwA
+id: OH5zmVOqqPno56zC
 title: V2
 desc: ''
-updated: 1627421797733
-created: 1627421774417
+updated: 1627421742784
+created: 1627421709243
 noindex: true
 ---
 
-# CDK All the Things
+# AWS CDK: A Review
 
-sub: An whirlwind guide of all the things you can do with the AWS Cloud Development Kit
+All of the Things
+- How I learned to Keep Calm and Trust the CDK
 
-Have you ever thought to yourself - gee, sure would be nice to provision AWS infrastructure with the expressivity of (es8) javascript, the type safety of java and the declarative nuance of native cloudformation?
+- want the nuance of cloudformation, the expressivity of javascript, the type safety of java and the ability to create infrastructure 10x faster?
 
-Well think no more because the AWS Cloud Development Kit (CDK) is here. First [announced](https://aws.amazon.com/blogs/developer/aws-cdk-developer-preview/) in August of 2018, the CDK, simply put, is AWS's version of [Terraform](https://www.terraform.io/). The CDK enables customers to use code to define and provision infrastructure (also known as [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code)) (IaC). Whereas many IaC solutions take the form of config files (eg. cloudformation) or a custom domain specific language (eg. terraform), the CDK allows you to use native code. The CDK itself is written in [typescript](https://www.typescriptlang.org/) and uses the [jsii](https://github.com/awslabs/jsii) to create clients in other languages. Currently supported languages include  C#/.NET, Java, JavaScript, Python, and TypeScript
+In that case, I like to introduce the AWS CDK. At the risk of sounding like a snake oil salesman, after using the CDK over the last several months, I admit that I'm in love.
 
-I was skeptical at first. IaC on AWS was a crowded space and between 3rd party providers (terraform, troposphere, pulumi, etc) as well as AWS native alternatives (cloudformation, SAM, Amplify), I wondered what utility yet another IaC could do. But I wanted to give it a shot and what started off as a weekend of prototyping toy projects with the CDK turned into half a year of building extensive AWS architectures in production. Yes in production. Using a framework that is in developer preview with no official GA release date in sight. By the end of this article, I hope to convince you that this is not madness and why you too might want to consider using the CDK for your next project.
+The CDK is having the cake and eating it to and then being served a nine course meal with custom wine parings afterwards (because meals should always start off with cake). Okay, I'm done with the `admiration` now, let get into some specifics
 
-## Initial Setup
+## Overview
 
-To start creating infrastructure via the CDK, download the cdk cli which you can use to generate a skeleton app.
+The AWS Cloud Development kit (CDK), simply put, is AWS's version of [Terraform](https://www.terraform.io/). The CDK allows users to use softare to define and provision infrastructure. The term infrastructure as code is a popular one heard in devops circles and typically has meant checking in your provisioning scripts or cloudformation templates into a github repo to manage. With CDK, your infrastructure is actually code. Specifically, it is [typescript](TODO) code, with support to other languages added using [jsii](https://github.com/awslabs/jsii). Currently supported languages include  C#/.NET, Java, JavaScript, Python, and TypeScript
 
-```bash
+Here's an example to create a lambda based cron job (the below snippet is taken from the [aws-cdk-examples](https://github.com/aws-samples/aws-cdk-examples/blob/master/typescript/lambda-cron/index.ts) repository
+
+```
+import events = require('@aws-cdk/aws-events');
+import targets = require('@aws-cdk/aws-events-targets');
+import lambda = require('@aws-cdk/aws-lambda');
+import cdk = require('@aws-cdk/cdk');
+
+import fs = require('fs');
+
+export class LambdaCronStack extends cdk.Stack {
+  constructor(app: cdk.App, id: string) {
+    super(app, id);
+
+    const lambdaFn = new lambda.Function(this, 'Singleton', {
+      code: new lambda.InlineCode(fs.readFileSync('lambda-handler.py', { encoding: 'utf-8' })),
+      handler: 'index.main',
+      timeout: 300,
+      runtime: lambda.Runtime.Python27,
+    });
+
+    // Run every day at 6PM UTC
+    // See https://docs.aws.amazon.com/lambda/latest/dg/tutorial-scheduled-events-schedule-expressions.html
+    const rule = new events.Rule(this, 'Rule', {
+      scheduleExpression: 'cron(0 18 ? * MON-FRI *)',
+    });
+
+    rule.addTarget(new targets.LambdaFunction(lambdaFn));
+  }
+}
+
+const app = new cdk.App();
+new LambdaCronStack(app, 'LambdaCronExample');
+app.run();
+
+```
+
+Something that you'll notice in the above example is that nowhere did you see YAML, JSON, or some custom config language. Its just code. The equivalent of the above in cloudformation:
+
+TODO: generate cloudformation code
+
+```
+
+```
+
+TODO: architecture
+
+Traditionally, I've used raw cloudformation and SAM to provision infrastructure and coming from that world into the CDK feels like the same leap one makes when going from C++ to python
+
+TODO: XKCD
+
+## CDK Primer
+
+To get started with CDK, download the `cdk` client and use it to generate your first app.
+
+```
 npm i -g aws-cdk
 mkdir hello-cdk
 cd hello-cdk
 cdk init app --language=typescript (or --language=java, ...)
-```
-
-This will create the following directory structure:
-
-```bash
-bin/
-- hello-cdk.ts
-lib/
-- hello-cdk-stack.ts
-node_modules/
-cdk.json
-package-lock.json
-package.json
-README.md
-tsconfig.json
-
-```
-
-The action happens in `hello-cdk-stack.ts`. A `cdk.Stack` represents a cloudformation stack and you start building your stack by creating `constructs` (explained in the next section) inside the stack.
-
-```
-import cdk = require('@aws-cdk/cdk');
-
-export class HelloCdkStack extends cdk.Stack {
-  constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
-    super(scope, id, props);
-
-    // The code that defines your stack goes here
-  }
-}
-```
-
-## Constructs
-
-Constructs are basic cloud components and can represent a single service (eg. S3 Bucket) or a set of services that represent a logical entity (eg. a Code Pipeline with four stages). There is a construct for every AWS service that cloudformation supports (which shockingly is still not every service - looking at you Amazon Connect...).
-
-The CDK provides two types of construct: Low and High Level.
-
-High level constructs let you get started quickly and will use sane default values for all unfufilled parameters. For example, take the VPC construct
-
-```typescript
-import ec2 = require('@aws-cdk/aws-ec2');
-
-const vpc = new ec2.Vpc(this, 'VPC');
-```
-
-Without any values filled in, this automatically generates a public/private subnet pair in every AZ available in the region, along with the necessary routing tables, internet gateways and NAT instances to make everything just work. Of course this is highly configurable. Below is the same example with specific subnets.
-
-```typescript
-const vpc = new ec2.Vpc(this, 'TheVPC', {
-  cidr: '10.0.0.0/21',
-  subnetConfiguration: [
-    {
-      cidrMask: 24,
-      name: 'Ingress',
-      subnetType: SubnetType.Public,
-    },
-    {
-      cidrMask: 24,
-      name: 'Application',
-      subnetType: SubnetType.Private,
-    },
-    {
-      cidrMask: 28,
-      name: 'Database',
-      subnetType: SubnetType.Isolated,
-    }
-  ],
-});
-```
-
-If you would like to have further control, you can drop down to low level constructs. Low level constructs are prefixed with `Cfn` and there is a direct one to one mapping between all the properties of a low level construct and the resulting cloudformation.
-
-```typescript
-const vpc = new ec2.CfnVPC(this, 'Resource', {
-  cidrBlock: "10.0.0.0/16"
-  enableDnsHostnames: true,
-  enableDnsSupport: true,
-  instanceTenancy: 'default'
-});
-```
-
-This creates just a vbc and leaves it up to you to manually define subnets, routing tables and everything else. Low level constructs allow customers to implement features that are not yet supported in high level constructs, and you get the nice bonus of typechecking of properties by creating them with the CDK. That being said, most of this article will focus on high level constructs.
-
-## Provisioning a Service
-
-To start using the CDK, you need to install the constructs that you want to use. Every service is inside a separate package, with the following schema `@aws-cdk/aws-{service_name}`
-
-For example, to create a s3 bucket, add the `@aws-cdk/aws-s3` to the project.
-
-```bash
-yarn add @aws-cdk/aws-s3
-```
-
-Next, add the bucket into the `hello-cdk-stack.ts` file
-```typescript
-import cdk = require('@aws-cdk/cdk');
-import { Bucket } from '@aws-cdk/aws-s3';
-
-export class HelloCdkStack extends cdk.Stack {
-  constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
-    super(scope, id, props);
-    const bucket = new Bucket(this, 'MyBucket');
-  }
-}
-```
-
-Because you are using typescript, you'll need to compile the code
-
-```bash
-tsc
-
-# alternatively, run `tsc --watch` to have typescript watch the project and re-compile on every change
-```
-
-Now run `cdk diff` to see what's changed
-```
-Resources
-[+] AWS::S3::Bucket MyBucket MyBucketF68F3FF0
-```
-
-Run `cdk synthesize` to generate the cloudformation
-
-```yaml
-Resources:
-  MyBucketF68F3FF0:
-    Type: AWS::S3::Bucket
-    DeletionPolicy: Retain
-    Metadata:
-      aws:cdk:path: HelloCdkStack/MyBucket/Resource
-  CDKMetadata:
-    Type: AWS::CDK::Metadata
-    Properties:
-      Modules: aws-cdk=0.33.0,@aws-cdk/aws-events=0.33.0,@aws-cdk/aws-iam=0.33.0,@aws-cdk/aws-kms=0.33.0,@aws-cdk/aws-s3=0.33.0,@aws-cdk/cdk=0.33.0,@aws-cdk/cx-api=0.33.0,@aws-cdk/region-info=0.33.0,jsii-runtime=node.js/v8.13.0
-```
-
-Run `cdk deploy` to create a cloudformation deployment
-```
-HelloCdkStack: deploying...
-HelloCdkStack: creating CloudFormation changeset...
- 0/3 | 17:34:30 | CREATE_IN_PROGRESS   | AWS::CloudFormation::Stack | HelloCdkStack User Initiated
- 0/3 | 17:34:34 | CREATE_IN_PROGRESS   | AWS::CDK::Metadata | CDKMetadata
- 0/3 | 17:34:35 | CREATE_IN_PROGRESS   | AWS::S3::Bucket    | MyBucket (MyBucketF68F3FF0)
- 0/3 | 17:34:36 | CREATE_IN_PROGRESS   | AWS::S3::Bucket    | MyBucket (MyBucketF68F3FF0) Resource creation Initiated
- 0/3 | 17:34:37 | CREATE_IN_PROGRESS   | AWS::CDK::Metadata | CDKMetadata Resource creation Initiated
- 1/3 | 17:34:37 | CREATE_COMPLETE      | AWS::CDK::Metadata | CDKMetadata
- 2/3 | 17:34:57 | CREATE_COMPLETE      | AWS::S3::Bucket    | MyBucket (MyBucketF68F3FF0)
- 3/3 | 17:34:58 | CREATE_COMPLETE      | AWS::CloudFormation::Stack | HelloCdkStack
-
- ✅  HelloCdkStack
-
-Stack ARN:
-arn:aws:cloudformation:us-west-2:*********:stack/HelloCdkStack/a9fe6ef0-8be0-11e9-a85b-06be1aa8968e
-```
-
-## Updating a Service
-Now lets say you were using the bucket to store sensitive information and wanted to encrypt your bucket using a custom kms key. Simply add the following line...
-
-```typescript
-const bucket = new Bucket(this, 'MyBucket', {
-  encryption: BucketEncryption.Kms
-});
-
-```
-
-Run `cdk diff` to see what changed
-
-```bash
-Stack HelloCdkStack
-IAM Statement Changes
-┌───┬─────────────────────┬────────┬────────────────────────────────────────────────────────────────┬────────────────────────────────────────────────────────────────┬───────────┐
-│   │ Resource            │ Effect │ Action                                                         │ Principal                                                      │ Condition │
-├───┼─────────────────────┼────────┼────────────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────────┼───────────┤
-│ + │ ${MyBucket/Key.Arn} │ Allow  │ kms:CancelKeyDeletion                                          │ AWS:arn:${AWS::Partition}:iam::${AWS::AccountId}:root          │           │
-│   │                     │        │ kms:Create*                                                    │                                                                │           │
-│   │                     │        │ kms:Delete*                                                    │                                                                │           │
-│   │                     │        │ kms:Describe*                                                  │                                                                │           │
-│   │                     │        │ kms:Disable*                                                   │                                                                │           │
-│   │                     │        │ kms:Enable*                                                    │                                                                │           │
-│   │                     │        │ kms:Get*                                                       │                                                                │           │
-│   │                     │        │ kms:List*                                                      │                                                                │           │
-│   │                     │        │ kms:Put*                                                       │                                                                │           │
-│   │                     │        │ kms:Revoke*                                                    │                                                                │           │
-│   │                     │        │ kms:ScheduleKeyDeletion                                        │                                                                │           │
-│   │                     │        │ kms:Update*                                                    │                                                                │           │
-└───┴─────────────────────┴────────┴────────────────────────────────────────────────────────────────┴────────────────────────────────────────────────────────────────┴───────────┘
-(NOTE: There may be security-related changes not in this list. See http://bit.ly/cdk-2EhF7Np)
-
-Resources
-[+] AWS::KMS::Key MyBucket/Key MyBucketKeyC17130CF
-[~] AWS::S3::Bucket MyBucket MyBucketF68F3FF0
- └─ [+] BucketEncryption
-     └─ {"ServerSideEncryptionConfiguration":[{"ServerSideEncryptionByDefault":{"KMSMasterKeyID":{"Fn::GetAtt":["MyBucketKeyC17130CF","Arn"]},"SSEAlgorithm":"aws:kms"}}]}
-
-```
-
-I cannot overstate how amazing it is to get a diff of your cloudformation changes. This alone could have justified usage of the CDK. Now some people at this point might bring up [cloudformation changesets](https://aws.amazon.com/blogs/aws/new-change-sets-for-aws-cloudformation/). This is the cloudformation native way of getting a diff - the equivalent of a `dry-run` option or a `terraform plan`.  To get a diff via a changesets, one would run the following commands.
-
-```bash
-STACK_NAME=HelloCdkStack
-CHANGE_SET_NAME=AddKMSChangeSet
-aws cloudformation create-change-set --stack-name $STACK_NAME \
-    --template-body "$(cat template.yml)" \
-    --capabilities CAPABILITY_NAMED_IAM  \
-    --change-set-name $CHANGE_SET_NAME
-aws cloudformation  describe-change-set --stack-name $STACK_NAME \
-    --change-set-name $CHANGE_SET_NAME
-
-# output
-
-    "Changes": [
-        {
-            "Type": "Resource",
-            "ResourceChange": {
-                "Action": "Modify",
-                "LogicalResourceId": "MyBucketF68F3FF0",
-                "PhysicalResourceId": "hellocdkstack-mybucketf68f3ff0-16nzj9os1st5g",
-                "ResourceType": "AWS::S3::Bucket",
-                "Replacement": "False",
-                "Scope": [
-                    "Properties"
-                ],
-                "Details": [
-                    {
-                        "Target": {
-                            "Attribute": "Properties",
-                            "Name": "BucketEncryption",
-                            "RequiresRecreation": "Never"
-                        },
-                        "Evaluation": "Dynamic",
-                        "ChangeSource": "DirectModification"
-                    },
-                    {
-                        "Target": {
-                            "Attribute": "Properties",
-                            "Name": "BucketEncryption",
-                            "RequiresRecreation": "Never"
-                        },
-                        "Evaluation": "Static",
-                        "ChangeSource": "ResourceAttribute",
-                        "CausingEntity": "MyBucketKeyC17130CF.Arn"
-                    }
-                ]
-            }
-        },
-        {
-            "Type": "Resource",
-            "ResourceChange": {
-                "Action": "Add",
-                "LogicalResourceId": "MyBucketKeyC17130CF",
-                "ResourceType": "AWS::KMS::Key",
-                "Scope": [],
-                "Details": []
-            }
-        }
-    ]
-```
-
-
-As you see, figuring out the `diff` by changeset required far more scripting and was not as high fidelity as `cdk diff`. Whereas the changeset only highlighted the creation of the CMK key and bucket encryption, `cdk diff` actually prints out the key and bucket policies. Something else that's not obvious in the above script is that create-change-set is asynchronous and if you wanted to put it into a script, you would actually need to check that the change set had been created before being able to run `describe-change-set`. Finally, we are currently working with a very simple template, if the template had parameters, a changeset would require that every parameter be specified (even if paramter values haven't changed).
-
-
-So short story - after using `cdk diff`, I can never be satisfied with changesets again.
-
-Okay, now that I've finished raning about changesets, we can proceed to deploying changes by running `cdk deploy`. The CDK will flag changes that involve IAM and ask you for confirmation before proceeding.
-
-```bash
 cdk deploy
 
-IAM Statement Changes
-┌───┬─────────────────────┬────────┬───────────────────────────────────────────────────────┬───────────────────────────────────────────────────────┬───────────┐
-│   │ Resource            │ Effect │ Action                                                │ Principal                                             │ Condition │
-├───┼─────────────────────┼────────┼───────────────────────────────────────────────────────┼───────────────────────────────────────────────────────┼───────────┤
-│ + │ ${MyBucket/Key.Arn} │ Allow  │ kms:CancelKeyDeletion                                 │ AWS:arn:${AWS::Partition}:iam::${AWS::AccountId}:root │           │
-│   │                     │        │ kms:Create*                                           │                                                       │           │
-│   │                     │        │ kms:Delete*                                           │                                                       │           │
-│   │                     │        │ kms:Describe*                                         │                                                       │           │
-│   │                     │        │ kms:Disable*                                          │                                                       │           │
-│   │                     │        │ kms:Enable*                                           │                                                       │           │
-│   │                     │        │ kms:Get*                                              │                                                       │           │
-│   │                     │        │ kms:List*                                             │                                                       │           │
-│   │                     │        │ kms:Put*                                              │                                                       │           │
-│   │                     │        │ kms:Revoke*                                           │                                                       │           │
-│   │                     │        │ kms:ScheduleKeyDeletion                               │                                                       │           │
-│   │                     │        │ kms:Update*                                           │                                                       │           │
-└───┴─────────────────────┴────────┴───────────────────────────────────────────────────────┴───────────────────────────────────────────────────────┴───────────┘
-(NOTE: There may be security-related changes not in this list. See http://bit.ly/cdk-2EhF7Np)
-Do you wish to deploy these changes (y/n)?
 ```
 
-## Using Multiple Services
-So now we've seen a simple example of creating a bucket and changing a property. Where the CDK truly shines is when you use it to provision multiple services that need to talk to each other.  Lets say that you want to use a lambda to do some processing of data after an object is created in the bucket. Normally, to have a lambda access an encrypted S3 bukcet, you would have to do the following:
-1. create a lambda and provision it via console/SAM/serverless/etc
-2. create an execution role for the lambda that is assumable by the lambda service
-3. attach a policy to aforementioned execution role that lets lambda write to cloudwatch logs
-4. attach a policy to aforementioned execution role that lets lambda perform the necessary `s3` operations scoped to the particualr bucket
-5. attach a policy to aforementioned execution role that lets lambda perform the necessary `kms` operations scoped to the particualr bucket
-6. update the kms policy to allow access for the lambda principle
+## CDK Constructs
 
-There's a lot involved here, and even if you use the console, steps 4-6 would still be operations you would have to perform manually. Lets see what this looks like when using the cdk.
+These are basic cloud components and can represent a single service (eg. S3 Bucket) or a set of services that represent a logical entity (eg. a Code Pipeline with four stages). Constructs are like modules in a programming language, which means you can create your own, create constructs that are the composition of multiple sub construcuts, use inheritance and create re-usable sharable constructs for common infrastructure.
 
-```typescript
-const bucket = new Bucket(this, 'MyBucket', {
-  encryption: BucketEncryption.Kms
-});
+The AWS CDK provides two types of constructs - Low and High Level.
 
-// lambda created with lambda basic execution role
-const lambda = new Function(this, 'Lambda', {
-  runtime: Runtime.NodeJS810,
-  handler: 'index.handler',
-  code: Code.asset('./assets/lambda_func/'),
-  timeout: 30,
-  memorySize: 576,
-});
+High Level constructs will fill in most of the details for you and is akin to using the console on AWS where a lot of the nitty gritty with IAM permissions and dependent resources are created for you automagically.
 
-// this will add necessary permissions to the lambda service role AND the kms key policy
-bucket.grantReadWrite(lambda.role);
+- cloudtrail example #TODO
 ```
 
-Running a `cdk diff`, you now get the following:
+```
+
+Low level constructs start with `Cfnxxx` prefix and there is a direct one-to-one mapping between a low level construct and the cloudformation properties of a particular service
+
+- cloudtrail Cfn example #TODO
+```
+
+```
+
+## Usage
+
+I started using the CDK tentatively at first for some smaller client projects, building out ci/cd pipelines. I've actually been meaning to use it ever since it came out.
+
+## Review
+
+### Love
+
+I don't use the word love lightly but here are some things I just abbsolutely love about the cdk.
+
+#### fantastic tooling
+
+Tooling is usually the thing that is saved for last in backend projects where the focus tends to be more about features then ux (eg. git). That's why I was delighted that I find the cdk great.
+
+- `cdk init` will standup a cdk project skeleton to build out a new project
+- `cdk diff` will create a DIFF of your current stack vs the one that you are currently deploying on
+    - in case that last one skipped you by, the CDK will CREATE A DIFF OF NEW STACK CHANGES
+    - apologies for the caps but this is a big stinkin deal because running cloudformation against existing production stacks in the past was always an ulcer inducing moment as you never knew if this was going to be the deploy that would accidentally replace your database
+    - cloudformation introduced [changesets](https://aws.amazon.com/blogs/aws/new-change-sets-for-aws-cloudformation/) in 2016 so that you can do a diff but doing so was always painful
 
 ```bash
-The HelloCdkStack stack uses assets, which are currently not accounted for in the diff output! See https://github.com/awslabs/aws-cdk/issues/395
-IAM Statement Changes
-┌───┬───────────────────────────────────────────┬────────┬───────────────────────────────────────────┬─────────────────────────────────────────────┬───────────┐
-│   │ Resource                                  │ Effect │ Action                                    │ Principal                                   │ Condition │
-├───┼───────────────────────────────────────────┼────────┼───────────────────────────────────────────┼─────────────────────────────────────────────┼───────────┤
-│ + │ ${Lambda/ServiceRole.Arn}                 │ Allow  │ sts:AssumeRole                            │ Service:lambda.${AWS::URLSuffix}            │           │
-├───┼───────────────────────────────────────────┼────────┼───────────────────────────────────────────┼─────────────────────────────────────────────┼───────────┤
-│ + │ ${MyBucket.Arn}                           │ Allow  │ s3:Abort*                                 │ AWS:${Lambda/ServiceRole}                   │           │
-│   │ ${MyBucket.Arn}/*                         │        │ s3:DeleteObject*                          │                                             │           │
-│   │                                           │        │ s3:GetBucket*                             │                                             │           │
-│   │                                           │        │ s3:GetObject*                             │                                             │           │
-│   │                                           │        │ s3:List*                                  │                                             │           │
-│   │                                           │        │ s3:PutObject*                             │                                             │           │
-├───┼───────────────────────────────────────────┼────────┼───────────────────────────────────────────┼─────────────────────────────────────────────┼───────────┤
-│ + │ ${MyBucket/Key.Arn}                       │ Allow  │ kms:Decrypt                               │ AWS:${Lambda/ServiceRole.Arn}               │           │
-│   │                                           │        │ kms:DescribeKey                           │                                             │           │
-│   │                                           │        │ kms:Encrypt                               │                                             │           │
-│   │                                           │        │ kms:GenerateDataKey*                      │                                             │           │
-│   │                                           │        │ kms:ReEncrypt*                            │                                             │           │
-│ + │ ${MyBucket/Key.Arn}                       │ Allow  │ kms:Decrypt                               │ AWS:${Lambda/ServiceRole}                   │           │
-│   │                                           │        │ kms:DescribeKey                           │                                             │           │
-│   │                                           │        │ kms:Encrypt                               │                                             │           │
-│   │                                           │        │ kms:GenerateDataKey*                      │                                             │           │
-│   │                                           │        │ kms:ReEncrypt*                            │                                             │           │
-└───┴───────────────────────────────────────────┴────────┴───────────────────────────────────────────┴─────────────────────────────────────────────┴───────────┘
-IAM Policy Changes
-┌───┬───────────────────────┬────────────────────────────────────────────────────────────────────────────────┐
-│   │ Resource              │ Managed Policy ARN                                                             │
-├───┼───────────────────────┼────────────────────────────────────────────────────────────────────────────────┤
-│ + │ ${Lambda/ServiceRole} │ arn:${AWS::Partition}:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole │
-└───┴───────────────────────┴────────────────────────────────────────────────────────────────────────────────┘
-(NOTE: There may be security-related changes not in this list. See http://bit.ly/cdk-2EhF7Np)
+# in case there was a previous change set that was created but not deployed
+aws cloudformation delete-change-set --stack-name $MY_STACK --change-set-name $MY_CHANGESET
 
-Parameters
-[+] Parameter Lambda/Code/S3Bucket LambdaCodeS3Bucket65766E44: {"Type":"String","Description":"S3 bucket for asset \"HelloCdkStack/Lambda/Code\""}
-[+] Parameter Lambda/Code/S3VersionKey LambdaCodeS3VersionKey10FC11BE: {"Type":"String","Description":"S3 key for asset version \"HelloCdkStack/Lambda/Code\""}
-[+] Parameter Lambda/Code/ArtifactHash LambdaCodeArtifactHash305E64BB: {"Type":"String","Description":"Artifact hash for asset \"HelloCdkStack/Lambda/Code\""}
+# create changeset
+# note that all parameters of a changeset have to be specified
+# even if they are still using the same as the previous
+aws cloudformation create-change-set --stack-name $MY_STACK --template-body "$(cat cloudformation.yaml)" --parameters ParameterKey=CrossAccountCondition,ParameterValue=true ParameterKey=ProjectName,ParameterValue=MyProject ParameterKey=S3Bucket,UsePreviousValue=true ParameterKey=CMKARN,UsePreviousValue=true ParameterKey=ProductionAccount,UsePreviousValue=true ParameterKey=TestAccount,UsePreviousValue=true --capabilities CAPABILITY_NAMED_IAM  --change-set-name $MY_CHANGESET
 
-Resources
-[+] AWS::IAM::Role Lambda/ServiceRole LambdaServiceRoleA8ED4D3B
-[+] AWS::IAM::Policy Lambda/ServiceRole/DefaultPolicy LambdaServiceRoleDefaultPolicyDAE46E21
-[+] AWS::Lambda::Function Lambda LambdaD247545B
-[~] AWS::KMS::Key MyBucket/Key MyBucketKeyC17130CF
- └─ [~] KeyPolicy
-     └─ [~] .Statement:
-         └─ @@ -34,5 +34,24 @@
-            [ ]       }
-            [ ]     },
-            [ ]     "Resource": "*"
-            [+]   },
-            [+]   {
-            [+]     "Action": [
-            [+]       "kms:Decrypt",
-            [+]       "kms:DescribeKey",
-            [+]       "kms:Encrypt",
-            [+]       "kms:ReEncrypt*",
-            [+]       "kms:GenerateDataKey*"
-            [+]     ],
-            [+]     "Effect": "Allow",
-            [+]     "Principal": {
-            [+]       "AWS": {
-            [+]         "Fn::GetAtt": [
-            [+]           "LambdaServiceRoleA8ED4D3B",
-            [+]           "Arn"
-            [+]         ]
-            [+]       }
-            [+]     },
-            [+]     "Resource": "*"
-            [ ]   }
-            [ ] ]
-```
-
-This creates the following cloudformation.
-
-```yaml
-
-Resources:
-  MyBucketKeyC17130CF:
-    Type: AWS::KMS::Key
-    Properties:
-      KeyPolicy:
-        Statement:
-          - Action:
-              - kms:Create*
-              - kms:Describe*
-              - kms:Enable*
-              - kms:List*
-              - kms:Put*
-              - kms:Update*
-              - kms:Revoke*
-              - kms:Disable*
-              - kms:Get*
-              - kms:Delete*
-              - kms:ScheduleKeyDeletion
-              - kms:CancelKeyDeletion
-            Effect: Allow
-            Principal:
-              AWS:
-                Fn::Join:
-                  - ""
-                  - - "arn:"
-                    - Ref: AWS::Partition
-                    - ":iam::"
-                    - Ref: AWS::AccountId
-                    - :root
-            Resource: "*"
-          - Action:
-              - kms:Decrypt
-              - kms:DescribeKey
-              - kms:Encrypt
-              - kms:ReEncrypt*
-              - kms:GenerateDataKey*
-            Effect: Allow
-            Principal:
-              AWS:
-                Fn::GetAtt:
-                  - LambdaServiceRoleA8ED4D3B
-                  - Arn
-            Resource: "*"
-        Version: "2012-10-17"
-      Description: Created by HelloCdkStack/MyBucket
-    DeletionPolicy: Retain
-    Metadata:
-      aws:cdk:path: HelloCdkStack/MyBucket/Key/Resource
-  MyBucketF68F3FF0:
-    Type: AWS::S3::Bucket
-    Properties:
-      BucketEncryption:
-        ServerSideEncryptionConfiguration:
-          - ServerSideEncryptionByDefault:
-              KMSMasterKeyID:
-                Fn::GetAtt:
-                  - MyBucketKeyC17130CF
-                  - Arn
-              SSEAlgorithm: aws:kms
-    DeletionPolicy: Retain
-    Metadata:
-      aws:cdk:path: HelloCdkStack/MyBucket/Resource
-  LambdaServiceRoleA8ED4D3B:
-    Type: AWS::IAM::Role
-    Properties:
-      AssumeRolePolicyDocument:
-        Statement:
-          - Action: sts:AssumeRole
-            Effect: Allow
-            Principal:
-              Service:
-                Fn::Join:
-                  - ""
-                  - - lambda.
-                    - Ref: AWS::URLSuffix
-        Version: "2012-10-17"
-      ManagedPolicyArns:
-        - Fn::Join:
-            - ""
-            - - "arn:"
-              - Ref: AWS::Partition
-              - :iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
-    Metadata:
-      aws:cdk:path: HelloCdkStack/Lambda/ServiceRole/Resource
-  LambdaServiceRoleDefaultPolicyDAE46E21:
-    Type: AWS::IAM::Policy
-    Properties:
-      PolicyDocument:
-        Statement:
-          - Action:
-              - s3:GetObject*
-              - s3:GetBucket*
-              - s3:List*
-              - s3:DeleteObject*
-              - s3:PutObject*
-              - s3:Abort*
-            Effect: Allow
-            Resource:
-              - Fn::GetAtt:
-                  - MyBucketF68F3FF0
-                  - Arn
-              - Fn::Join:
-                  - ""
-                  - - Fn::GetAtt:
-                        - MyBucketF68F3FF0
-                        - Arn
-                    - /*
-          - Action:
-              - kms:Decrypt
-              - kms:DescribeKey
-              - kms:Encrypt
-              - kms:ReEncrypt*
-              - kms:GenerateDataKey*
-            Effect: Allow
-            Resource:
-              Fn::GetAtt:
-                - MyBucketKeyC17130CF
-                - Arn
-        Version: "2012-10-17"
-      PolicyName: LambdaServiceRoleDefaultPolicyDAE46E21
-      Roles:
-        - Ref: LambdaServiceRoleA8ED4D3B
-    Metadata:
-      aws:cdk:path: HelloCdkStack/Lambda/ServiceRole/DefaultPolicy/Resource
-  LambdaD247545B:
-    Type: AWS::Lambda::Function
-    Properties:
-      Code:
-        S3Bucket:
-          Ref: LambdaCodeS3Bucket65766E44
-        S3Key:
-          Fn::Join:
-            - ""
-            - - Fn::Select:
-                  - 0
-                  - Fn::Split:
-                      - "||"
-                      - Ref: LambdaCodeS3VersionKey10FC11BE
-              - Fn::Select:
-                  - 1
-                  - Fn::Split:
-                      - "||"
-                      - Ref: LambdaCodeS3VersionKey10FC11BE
-      Handler: index.handler
-      Role:
-        Fn::GetAtt:
-          - LambdaServiceRoleA8ED4D3B
-          - Arn
-      Runtime: nodejs8.10
-      MemorySize: 576
-      Timeout: 30
-    DependsOn:
-      - LambdaServiceRoleDefaultPolicyDAE46E21
-      - LambdaServiceRoleA8ED4D3B
-    Metadata:
-      aws:cdk:path: HelloCdkStack/Lambda/Resource
-      aws:asset:path: asset.7ecc77636deefb31954ea2e6aadf6d2c361a2943535a678d65f46a8de5e1f503
-      aws:asset:property: Code
-  CDKMetadata:
-    Type: AWS::CDK::Metadata
-    Properties:
-      Modules: aws-cdk=0.33.0,@aws-cdk/assets=0.33.0,@aws-cdk/aws-cloudwatch=0.33.0,@aws-cdk/aws-ec2=0.33.0,@aws-cdk/aws-events=0.33.0,@aws-cdk/aws-iam=0.33.0,@aws-cdk/aws-kms=0.33.0,@aws-cdk/aws-lambda=0.33.0,@aws-cdk/aws-s3=0.33.0,@aws-cdk/aws-sqs=0.33.0,@aws-cdk/cdk=0.33.0,@aws-cdk/cx-api=0.33.0,@aws-cdk/region-info=0.33.0,jsii-runtime=node.js/v8.13.0
-Parameters:
-  LambdaCodeS3Bucket65766E44:
-    Type: String
-    Description: S3 bucket for asset "HelloCdkStack/Lambda/Code"
-  LambdaCodeS3VersionKey10FC11BE:
-    Type: String
-    Description: S3 key for asset version "HelloCdkStack/Lambda/Code"
-  LambdaCodeArtifactHash305E64BB:
-    Type: String
-    Description: Artifact hash for asset "HelloCdkStack/Lambda/Code"
+# finally get the diff, and this is in json form
+aws cloudformation  describe-change-set --stack-name $MY_STACK --change-set-name $MY_CHANGESET
 
 ```
+    - now look at the same in the CDK
+TODO
+```
+cdk changeset
 
-Just for fun, if you count the number of characters used for the cdk code vs the YAML, you end up with a 1:10 difference. While this might not be [gzip](https://superuser.com/questions/139253/what-is-the-maximum-compression-ratio-of-gzip), gzip also doesn't provision AWS infrastructure.
+```
+- `cdk synth` generates the raw cloudformation template
+    - this is great just to verify that the code is creating the infrastructure that I want
+    - provides an `eject` functionality so I can use native cloudformation if I don't want to use the cdk
+- `cdk deploy` validates your cloudformation, creates a changeset and deploys it to your production stack
+- `cdk ls` returns all your cloudformation stacks currently in your template
 
-## Escape Valve
+#### use a programming language
 
-Now as great as the CDK is, its not perfect. It's actually still in developer preview. There are features that are missing in high level constructs  but they are easily fixed by dropping down to low level constructs. If you don't want to deal with the hassle of managing a low level construct, you can also use the `addPropertyOverride` method to overwrite generated cloudformation values for existing constructs. For example, the `AccessControl` parameter is not supported in the s3 high level construct but is fixed with the following two lines.
+There's imense power from being able to use a programming language to create your infrastructure. This means you can use loops, conditionals, string interpolation, modules and all the other features that make programming languages great.
 
+Some examples: TODO
+
+-  autoscalin with conditionals and string interpolation
 ```typescript
-const bucket = new Bucket(this, 'MyBucket');
-let cfnBucket = bucket.node.findChild('Resource') as CfnBucket // every high level construct consists of low level constructs, we need to do this funky conversion if we want to override the raw cloudformation
-cfnBucket.addPropertyOverride("AccessControl", "LogDeliveryWrite")
-
-```
-
-Having access to low level constructs, property overwrites and the resulting cloudformation make it possible to start using it even before the GA release, because at worst, you can resort to the tools that you already know how to use.
-
-
-## Just Code
-
-At the end of the day, the CDK is just code. Infrastructure as code. But actual code. Not some domain specific language. Not config. Code. This means that constructs like conditionals, loops, string interpoloation and all the other things you are used to writing in code can be expressed naturally inside the CDK. No horrific cloudformation macros, transformations or hacky workarounds.
-
-Here is an example of conditionally changing auto scaling group settings depending on the stage
-```typescript
-  const asg = new autoscaling.AutoScalingGroup(scope, `ASG`, {
+  const asg = new autoscaling.AutoScalingGroup(scope, `ASG-${stage}`, {
     vpc: vpc,
     minCapacity: 1,
-    maxCapacity: (stage === 'gamma' ? 2 : 10),
+    desiredCapacity: 1,
+    // keep max caapacity low for non-prod stage
+    maxCapacity: (stage === 'gamma' ? 2 : 5),
+    // use smaller instance sizes for non-prod stage
     instanceType: new ec2.InstanceTypePair(ec2.InstanceClass.Burstable2,
       (stage === 'gamma' ? ec2.InstanceSize.Small: ec2.InstanceSize.Medium)
     ),
@@ -632,49 +173,181 @@ Here is an example of conditionally changing auto scaling group settings dependi
   });
 ```
 
-Here is an example of adding stages to a pipeline by iterating through an array
-```typescript
-  let stages = ["gamma", "prod"]
-  stages.forEach( stage => {
-      let deploymentGroup = createDeploymentGroup({ scope: this, stage})
-      const deployActionGamma = new codepipeline_actions.CodeDeployServerDeployAction({
-          actionName: 'CodeDeploy',
-          input: buildOutput,
-          deploymentGroup,
-      });
-      pipeline.addStage({
-          name: stage,
-          actions: [deployActionGamma],
-      });
-  })
+There generally is a tradeoff where you either use a config file like YAML, XML or JSON and declarative declare your resources to enable validation, drift detection and whatnot but it comes at the cost of your developers hating themsleves because writing and debugging YAML is something that no one wakes up excited to do.
+
+Conversely, you have programming languages which are wonderfully expressive and can be tested and put through a whole integration pipeline but that very expressivity makes it hard to generate consistend builds of resources.
+
+The CDK uses the expressivity of typescript to generate a configuration, cheating the tradeoff and developing both.
+
+#### higher level constructs
+
+AKA sane defaults. AKA how AWS is supposed to work if it weren't complicated.
+
+Using the CDK is like using the console but in a good way. AWS suffers from a reproducibly problem because while it is generally straightforward to test a service using the console, it can be fiendishly hard to reproduce that in cloudformation and replicating that setup requires lots of tenacity, scouring the docs, checking your cloudtrail forums and having access to a local AWS expert. This is because AWS services usually require a whole bunch of dependent resources to get started, usually in the form of S3 buckets, IAM roles, Networking constructs, etc. Using the console, this is done for you atuomatically but it means that you're left scratching your head when tryinng to do the same in cloudformation.
+
+A recent example - [cognito user pools](TODO: link) (not to be confused with [cognito federated identities](TODO: link)) is a managed service that lets customers implement both 1st and 3rd party authentication systems.
+
+User pools have a [lambda triggers feature](TODO:link) which enable customers to create hooks for specific auth events (eg. run lambda to create an dynamodb entry when a customer first signs up). Using the console, just select the lambda and everything just works.
+
+TODO: image
 ```
 
-Here is an example of using string interpolation to bootstrap the user data of ec2 instances
-```typescript
-  const stage = gamma
-  const asg = new autoscaling.AutoScalingGroup(scope, `ASG`, { ...asgProps })
-  asg.addUserData(
-    // install cw agent
-    "wget https://s3.amazonaws.com/amazoncloudwatch-agent/amazon_linux/amd64/latest/amazon-cloudwatch-agent.rpm",
-    "rpm -U ./amazon-cloudwatch-agent.rpm",
-    `/opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c ssm:AmazonCloudWatch-linux-agentconfig-${stage} -s`,
-    `echo ${secretArn} > /home/ec2-user/dbSecretArn`,
-    `echo ${lambda.functionName} > /home/ec2-user/canaryFunctionName`
-  )
 ```
 
-For those used to writing raw cloudformation to provision infrastructure, coming from that world to the CDK feels like the same leap one makes when going from C++ to python.
+Use cloudformation, and you will get an access denied.
 
-![python image](https://www.explainxkcd.com/wiki/images/f/fd/python.png)
+TODO: snapshot docs
+```
+
+```
+
+Tursn out that you need to add a [resource based policy](https://docs.aws.amazon.com/lambda/latest/dg/access-control-resource-based.html) to the lambda so that cognito can invoke it.
+
+When you use CDK and instantiate a user pool, any lambda that you associate with the pool will automatic have the permissions added.
+
+- cdk code
+```
+TODO: user pool
+
+```
+
+- resulting cloudformation
+```
+TODO: cloudformation
+
+```
+
+#### typescript
+
+Typescript has, and very much to my surprise, become my new favorite programming language. The feature is in the name - typescript does types and does them really well. When you use typescript with CDK, you get auto completion, documentation and runtime checks about your infrastructure. The importance of this cannot be overstated
+
+
+#### 1st class cloudformation integration
+
+This is where the CDK really shines because at the end of the day, if the library doesn't support a particular service, users can always drop down to cloudformation itself.
+
+They can do this in two ways: either in the code by adding properties to a high level construct or by using low level constructs to begin with
+
+- high level construct example, add acl to bucket
+```
+TODO
+
+```
+
+- low level construct example
+```
+TODO
+```
+
+Finally, customers can always `eject` by taking the generated cloudformation file and using it as is
+
+### Edges
+
+Like all software, the CDK isn't all magic and rainbows and there very definite pitfalls to take into consideration.
+
+#### developer preview
+
+AWS has the following disclaimer when you visit the [CDK developer guide](https://docs.aws.amazon.com/cdk/latest/guide/home.html)
+
+```
+
+This documentation is for the developer preview release (public beta) of the AWS Cloud Development Kit (AWS CDK). Releases might lack important features and might have future breaking changes.
+
+
+```
+
+Currently, what this means is that all releases come with breaking changes. As of this writing, we are on version `0.33` of the CDK. Over the past 3 weeks, the CDK changed from `0.31` to `0.32` and now to `0.33`. Each bump has come with breaking changes, usually in the form of renaming constructs (eg. `VpcNetwork -> Vpc`). The CDK [reference documentation](https://docs.aws.amazon.com/cdk/api/latest/versions.html) might not point to the latest version (it was completely unavailable for some time) and even then, a lot of the functionality of the library is mostly undocumented.
+
+For the adventures, try figuring out what the following do: TODO
+
+- eg. `cdk synth --no-staging`
+
+#### poor documentation
+
+some core constructs like `Token` are barely documented and can lead to frustrating debugging
+
+TODO: token documentation
+TODO: my github issue
+
+#### cloudformation override
+
+While it is possible to go into cloudformation, it would be nice if that weren't the case. But some common actions are still not possible
+
+#### poor multi account support
+- implementing multi account pipeline is poor
+
+#### aws specific
+
+Unlike other third party solutions, the CDK is an AWS specific cloudformation generation tool. While this means first party AWS support, there is zero support for any other clouds. Depending on what side of the cloud divide you're in, this can either be a non-issue or a deal breaker.
+
+#### hard to deviate from public constructs
+
+Having best practices setup is nice but might not make sense for everyone. For example, a fully redundant multi az rds cluster might not make sense if you are running a low traffic wordpress site or have a legacy single point of failure in a single AZ anyways.
+
+For example, the default VPC construct with create  public and private subnets per Availability Zone with a NAT gateway per private subnet.
+
+If you stick with this default in us-west-2, the CDK will construct 3 NAT gateways. The price of a NAT gateway is $0.045/h, regardless if you are sending traffic through it. That means that even if you don't send any traffic, this default VPC will run you ~$97/mo.
+
+It's hard to change this in the high level construct, and there's an open issue here: https://github.com/awslabs/aws-cdk/issues/1305
+
+Your only alternative is to use low level constructs but constructing a vpc, routing tables, subnets, is a painful undertaking and exactly the sort of work that the CDK is supposed to prevent.
+
+### ux
+#### programatic ids
+
+CDK best practice is to let the CDK auto generate names for all your resources. This is necessary for certain changes that require a `REPLACE` operation where the CDK needs to tear down an old resource and stand up a new one but results in all your
+
+#### nested stacks
+
+CDK doesn't support nested stacks. You can cheat by using the cloudformation construct but at that point, you're in the same circle in hell as the people that use metaprogramming in java. This is okay per say because you're cdk uses different paradigm but you might run into issues if you're cloudformation gets too bib, especially if you are doing multi accounts.
+
+## Use Cases
+- use cdk for all the places you would have used terraform/sam/serverless/troposphere/etc
+- create re-usable, tested, common components
+- create dashboards (possible in AWS but cdk makes it easier)
+
+- create email subscriptions to sns programatically
+
+## CDK vs *
+
+The CDK comes to the infrastructure provisioning in a crowded market. There's a saying at AWS - if something is worth doing, its worth doing (at least) twice. If you look at AWS's own efforts around declarative infrastructure provisioning on AWS, you'll first party services such as `cloudformation`, `Amplify` and the `Serverless Application Model`.
+
+The problem with all these solutions is because there are too complicated (eg. cloudformation) or too limited (eg. SAM). My evaluation of IaaS software falls under the following criteria:
+
+- easy to do the easy things
+- easy to do the hard things
+
+There are numerous third party providers, a few listedf below:
+- terraform
+- [troposphere](https://github.com/cloudtools/troposphere): like CDK but community supported and written in python
+- [pulumi](https://pulumi.io/)
+- amplify
+- sam
+- serverless
+- etc.
 
 
 ## Conclusion
 
-Using the CDK has made me realize that the cake is not a lie and that it is possible to have all things all the time - in this case its the expressivity of a programming language combined with the consistency and declarativity of a complicated configuration.
+The AWS CDK is the next iteration in the steady trend of infrastructure as code. In that regards, it actually delivers and makes it possible to write, provision, and test infrastructure, as code.
 
-That being said, the CDK isn't all magic and rainbows and there very definite pitfalls to take into consideration. The library is in developer preview which means every version update will bring [breaking changes](https://github.com/awslabs/aws-cdk/blob/master/CHANGELOG.md). Usually these are minor and involve objects being renamed (eg. `VpcNetwork -> Vpc`) but these are easily fixed. There is poor documentation for a lot of constructs, multi account support is [something to be desired](https://github.com/awslabs/aws-cdk/issues/49), and not all services are equally developed . But because the CDK is just a superset of CloudFormation and all cloudformation of all services are accessible as low level constructs, it means that none of these are deal breakers because at workst, you have an object oriented, type checked, auto completable means of generating cloudformation.
+Yes, there are still lots of edges to be smoothed out and it is still in developer preview (aka things could break all the time) but the value that it delivers far outweights any of the setbacks.
 
-The CDK is my favorite new hammer of 2019 and I look forward to seeing the development of both the CDK and best practices around it. In the meanwhile, I've made up some of my own and will be posting it and other thoughts about the CDK in upcoming posts so stay tuned :)
+Using the CDK has made me realize that the cake is not a lie and that it is possible to have all things all the time - in this case its the expressivity of a programming language combined with the consistency and declarativity of a complicated configuration. The CDK is my favorite new hammer of 2019 and I look forward to seeing the development of both the CDK and best practices around it. In the meanwhile, I've made up some of my own and will be posting it and other updates about the CDK in upcoming posts so stay tuned :)
 
 
+--- 
+# Other
+Currently it is not very exciting and
+```
+Resources:
+  CDKMetadata:
+    Type: AWS::CDK::Metadata
+    Properties:
+      Modules: aws-cdk=0.33.0,@aws-cdk/cdk=0.33.0,@aws-cdk/cx-api=0.33.0,jsii-runtime=node.js/v8.13.0
+```
+
+Saying the CDK provisions AWS infrastructure is like saying a rocketship can fly - it fails to do justice to something that is out of this world. With the CDK, you can initialize AWS services that fill in missing values with sane defaults and also use AWS best practices to do so. High Level constructs will fill in most of the details for you and is akin to using the console on AWS where a lot of the nitty gritty with IAM permissions and dependent resources are created for you automagically.
+
+And because the CDK generates cloudformation, I can always verify what resources get created and unlike other frameworks that try to simplify cloudformation development(cough* SAM), I get to use the full power of cloudformation.
 
