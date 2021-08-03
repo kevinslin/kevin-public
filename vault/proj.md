@@ -2,7 +2,7 @@
 id: 4TnpXmjT9fhWYPnQ
 title: Projects
 desc: ''
-updated: 1627422463499
+updated: 1627965573895
 created: 1626539999810
 ---
 
@@ -17,3 +17,4 @@ This page goes over projects that I'm currently working on
 
 ## Past
 - [[proj.2019-06-cdk-all-the-things]]
+- [[2021/08 - On Writing|proj.2021-08-on-writing]]

@@ -2,7 +2,7 @@
 id: U4uUR1SGs1YntNbL
 title: 2021/08 - On Writing
 desc: ''
-updated: 1627913856557
+updated: 1627914941495
 created: 1627787310866
 ---
 
@@ -30,8 +30,9 @@ Write a piece on writing
 - [x] add metadata
 - [x] add description 
 - [x] add picture
-- [ ] publish blog
-- [ ] publish project
+- [x] publish project
+- [x] publish blog
+- [ ] [[release|proj.2021-08-on-writing.release]]
 
 ## Notes
 <!-- use this space for arbitrary notes -->
