@@ -6,7 +6,7 @@ updated: 1627084582319
 created: 1626539528062
 ---
 
-### 1. [[Continuous Glucose Monitoring|proj.2021-07-continuous-glucose-monitoring]]
+## [[Continuous Glucose Monitoring|proj.2021-07-continuous-glucose-monitoring]]
 
 While not diabetic, I used to be a big [[quantified self|r.thing.quantified-self]] person until I realized I wasn't actually doing anythign with my data. Now after a few years of hiatus, I find myself slowly getting back to tracking things again. 
 

@@ -2,13 +2,16 @@
 id: U4uUR1SGs1YntNbL
 title: 2021/08 - On Writing
 desc: ''
-updated: 1627914941495
+updated: 1628443894060
 created: 1627787310866
 ---
 
 ## Goal
 <!-- What are you trying to accomplish -->
 Write a piece on writing
+
+## Output
+- [[blog.thoughts.2021-08-02-on-writing]]
 
 ## Context
 <!-- Background information -->
@@ -45,4 +48,4 @@ Write a piece on writing
 - [[proj.2021-08-on-writing.v1]]
 - [[proj.2021-08-on-writing.v2]]
 - [[proj.2021-08-on-writing.v3]]
-- [[blog.thoughts.2021-08-02-on-writing]]
+

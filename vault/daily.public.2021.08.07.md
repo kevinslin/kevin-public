@@ -2,12 +2,12 @@
 id: sZkXyVEH4zOLm1F2rIWzl
 title: '2021-08-07'
 desc: ''
-updated: 1628395975113
+updated: 1628445585950
 created: 1628393967184
 ---
 
 
-1. [[The Atlantic|seeds.the-atlantic]]
+## [[The Atlantic|seeds.the-atlantic]]
 - [The Surprising Benefits of Talking to Strangers](https://www.theatlantic.com/family/archive/2021/08/why-we-should-talk-strangers-more/619642/)
 
 ### Notes
@@ -15,7 +15,7 @@ created: 1628393967184
 - you forget other people are human sometimes in cities because there are so many people and you view them more as obstacles
 - something as small as a smile or a compliment is all it takes to make both parties get a connection
 
-2. [[Reuters|seeds.reuters]]
+## [[Reuters|seeds.reuters]]
 - [Dating in Delhi when you're poor | Hacker News](https://news.ycombinator.com/item?id=28090158)
 
 ### Notes
