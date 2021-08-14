@@ -4,7 +4,6 @@ title: 'Principles: Life and Work'
 desc: ''
 updated: 1623818322548
 created: 1593881520181
-stub: false
 author: Ray Dalio
 genre: nonfiction
 finished: '2019-05-08T00:00:00.000Z'
