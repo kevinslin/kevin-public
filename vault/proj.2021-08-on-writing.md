@@ -48,4 +48,3 @@ Write a piece on writing
 - [[proj.2021-08-on-writing.v1]]
 - [[proj.2021-08-on-writing.v2]]
 - [[proj.2021-08-on-writing.v3]]
-
