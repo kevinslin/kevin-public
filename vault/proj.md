@@ -2,7 +2,7 @@
 id: 4TnpXmjT9fhWYPnQ
 title: Projects
 desc: ''
-updated: 1627965573895
+updated: 1630856425241
 created: 1626539999810
 ---
 
@@ -14,6 +14,7 @@ This page goes over projects that I'm currently working on
 ## Active
 - [[proj.2021-07-publish-blog]]
 - [[proj.2021-07-continuous-glucose-monitoring]]
+- [[proj.2021-08-coffee-surfing]]
 
 ## Past
 - [[proj.2019-06-cdk-all-the-things]]

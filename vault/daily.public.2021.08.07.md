@@ -19,5 +19,5 @@ created: 1628393967184
 - [Dating in Delhi when you're poor | Hacker News](https://news.ycombinator.com/item?id=28090158)
 
 ### Notes
-- heard story from [[people.ilana-lin]] about *decency police* that break up couples in parks, makes more sense in context of this #MW
+- heard story from @ilana about *decency police* that break up couples in parks, makes more sense in context of this #MW
 - there are certain things that always get me - the scale of the cosmos and the disparity in incomes #MW
