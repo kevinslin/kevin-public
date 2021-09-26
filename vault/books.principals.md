@@ -2,7 +2,7 @@
 id: eff41be5-dc19-4536-87b5-4b91ed295ba0
 title: 'Principles: Life and Work'
 desc: ''
-updated: 1623818322548
+updated: 1632666154825
 created: 1593881520181
 author: Ray Dalio
 genre: nonfiction
@@ -19,11 +19,8 @@ Ray Dalio, founder of BlackRock, the world's most successful investment firm, ta
 
 Insightful book and very practically organized. Divided into three logical parts, with each major principle a chapter and individual key points being sub chapters. Dalio even summarizes the major points at the end of each part. The principles themselves range from novel (eg. radical transparency and recording ) to points you've probably read in similar books but the greater meta point behind all of them is the argument made for writing down your own principles and using them as algorithms to guide and continuously improve decision making. An insightful read and filled with good ideas.
 
-# Takeaways
-- make principles explicit and use them to guide decision making
-
-
 # Key Points
+- make principles explicit and use them to guide decision making #star
 
 ## Life Principles
 

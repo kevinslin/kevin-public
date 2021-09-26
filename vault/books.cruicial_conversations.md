@@ -26,7 +26,7 @@ How to have conversations when both stakes an demotions are high
 ## Key Points
 - spend time early on establishing shared pool of meaning, make it safe for people to take
 - key to change is not implementing new process but getting people to hold one another accountable for existing process
-- STATE
+- STATE ^cDtMLqaHDlxz
     - share fact
     - tell story
     - ask for other path
