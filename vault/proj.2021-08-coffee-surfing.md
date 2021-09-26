@@ -2,7 +2,7 @@
 id: 1NMYRCaBJBdYJZngm6jKJ
 title: Coffee Surfing
 desc: ''
-updated: 1631910532909
+updated: 1632629827775
 created: 1630856425675
 ---
 
@@ -22,6 +22,7 @@ According to my wife, I've been not going out as much ever since I started worki
 ## Log
 <!-- For longer projects, keep a rough log of major events-->
 - [[Coffee|meet.journal.2021.09.17.coffee]]
+- [[Coffee|dendron://people/meet.journal.2021.09.25.coffee]]
 
 ## Outputs
 <!-- any outputs that were generated from this project. eg. slides, videos, etc-->
