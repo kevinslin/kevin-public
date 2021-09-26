@@ -2,7 +2,7 @@
 id: tIuGZJp8VJo0tShFSdEjM
 title: What You Do Is Who You Are
 desc: ''
-updated: 1632666426383
+updated: 1632670415151
 created: 1632628918885
 author: ben horowitz
 genre: business
@@ -10,11 +10,15 @@ status: done
 source: null
 finished: '2021-09-25'
 kind: book
+goodreads: "https://www.goodreads.com/book/show/44063692-what-you-do-is-who-you-are"
+image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1571347435i/44063692.jpg
 ---
 
 ## Summary
 
 [[people.ben-horowitz]] defines what culture is and how to create ones that stand out.
+
+![Book title](https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1571347435i/44063692.jpg)
 
 ## Review
 
