@@ -11,7 +11,9 @@ source: null
 finished: 2021-10-01
 kind: book
 goodreads: "https://www.goodreads.com/book/show/15811496-cooked"
-image: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601146168l/15811496._SY475_.jpg"
+image: 
+  url: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601146168l/15811496._SY475_.jpg"
+  alt: cooked title
 ---
 
 ## Summary
