@@ -2,12 +2,13 @@
 id: g4G0IFMDctJ0nBLz
 title: '2021-05-05'
 desc: ''
-updated: 1627786819204
+updated: 1634863403178
 created: 1627786713947
 ---
 
 
-## [#510: Greg McKeown — The Art of Effortless Results, How to Take the Lighter Path, the Joys of Simplicity, and More — The Tim Ferriss Show](https://overcast.fm/+KebseDz5Y)
+## Greg McKeown - Effortless Results
+- url: [#510: Greg McKeown — The Art of Effortless Results, How to Take the Lighter Path, the Joys of Simplicity, and More — The Tim Ferriss Show](https://overcast.fm/+KebseDz5Y)
 - source: [[podcasts.tim-ferris]]
 
 ### Notes
