@@ -1,0 +1,10 @@
+version: 1
+imports: []
+schemas:
+  - id: resource
+    pattern: r
+    parent: root
+    children: 
+      - pattern: anecdotes
+
+
