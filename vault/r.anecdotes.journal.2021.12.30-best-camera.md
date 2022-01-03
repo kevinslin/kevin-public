@@ -2,7 +2,7 @@
 id: o9B8C0H4VG1knTn7vtSgT
 title: 30 Best Camera
 desc: ''
-updated: 1640926954297
+updated: 1641105394185
 created: 1640926761827
 source: 
   firstHeard: >
@@ -13,6 +13,7 @@ tags: [area.self]
 
 
 The best camera is the one that you have with you
+- Chase Jarvis
 
 ## Related
 - [[Sahil Lavingia|dendron://people/people.sahil-lavingia]]
