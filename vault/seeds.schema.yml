@@ -5,14 +5,16 @@ schemas:
     title: seeds
     parent: root
     children:
-      - pattern: "[0-2][0-9][0-9][0-9]"
+      - pattern: journal
         children:
-          - pattern: "[0-1][0-9]"
-            children:
-              - pattern: "[0-3][0-9]"
-                children:
-                  - pattern: "*"
-                    template: seeds.template.main
-                    children:
-                      - pattern: "*"
-                        template: seeds.template.discussion
+        - pattern: "[0-2][0-9][0-9][0-9]"
+          children:
+            - pattern: "[0-1][0-9]"
+              children:
+                - pattern: "[0-3][0-9]"
+                  children:
+                    - pattern: "*"
+                      template: seeds.template.main
+                      children:
+                        - pattern: "*"
+                          template: seeds.template.discussion
