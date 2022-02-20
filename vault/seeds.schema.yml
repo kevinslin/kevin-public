@@ -10,4 +10,9 @@ schemas:
           - pattern: "[0-1][0-9]"
             children:
               - pattern: "[0-3][0-9]"
-                template: seeds.template
+                children:
+                  - pattern: "*"
+                    template: seeds.template.main
+                    children:
+                      - pattern: "*"
+                        template: seeds.template.discussion
