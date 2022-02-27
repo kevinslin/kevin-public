@@ -1,6 +1,6 @@
 ---
 id: g4G0IFMDctJ0nBLz
-title: '2021-05-05'
+title: Effortless Results
 desc: ''
 updated: 1634863403178
 created: 1627786713947
