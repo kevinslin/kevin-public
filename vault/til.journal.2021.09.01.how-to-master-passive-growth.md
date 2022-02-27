@@ -5,7 +5,8 @@ desc: ''
 updated: 1641751767393
 created: 1641751671482
 link: >
-    [#223 – How to Master Passive Growth with Rob Fitzpatrick of Write Useful Books — Indie Hackers](https://overcast.fm/+JmiOe9Z1U)
+  [#223 – How to Master Passive Growth with Rob Fitzpatrick of Write Useful
+  Books — Indie Hackers](https://overcast.fm/+JmiOe9Z1U)
 ---
 
 ## Notes
