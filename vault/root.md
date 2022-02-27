@@ -16,7 +16,7 @@ This is the root of your dendron vault. If you decide to publish your entire vau
 - [[Film|dendron://kevin-public/film]]
 - [[Food|dendron://kevin-public/food]]
 - [[Home|dendron://kevin-public/home]]
-- [[Podcasts|dendron://kevin-public/podcasts]]
+- [[Podcasts|dendron://kevin-public/r.podcasts]]
 - [[Projects|dendron://kevin-public/proj]]
 - [[Scratch|dendron://kevin-public/scratch]]
 - [[Seeds|dendron://kevin-public/seeds]]

@@ -9,7 +9,7 @@ created: 1627786713947
 
 ## Greg McKeown - Effortless Results
 - url: [#510: Greg McKeown — The Art of Effortless Results, How to Take the Lighter Path, the Joys of Simplicity, and More — The Tim Ferriss Show](https://overcast.fm/+KebseDz5Y)
-- source: [[podcasts.tim-ferris]]
+- source: [[r.podcasts.tim-ferris]]
 
 ### Notes
 - you see the world not as it is but as you are #quote

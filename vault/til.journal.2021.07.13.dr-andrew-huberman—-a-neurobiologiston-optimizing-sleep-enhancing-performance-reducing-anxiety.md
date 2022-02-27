@@ -11,7 +11,7 @@ created: 1634865051386
 ## Dr. Andrew Huberman — A Neurobiologist on Optimizing Sleep, Enhancing Performance, Reducing Anxiety
 - url: [#521: Dr. Andrew Huberman — A Neurobiologist on Optimizing Sleep, Enhancing Performance, Reducing Anxiety, Increasing Testosterone, and Using the Body to Control the Mind — The Tim Ferriss Show](https://overcast.fm/+Kebt4M2TI)
 - human: [[Andrew Huberman|people.andrew-huberman]]
-- source: [[podcasts.tim-ferris]]
+- source: [[r.podcasts.tim-ferris]]
 
 ### Notes
 - eyesight, wide view make people calmer #health

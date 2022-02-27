@@ -34,4 +34,4 @@ source: >
 - eg. i’m a student here too. would you like to do X?
 
 ## Related
-- [[podcasts.the-knowledge-project]]
+- [[r.podcasts.the-knowledge-project]]

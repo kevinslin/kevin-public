@@ -21,7 +21,7 @@ created: 1627786141122
   - it could be dangerous doing something you hate
 
 ## [#520: Michael Pollan — This Is Your Mind on Plants — The Tim Ferriss Show](https://overcast.fm/+Kebtbl5B4)
-- source: [[The Tim Ferriss Show|podcasts.tim-ferris]]
+- source: [[The Tim Ferriss Show|r.podcasts.tim-ferris]]
   - original: [Michael Pollan — This Is Your Mind on Plants (#520)](https://tim.blog/2021/06/28/michael-pollan-this-is-your-mind-on-plants/)
 - humans:
   - [[people.michael-pollan]]
