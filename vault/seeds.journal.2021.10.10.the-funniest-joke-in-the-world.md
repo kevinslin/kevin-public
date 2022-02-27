@@ -1,6 +1,6 @@
 ---
 id: hguTfZKZRiNBK12RBOSTX
-title: '2021-10-10'
+title: The Funniest Joke in the World
 desc: ''
 updated: 1633933944985
 created: 1633933763103

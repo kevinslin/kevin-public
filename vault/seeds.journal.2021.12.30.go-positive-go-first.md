@@ -2,11 +2,13 @@
 id: y2Ps3th1jnXQEF3eJ7NX5
 title: Go Positive Go First
 desc: ''
-updated: 1640928251456
+updated: 1645933075069
 created: 1640927538850
+tags:
+  - skill.sales
 source: >
-  [#122 Robert Cialdini - The Principles of Persuasion — The Knowledge Project with Shane Parrish](https://overcast.fm/+OxeYWU600)
-tags: [skill.sales]
+  [#122 Robert Cialdini - The Principles of Persuasion — The Knowledge Project
+  with Shane Parrish](https://overcast.fm/+OxeYWU600)
 ---
 
 ## Notes

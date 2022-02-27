@@ -1,6 +1,6 @@
 ---
 id: SrLfhznQxqZmZZTa8QFSF
-title: '07'
+title: The Surprising Benefits of Talking to Strangers
 desc: ''
 updated: 1633933618878
 created: 1633933056407
