@@ -2,7 +2,7 @@
 id: 4TnpXmjT9fhWYPnQ
 title: Projects
 desc: ''
-updated: 1630856425241
+updated: 1645982149599
 created: 1626539999810
 ---
 
@@ -12,8 +12,11 @@ This page goes over projects that I'm currently working on
 
 
 ## Active
-- [[proj.2021-07-publish-blog]]
+- [[proj.2021-07-open-source-kevin-garden]]
+
+## Processing
 - [[proj.2021-07-continuous-glucose-monitoring]]
+## On Hold
 - [[proj.2021-08-coffee-surfing]]
 
 ## Past
