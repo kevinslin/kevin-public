@@ -4,14 +4,15 @@ title: What You Do Is Who You Are
 desc: ''
 updated: 1632670415151
 created: 1632628918885
+image: >-
+  https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1571347435i/44063692.jpg
 author: ben horowitz
 genre: business
 status: done
 source: null
 finished: '2021-09-25'
 kind: book
-goodreads: "https://www.goodreads.com/book/show/44063692-what-you-do-is-who-you-are"
-image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1571347435i/44063692.jpg
+goodreads: 'https://www.goodreads.com/book/show/44063692-what-you-do-is-who-you-are'
 ---
 
 ## Summary
@@ -134,7 +135,7 @@ servant that carved hole in stomach to preserve master's family genealogy in a f
         - Own up to mistakes
         - Explain how this action is good for greater missio
         - eg. Gettysburg address, taking bloodiest casualties and giving a new meaning to the civil war
-        - reminds me of [[Crucial Conversations|dendron://kevin-public/books.cruicial_conversations#^cDtMLqaHDlxz]] #MW
+        - reminds me of [[Crucial Conversations|dendron://kevin-public/r.books.cruicial_conversations#^cDtMLqaHDlxz]] #MW
 - Openness to bad nes
     - Encourage it 
     - Focus on issues

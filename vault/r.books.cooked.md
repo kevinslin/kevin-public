@@ -4,16 +4,17 @@ title: Cooked
 desc: ''
 updated: 1633233073309
 created: 1633231792589
-author: 'people.michael-pollan'
+image:
+  url: >-
+    https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601146168l/15811496._SY475_.jpg
+  alt: cooked title
+author: people.michael-pollan
 genre: nonfiction
 status: done
 source: null
-finished: 2021-10-01
+finished: 2021-10-01T00:00:00.000Z
 kind: book
-goodreads: "https://www.goodreads.com/book/show/15811496-cooked"
-image: 
-  url: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601146168l/15811496._SY475_.jpg"
-  alt: cooked title
+goodreads: 'https://www.goodreads.com/book/show/15811496-cooked'
 ---
 
 ## Summary

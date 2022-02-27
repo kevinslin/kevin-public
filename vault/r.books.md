@@ -18,4 +18,4 @@ This is a collection of books I've read and notes I've taken on them. It was ori
 You have been warned 😇
 
 
-[[books.what-you-do-is-who-you-are]]
+[[r.books.what-you-do-is-who-you-are]]
