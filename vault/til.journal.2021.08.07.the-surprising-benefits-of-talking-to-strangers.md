@@ -9,7 +9,7 @@ created: 1633933056407
 
 ## [The Surprising Benefits of Talking to Strangers](https://www.theatlantic.com/family/archive/2021/08/why-we-should-talk-strangers-more/619642/)
 
-- seed: [[The Atlantic|seeds.the-atlantic]]
+- seed: [[The Atlantic|ref.seeds.the-atlantic]]
 
 Notes
 
@@ -19,7 +19,7 @@ Notes
 
 ## [Dating in Delhi when you're poor](https://news.ycombinator.com/item?id=28090158)
 
-- source: [[Reuters|seeds.reuters]]
+- source: [[Reuters|ref.seeds.reuters]]
 
 Notes
 

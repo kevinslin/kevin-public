@@ -8,7 +8,7 @@ created: 1633933000648
 
 ## [The Elasticsearch Saga Continues](https://news.ycombinator.com/item?id=28103389)
 
-- source: [[The New Stack|seeds.the-new-stack]]
+- source: [[The New Stack|ref.seeds.the-new-stack]]
 
 Elasticsearch. It reaped the benefits of open source and now that its a publically traded company, is trying to control as much of its IP a possible. At least that's one way to read it.
 

@@ -19,7 +19,7 @@ This is the root of your dendron vault. If you decide to publish your entire vau
 - [[Podcasts|dendron://kevin-public/r.podcasts]]
 - [[Projects|dendron://kevin-public/proj]]
 - [[Scratch|dendron://kevin-public/scratch]]
-- [[Seeds|dendron://kevin-public/seeds]]
+- [[Seeds|dendron://kevin-public/ref.seeds]]
 - [[Today I Learned|dendron://kevin-public/til]]# Hiearchies
 
 - Journals
