@@ -4,8 +4,8 @@ title: Aisha Tyler Howto Use Pain Comed Yand Practice for Creativity
 desc: ''
 updated: 1639862619023
 created: 1639862226587
-url: https://overcast.fm/+KebvR1B1U
-source: "[[The Tim Ferriss Show|dendron://kevin-public/podcasts.tim-ferris]]"
+url: 'https://overcast.fm/+KebvR1B1U'
+source: '[[The Tim Ferriss Show|dendron://kevin-public/podcasts.tim-ferris]]'
 ---
 
 #area.self
