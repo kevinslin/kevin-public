@@ -2,7 +2,7 @@
 id: ad075218-7dae-479b-8415-d54c10ef103e
 title: Books
 desc: ''
-updated: 1632628917140
+updated: 1646792694894
 created: 1597551650141
 stub: false
 published: true
@@ -17,5 +17,3 @@ This is a collection of books I've read and notes I've taken on them. It was ori
 
 You have been warned 😇
 
-
-[[r.books.what-you-do-is-who-you-are]]
