@@ -4,6 +4,9 @@ title: Proven Strategies to Accelerate Growth with Intercom CEO, Karen Peacock
 desc: ''
 updated: 1646793098379
 created: 1646792832170
+tags:
+  - business.sales
+  - business.pmf
 url: |
     [SaaStr 507: On Shifting to the Next Gear: Proven Strategies to Accelerate Growth with Intercom CEO, Karen Peacock](https://overcast.fm/+OOu8CcI4Q)
 ---

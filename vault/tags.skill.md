@@ -6,3 +6,4 @@ updated: 1640928236253
 created: 1640928236253
 ---
 
+Skills that are good to pick up

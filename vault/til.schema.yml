@@ -1,0 +1,18 @@
+version: 1
+imports: []
+schemas:
+  - id: til
+    title: til
+    parent: root
+    children: 
+      - pattern: journal
+        children:
+          - pattern: "[0-2][0-9][0-9][0-9]"
+            children: 
+            - title: month
+              pattern: "[0-9][0-9]"
+              children: 
+                - title: day
+                  pattern: "[0-9][0-9]"
+                  namespace: true
+                  template: templates.til
