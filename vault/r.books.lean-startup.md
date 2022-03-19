@@ -10,17 +10,17 @@ finished: '2018-11-18T00:00:00.000Z'
 goodreads: 'https://www.goodreads.com/book/show/10127019-the-lean-startup'
 ---
 
-# Summary
+## Summary
 
 Eric Ries breaks down the "lean startup methodology", a process in which to come up with, execute and grow an idea from just that to a successful business.
 
-# Review
+## Review
 
 Clear, actionable and effective ways of starting a new venture.
 
-# Takeaway
+## Takeaways
 
-# Key Points
+## Key Points
 - ready (idea), aim (steer), fire (grow)
 - 5 whys
 - talk to customer
@@ -28,39 +28,53 @@ Clear, actionable and effective ways of starting a new venture.
 - beware of vanity metrics
 - if you can't fail, you can't learn
 
+## Concepts
+
 # Quotes
 
 # Notes
 
+### vision
+
 ### 1 start
-- **measure testable** predictions
-- drive car instead of rocket ship where single error is disaster
-- build, measure and learn
+- goal of startup is to figure out **what to build** (as quickly as possible)
+- startup is like driving a car, you want to continuously steer vs planning for a rocket launch where a single error could be a disaster
+- this process is the [[Build-Measure-Learn Loop|dendron://kevin-public/r.books.lean-startup.concepts#build-measure-learn-loop]]
 - true north, strategy, product
 
 ### 2 define
-- startup
-- build new thing in uncertainty
+- a [[Startup|dendron://kevin-public/r.books.lean-startup.concepts#startup]] is an organization that is building something in environments of extreme uncertainty
 
 ### 3 learn
-- discovered truth about current and future prospects
-- don't make assumptions, 3d avatar and creating new social network assumption
-- value means providing benefit to customer
+- [[Validated Learning|dendron://kevin-public/r.books.lean-startup.concepts#validated-learning]] is discovering truth about current and future prospectsl
+- **real progress** in a startup is learning what work created value for users (anything else is waste)
+- goal of learning is to find the point of intersectino btw startup vision and what customers want
+- **EVERYTHING** that a startup is doing should be in the service of validated learning
+
+- eg: IMVU had faulty assumptions about what users wanted (people did not want to learn new social network, people wanted to talk to their existing friends)
+
+### steer
 
 ### 4 experiment
 - if you can't fail then you can't learn
-- Zappa beginning, take picture of other people's inventory and try to sell online
-- value and growth hypothesis
-- value: does thing provide value
-- growth: how new customer will discover thing
+	- eg. Zappos beginning, take picture of other people's inventory and try to sell online to see if there is demand
+		- source: [[The Lean Startup|dendron://highlights/books.the-lean-startup#^2eeoztglckjc]]
+- to experiment, hypothesize, predict, and then measure
+- two most important hypothesis
+	- [[Value Hypothesis|dendron://kevin-public/r.books.lean-startup.concepts#value-hypothesis]]
+	- [[Growth Hypothesis|dendron://kevin-public/r.books.lean-startup.concepts#growth-hypothesis]]
 - concierge mvp: best mvp possible, guided
 
 ### 5 leap
-- [] getting to plan b #book
-- **analogue and antilog**
-- analogue shows something will work: eg. People will listen to music outside
-- antilog shows current bad behavior: eg. People won't pay for music
-- genchi gembutsu: go see for yourself, saying used in Toyota
+- [[Leap of Faith Assumption|dendron://kevin-public/r.books.lean-startup.concepts#leap-of-faith-assumption]] is riskiest part of plan
+- once assumptions are clear, build and validate
+- to measure learning, use [[Innovation Accounting|dendron://kevin-public/r.books.lean-startup.concepts#innovation-accounting]] and [[Learning Milestones|dendron://kevin-public/r.books.lean-startup.concepts#learning-milestones]]
+- after [[Build-Measure-Learn Loop|dendron://kevin-public/r.books.lean-startup.concepts#build-measure-learn-loop]], startup needs to decide to [[Pivot or Preserve|dendron://kevin-public/r.books.lean-startup.concepts#pivot-or-preserve]]
+- [[Analogue|dendron://kevin-public/r.books.lean-startup.concepts#analogue]] and [[Antilogue|dendron://kevin-public/r.books.lean-startup.concepts#antilogue]] can be a useful framework in [[Leap of Faith Assumption|dendron://kevin-public/r.books.lean-startup.concepts#leap-of-faith-assumption]]
+- priorities of a startup
+	- be able to systematically test assumptions
+	- connect present tests with long term vision
+- as founder, figure out what parts of original plan were good and what parts need to change
 
 ### 6 test
 - create a mvp
