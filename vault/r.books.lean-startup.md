@@ -29,8 +29,7 @@ Clear, actionable and effective ways of starting a new venture.
 - if you can't fail, you can't learn
 
 ## Concepts
-
-# Quotes
+See [[Concepts|dendron://kevin-public/r.books.lean-startup.concepts]]
 
 # Notes
 
@@ -63,7 +62,6 @@ Clear, actionable and effective ways of starting a new venture.
 - two most important hypothesis
 	- [[Value Hypothesis|dendron://kevin-public/r.books.lean-startup.concepts#value-hypothesis]]
 	- [[Growth Hypothesis|dendron://kevin-public/r.books.lean-startup.concepts#growth-hypothesis]]
-- concierge mvp: best mvp possible, guided
 
 ### 5 leap
 - [[Leap of Faith Assumption|dendron://kevin-public/r.books.lean-startup.concepts#leap-of-faith-assumption]] is riskiest part of plan
@@ -74,14 +72,21 @@ Clear, actionable and effective ways of starting a new venture.
 - priorities of a startup
 	- be able to systematically test assumptions
 	- connect present tests with long term vision
-- as founder, figure out what parts of original plan were good and what parts need to change
+- as founder
+	- figure out what parts of original plan were good and what parts need to change
+	- **need to understand** what is responsible for startup growth
+- nothing as effective as [[Genchi Gembutsu|dendron://kevin-public/r.books.lean-startup.concepts#genchi-gembutsu]] 
+	- "see for yourself", talk to the customer
 
 ### 6 test
-- create a mvp
-- video: Dropbox 3 min video
-- concierge: ceo personally attend one customer
-- mechanical Turk: use people to answer
-
+- create a [[Minimal Viable Product|dendron://kevin-public/r.books.lean-startup.concepts#minimal-viable-product]]
+- early adopters will be suspicious if product too polished, time on polish can be waste of time
+- types of MVPs
+	- [[Video MVP|dendron://kevin-public/r.books.lean-startup.concepts#video-mvp]]
+	- [[Concierge MVP|dendron://kevin-public/r.books.lean-startup.concepts#concierge-mvp]]
+- when creating a MVP, don't waste time trying to fully solve problem
+	- until you know your customer, you don't know what **quality** even is
+	- #mw: doing things that don't scale
 - **remove everything that doesn't contribute to learning**
 
 ### 7 measure

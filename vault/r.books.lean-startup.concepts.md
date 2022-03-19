@@ -72,8 +72,20 @@ Growth needs to create actual value. Value destroying worth - signing on more cu
 
 Japanese saying, "go see for yourself"
 
-## Unsorted
+## Test
+
+### Minimal Viable Product
+- alias: MVP
+
+A product that helps founders start the process of learning
+
+### Video MVP
+
+Show video of the product (eg. Dropbox)
 
 ### Concierge MVP
 
-High manual guided mvp
+Manually curated MVP
+
+## Unsorted
+
