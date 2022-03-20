@@ -90,18 +90,29 @@ See [[Concepts|dendron://kevin-public/r.books.lean-startup.concepts]]
 - **remove everything that doesn't contribute to learning**
 
 ### 7 measure
-- don't be a zombie and just stumble along
-- innovation accounting
-- get data with mvp, this is baseline
-- every effort should be aimed at **improving a driver of growth**
-- one hypothesis and see if feature validated it
-- if driver of growth not moving, pivot
-- cohort analysis
-- vanity metrics vs actionable metrics
-- use **cohort based metrics**
-- do split test metrics
+- startup needs to do 2 things
+	- measure where they are now
+	- figure out how to get closer to the ideal
+- most startups, when asked if they're making the product better, will say yes but have no data to back it up
+	- eg. we launched a few features and our numbers went up (but then subsequently went down again)
+	- see [[The Lean Startup|dendron://highlights/books.the-lean-startup#^bw7mg6yq0k0g]]
+- begin process of [[Innovation Accounting|dendron://kevin-public/r.books.lean-startup.concepts#innovation-accounting]]
+	- 1: build mvp to gather baseline data
+	- 2: tune [[Engine of Growth|dendron://kevin-public/r.books.lean-startup.concepts#engine-of-growth]] to get closer to ideal
+	- 3: make decision to [[Pivot or Preserve|dendron://kevin-public/r.books.lean-startup.concepts#pivot-or-preserve]]
+- when testing, test **riskiest assumption first**
+	- #MW: deploy in IAD
+- beware of [[Vanity Metrics|dendron://kevin-public/r.books.lean-startup.concepts#vanity-metrics]]
+- focus on [[Cohort Based Metrics|dendron://kevin-public/r.books.lean-startup.concepts#cohort-based-metrics]] and [[Split Testing|dendron://kevin-public/r.books.lean-startup.concepts#split-testing]]
+- kanban 
+	- backlog, in progress, built, validated
 - **story not complete until we have validated learning from it**
-- metrics: actionable, accessible, auditable
+- have upper limit on items in any given stage #star
+- metric focuses
+	- actionable: establish cause and effect
+	- accessible: concrete units 
+	- auditable: everyone has access (ideally, team that owns product should also own this)
+		- you should be able to **spot check data** (eg. talk to customers and see if user behavior confirms the data)
 
 ### 8 pivot
 - startup **run rate is amount of pivots it has left**
