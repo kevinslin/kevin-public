@@ -114,16 +114,19 @@ See [[Concepts|dendron://kevin-public/r.books.lean-startup.concepts]]
 	- auditable: everyone has access (ideally, team that owns product should also own this)
 		- you should be able to **spot check data** (eg. talk to customers and see if user behavior confirms the data)
 
+***
+
 ### 8 pivot
 - startup **run rate is amount of pivots it has left**
-- measures: registration, activation, rentention, referral
+- productivity is measured not in features released by the alignment of effort with value and growth
 - **need clear hypothesis or can't decide about pivot**
-- potbelly sandwich shop began as antique shop in 1977 #eg
-
-- types
+	- eg. potbelly sandwich shop began as antique shop in 1977 
+- things to measures registration, activation, rentention, referral
+- types of pivots
 	- zoom: focus on one from a whole
 	- zoom out: expand feature
 	- customer segment: b2b to b2c
+	- platform pivot: change from app to platform or ice versa
 	- technology: switch tech for same wndat
 	- channel: direct vs cto
 	- engine of growth: viral, sticky and paid
@@ -131,15 +134,17 @@ See [[Concepts|dendron://kevin-public/r.books.lean-startup.concepts]]
 	- business architecture: high margin low volume vs opp
 
 ### 9 batch
-- **small batch sizes help validate ideas quicker**, maybe not most efficient
-- continuous deployment
-- same person during multiple function, take advantage of breadth of skills, corporate doesn't do this because of accountability hard
-- **can't have too much work in progress,** in manufacturing line, fills up all the machines #star
+- **small batch sizes help validate ideas quicker**
+	- do continuous deployment
+- same person during multiple function, take advantage of breadth of skills
+	- corporate doesn't do this because of accountability hard
+- **can't have too much work in progress,** in manufacturing line, fills up all the machines but no visible signs of this with knowledge work #star
+- use hypothesis for what customer wants to work on batch and move forward
 
 ### 10 grow
 - sustainable growth: new customer come from actions of old
-- types:
-	- word of mouth
+- growth types:
+	- word of mouth 
 	- side effect of using product (eg fashion)
 	- funded advertising
 	- repeat purchase (eg lightbulb)
@@ -153,42 +158,34 @@ See [[Concepts|dendron://kevin-public/r.books.lean-startup.concepts]]
 - product market fit, Marc Horowitz, **customers pull product into mainstream** #star
 
 ### 11 adapt
+- adjust processes and performance according to problem
+	- #MW: cross the bridge when we get there
+- small problems should have small response, large should have larger response
+- root of every tech problem tends to be human #star
+
 - use 5 whys
 	- have everyone involved in incident present
 	- avoid 5 blames
 	- don't send baggage through system, tackle new prob
 	- appoint 5 why master
+- mistakes
 	- be tolerant of 1st mistake
 	- no 2nd mistake
-	- proportional investment
+- adopt [[Proportional Investment|dendron://kevin-public/r.books.lean-startup.concepts#proportional-investment]]
 - accuirvib failure successfully by working on things that don't matter #star
 - small batch sizes, quickbooks waterfall anti-example
-- net promoter score #todo
 
 ### 12 innovate
 - qualities of startup
     - **scarce but secure resource**
-    - ind dev auth
-    - **personal stake
--** in org, how to protect parent org from startup? manager will feel threatened
+    - **ind dev auth**
+    - **personal stake**
+- in org, how to protect parent org from startup? manager will feel threatened
 
 ### epilogue
 - [] frederick winsolw taylor's principles of scientific management
 - **see forest vanishing but can't see minds being wasted** #analogy
 - nothing quite so useless as doing with great efficiency what should not be done at all, peter drucker #quote
 - 100 years, what techniques and believes will seem outlandish and stupid
-- [] meetups and books
 
-
-# Other
-- agree on set of values
-- prioritize speed over full implementation
-- for design decisions, if you don't have data, defer to original decision
-- disagree and commit
-- playbooks for diff situations
-- coes tool for the public
-
-- ideas
-- custom tshirt design
-- universal links video
 

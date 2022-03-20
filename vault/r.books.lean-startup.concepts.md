@@ -97,6 +97,24 @@ Manually curated MVP
 
 Metrics that feel good but don't actually indicate progress
 
+## Batch
+
+### Single Piece Flow
+
+Doing things one item at a time
+
+### Batch Size
+
+How much work moves from one stage to the next
+
+### Large Batch Death Spiral
+
+## Adapt
+
+### Proportional Investment
+
+Invest proportional amount of effort into problem as severity of said problem
+
 ## Unsorted
 
 ### Engine of Growth
