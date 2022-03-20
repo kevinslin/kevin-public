@@ -19,19 +19,25 @@ Eric Ries breaks down the "lean startup methodology", a process in which to come
 Clear, actionable and effective ways of starting a new venture.
 
 ## Takeaways
+- don't assume, measure
+- be explicit about value and growth assumptions and then build-measure-learn
+- progress should be measured with [[Validated Learning|dendron://kevin-public/r.books.lean-startup.concepts#validated-learning]]
 
 ## Key Points
-- ready (idea), aim (steer), fire (grow)
-- 5 whys
-- talk to customer
-- measure everything
-- beware of vanity metrics
-- if you can't fail, you can't learn
+- a [[Startup|dendron://kevin-public/r.books.lean-startup.concepts#startup]] tries to build something in extreme uncertainty
+- a startup tends to be based on a [[Leap of Faith Assumption|dendron://kevin-public/r.books.lean-startup.concepts#leap-of-faith-assumption]]
+	- these assumptions have a [[Growth Hypothesis|dendron://kevin-public/r.books.lean-startup.concepts#growth-hypothesis]] and [[Value Hypothesis|dendron://kevin-public/r.books.lean-startup.concepts#value-hypothesis]]
+- progress should be measured by [[Validated Learning|dendron://kevin-public/r.books.lean-startup.concepts#validated-learning]]
+- to achieve progress, adopt [[Build-Measure-Learn Loop|dendron://kevin-public/r.books.lean-startup.concepts#build-measure-learn-loop]] loop
+- kanban with **limit on works in progress at any stage**
+- everything that doesn't help with learning is wasted work
+- making progress means understanding value that product is actually providing users and figuring out the [[Engine of Growth|dendron://kevin-public/r.books.lean-startup.concepts#engine-of-growth]]
+- make [[Proportional Investment|dendron://kevin-public/r.books.lean-startup.concepts#proportional-investment]] when growing and scaling
 
 ## Concepts
 See [[Concepts|dendron://kevin-public/r.books.lean-startup.concepts]]
 
-# Notes
+## Notes
 
 ### vision
 
@@ -115,6 +121,7 @@ See [[Concepts|dendron://kevin-public/r.books.lean-startup.concepts]]
 		- you should be able to **spot check data** (eg. talk to customers and see if user behavior confirms the data)
 
 ***
+### accelerate
 
 ### 8 pivot
 - startup **run rate is amount of pivots it has left**
@@ -183,7 +190,7 @@ See [[Concepts|dendron://kevin-public/r.books.lean-startup.concepts]]
 - in org, how to protect parent org from startup? manager will feel threatened
 
 ### epilogue
-- [] frederick winsolw taylor's principles of scientific management
+- frederick winsolw taylor's principles of scientific management #todo
 - **see forest vanishing but can't see minds being wasted** #analogy
 - nothing quite so useless as doing with great efficiency what should not be done at all, peter drucker #quote
 - 100 years, what techniques and believes will seem outlandish and stupid
