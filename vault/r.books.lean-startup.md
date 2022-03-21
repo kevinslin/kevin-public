@@ -194,5 +194,3 @@ See [[Concepts|dendron://kevin-public/r.books.lean-startup.concepts]]
 - **see forest vanishing but can't see minds being wasted** #analogy
 - nothing quite so useless as doing with great efficiency what should not be done at all, peter drucker #quote
 - 100 years, what techniques and believes will seem outlandish and stupid
-
-
