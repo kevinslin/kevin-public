@@ -23,6 +23,8 @@ created: 1648697756347
     - chrome sync
 
 ## Mac Settings
+- alfred
+    - alfred sync
 - mouse
     - tap to click
 - dock
