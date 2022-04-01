@@ -15,6 +15,7 @@ created: 1648697756347
 - git cli tools
 - iterm2
 - vscode
+- scm breeze
 
 ## Web
 - firefox
@@ -35,13 +36,14 @@ created: 1648697756347
 ## Mac Apps
 - jolt of caffeine
 
+## Desktop Apps
+- steam
+
 ## Rest
 - 1pass
     - mac client
     - firefox client
 - rectange
-
-
 
 ## Checklist
 
