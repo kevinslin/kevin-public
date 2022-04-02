@@ -2,7 +2,7 @@
 id: t55thilc8m2mkjwcpvq9fnl
 title: Mac
 desc: ''
-updated: 1648697756347
+updated: 1648919890006
 created: 1648697756347
 ---
 
@@ -12,10 +12,19 @@ created: 1648697756347
 
 ## Development
 - homebrew
-- git cli tools
+- git cli tools 
 - iterm2
 - vscode
 - scm breeze
+
+- [install using brew]
+- tmux
+- nvm
+    - install node 14
+- yarn
+- rbenv
+- pyenv
+- gh: github cli
 
 ## Web
 - firefox
