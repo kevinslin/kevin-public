@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: curl
+      env:
+        AMPLIFY_ENDPOINT: ${{ secrets.AMPLIFY_ENDPOINT }}
       uses: wei/curl@master
       with:
         args: -X POST -d {} $AMPLIFY_ENDPOINT -H "Content-Type:application/json"
