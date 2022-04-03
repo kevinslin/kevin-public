@@ -2,14 +2,14 @@
 id: t55thilc8m2mkjwcpvq9fnl
 title: Laptop Setup
 desc: 'How I bootstrap my computer'
-updated: 1648947276495
+updated: 1648948590629
 created: 1648697756347
 ---
 
 {{fm.desc}}
 
 ## Legend
-- items tagged with #star are what I consider essential 
+- items tagged with #star are what I consider essential (aka - my computer feels naked without them)
 
 ## Development
 
@@ -23,11 +23,11 @@ need this to bootstrap other tools
 - iterm2 #star
 - vscode
 - vscode insider #star
-- vim
+- vim #star
 
 ### Productivity
 - scm_breeze: easier git development
-- tmux
+- tmux #star
     - download tpm: https://github.com/tmux-plugins/tpm
 - autojump: lookup for filesystem
 - ack: code search
@@ -72,9 +72,10 @@ need this to bootstrap other tools
 - 1pass #star
     - mac client
     - firefox client
+    - chrome client
 
 ## Productivity
-- rectange #star
+- rectange: window manager #star
 - alfred #star
     - alfred sync
 - jolt of caffeine: keep screen awake

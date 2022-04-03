@@ -1,0 +1,10 @@
+name: Publish to github
+on: [push]
+jobs:
+  curl:
+    runs-on: ubuntu-latest
+    steps:
+    - name: curl
+      uses: wei/curl@master
+      with:
+        args: -X POST -d {} $AMPLIFY_ENDPOINT -H "Content-Type:application/json"
