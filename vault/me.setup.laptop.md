@@ -1,10 +1,12 @@
 ---
 id: t55thilc8m2mkjwcpvq9fnl
 title: Laptop Setup
-desc: 'How I setup my computer'
-updated: 1648947255592
+desc: 'How I bootstrap my computer'
+updated: 1648947276495
 created: 1648697756347
 ---
+
+{{fm.desc}}
 
 ## Legend
 - items tagged with #star are what I consider essential 
