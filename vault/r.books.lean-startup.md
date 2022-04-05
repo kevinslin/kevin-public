@@ -2,7 +2,7 @@
 id: 1da94030-c045-4002-8de0-67d35e6eee74
 title: The Lean Startup
 desc: ''
-updated: 1646523537716
+updated: 1649010498251
 created: 1593881520171
 author: Eric Ries
 genre: 'business, non-fiction'
@@ -179,7 +179,7 @@ See [[Concepts|dendron://kevin-public/r.books.lean-startup.concepts]]
 	- be tolerant of 1st mistake
 	- no 2nd mistake
 - adopt [[Proportional Investment|dendron://kevin-public/r.books.lean-startup.concepts#proportional-investment]]
-- accuirvib failure successfully by working on things that don't matter #star
+- failure is working on things that don't matter #star
 - small batch sizes, quickbooks waterfall anti-example
 
 ### 12 innovate
