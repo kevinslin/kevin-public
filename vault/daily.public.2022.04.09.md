@@ -2,7 +2,7 @@
 id: x8zw93p58fbffyld63tqvop
 title: '2022-04-09'
 desc: ''
-updated: 1649552229284
+updated: 1649552239426
 created: 1649552058110
 traitIds:
   - daily-public
@@ -18,4 +18,4 @@ End result here: https://github.com/kevinslin.
 
 ***
 
-Created a note trait around public journals. Current implementation [here](https://github.com/kevinslin/kevin-garden/blob/main/noteTraits/daily-public.js#L16:L16)
+Created a note trait around public journals. Current implementation [here](https://github.com/kevinslin/kevin-garden/blob/main/noteTraits/daily-public.js#L16:L16) #pif

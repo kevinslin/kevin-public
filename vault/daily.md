@@ -2,9 +2,9 @@
 id: RSNyBSoVblYz6qrC
 title: Daily
 desc: ''
-updated: 1646788225097
+updated: 1649552658408
 created: 1626539528064
-skipLevels: 2
+skipLevels: 1
 has_collection: true
 sort_by: date
 sort_order: reverse
