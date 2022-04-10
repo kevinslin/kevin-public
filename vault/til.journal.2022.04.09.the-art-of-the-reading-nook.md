@@ -4,7 +4,7 @@ title: The art of the reading nook
 desc: ''
 updated: 1649554621761
 created: 1649554621761
-tags: null
+tags: []
 traitIds:
   - til
 url: 'https://www.spectator.co.uk/article/the-art-of-the-reading-nook'
