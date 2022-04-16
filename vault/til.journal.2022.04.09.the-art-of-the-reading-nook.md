@@ -2,7 +2,7 @@
 id: xwjhlwf06mw6uqzng6mnoq5
 title: The art of the reading nook
 desc: ''
-updated: 1649554621761
+updated: 1650136488537
 created: 1649554621761
 tags: []
 traitIds:
@@ -14,7 +14,7 @@ date: 2022-04-09
 ## Summary
 - source: {{fm.url}}
 
-Goes over reading nooks - a dedicated spaces to spend time reading and how the pandemic has made them come baack
+Goes over reading nooks - a dedicated spaces to spend time reading and how the pandemic has made them come back
 
 ## Notes
 
