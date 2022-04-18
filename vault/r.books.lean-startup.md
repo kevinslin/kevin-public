@@ -1,8 +1,8 @@
--u-
+---
 id: 1da94030-c045-4002-8de0-67d35e6eee74
 title: The Lean Startup
 desc: ''
-updated: 1649010498251
+updated: 1650243243202
 created: 1593881520171
 author: Eric Ries
 genre: 'business, non-fiction'
