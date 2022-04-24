@@ -2,11 +2,25 @@
 id: w0wwvx5kgwvc238jnql1l3t
 title: Hooked
 desc: ''
-updated: 1650243824699
+updated: 1650727240558
 created: 1650242594008
+published: false
 ---
 
 ## notes
+
+### 1 - the habit zone
+
+### 2 - trigger
+
+### 3 - action
+
+### 4 - variable reward
+
+### 5 - investment
+
+### 6 - what are you going to do with this
+
 ## trigger
 
 - who is user
