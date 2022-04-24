@@ -2,7 +2,7 @@
 id: LMpLWbLBIfRzkSjJlF7U1
 title: Mental Models
 desc: ''
-updated: 1650832872792
+updated: 1650834505463
 created: 1640923677429
 ---
 
