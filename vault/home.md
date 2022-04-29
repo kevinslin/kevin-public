@@ -2,8 +2,11 @@
 id: 8cafc40b-9bb7-4e1d-b437-3701bedba9c6
 title: Hi 
 desc: 'Kevin home page'
-updated: 1650832443926
+updated: 1651258302455
 created: 1597551434931
+config:
+  global:
+    enableBackLinks: false
 ---
 
 ## Welcome to my [Digital Garden](https://joelhooks.com/digital-garden) 🌱

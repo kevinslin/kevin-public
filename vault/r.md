@@ -2,7 +2,7 @@
 id: q7VooOfdLhTvZhfY
 title: Resources
 desc: ''
-updated: 1646184873421
+updated: 1651258360827
 created: 1626538880559
 nav_order: 5
 config:
@@ -21,5 +21,5 @@ This is a section dedicated to topics I'm currently interested in
 - [[Thing|dendron://kevin-public/r.thing]]
 - [[dendron://kevin-public/r.seo]] -->
 
-![[dendron://kevin-private/r.books#summary,1]]
+![[dendron://kevin-public/r.books#summary,1]]
 ![[dendron://kevin-public/r.podcasts#summary,1]]
