@@ -11,7 +11,7 @@ This is the root of your dendron vault. If you decide to publish your entire vau
 
 ## Index
 - [[Area|dendron://kevin-public/a]]
-- [[Books|dendron://kevin-public/r.books]]
+- [[Books|dendron://kevin-public/res.books]]
 - [[Daily|dendron://kevin-public/daily]]
 - [[Film|dendron://kevin-public/film]]
 - [[Food|dendron://kevin-public/food]]

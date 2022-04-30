@@ -4,7 +4,6 @@ title: Books
 desc: ''
 updated: 1651258351567
 created: 1597551650141
-stub: false
 published: true
 ---
 
