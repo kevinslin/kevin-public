@@ -25,4 +25,4 @@ Things that I'm maintaining over time
 
 Things that I reference 
 
-![[dendron://kevin-public/r]]
+![[dendron://kevin-public/res]]
