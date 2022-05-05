@@ -5,11 +5,11 @@ desc: ''
 updated: 1647481844571
 created: 1647480428073
 citation:
-    page: 12
-    chapter: 1
-    type: comic
-    source: |
-        [[r.manga.demon-slayer-kimetsuno-yaiba]]
+  page: 12
+  chapter: 1
+  type: comic
+  source: |
+    [[r.manga.demon-slayer-kimetsuno-yaiba]]
 ---
 
 > Life is like the weather - it is always changing
