@@ -8,4 +8,4 @@ created: 1651333322500
 
 ### Higher Education and Proof of Work
 
-Thesis: Many remark about the inefficiencies of [[Proof of Work|dendron://kevin-public/me.mental-models.proof-of-work]] for blockchain - arguably, higher education is even worse. Millions of minds put to the application of solving *pointless* problems in ordeo to earn a paper certificate. 
+Thesis: Many remark about the inefficiencies of [[Proof of Work|dendron://kevin-public/me.mm.proof-of-work]] for blockchain - arguably, higher education is even worse. Millions of minds put to the application of solving *pointless* problems in ordeo to earn a paper certificate. 

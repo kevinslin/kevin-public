@@ -5,8 +5,8 @@ desc: ''
 updated: 1646967885059
 created: 1646967844361
 tags:
-  - business.enterprise
-  - business.growth
+  - area.business.enterprise
+  - area.business.growth
 url: >
   [SaaStr 530: The Top 20 Learnings in Product-Led
   Growth](https://overcast.fm/+OOu_dsKtc)

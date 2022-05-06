@@ -5,10 +5,11 @@ desc: ''
 updated: 1646966931546
 created: 1646966931546
 tags:
-  - business.sales
+  - area.business.sales
 date: '2022-03-06'
 url: >
-    [SaaStr 508: Picking the Perfect Pricing Model that Fits Your App and More with HackerOne CEO Marten Mickos ](https://overcast.fm/+OOu9CQdT8)
+  [SaaStr 508: Picking the Perfect Pricing Model that Fits Your App and More
+  with HackerOne CEO Marten Mickos ](https://overcast.fm/+OOu9CQdT8)
 ---
 
 ## Summary

@@ -1,15 +1,16 @@
 ---
 id: 6eswvmr73e460vysuclgo10
-title: Ten Things to Avoid Being Blindsided By In Your Pursuit Of Customer Success 
+title: Ten Things to Avoid Being Blindsided By In Your Pursuit Of Customer Success
 desc: ''
 updated: 1646967556632
 created: 1646967556632
 tags:
-  - business.enterprise
-  - business.sales
-  - business.growth
+  - area.business.enterprise
+  - area.business.sales
+  - area.business.growth
 url: >
-    [SaaStr 529: Ten Things to Avoid Being Blindsided By In Your Pursuit Of Customer Success Nick Mehta, CEO](https://overcast.fm/+OOu_neiOc)
+  [SaaStr 529: Ten Things to Avoid Being Blindsided By In Your Pursuit Of
+  Customer Success Nick Mehta, CEO](https://overcast.fm/+OOu_neiOc)
 date: '2022-03-02'
 ---
 
@@ -23,7 +24,7 @@ date: '2022-03-02'
     - make sure to get multiple sponsors, not just one person
 
 - for saas today, you need to create value constantly
-- measure time to value #star #business.growth
+- measure time to value #star #area.business.growth
 
 ## Lookup
 - [[r.podcasts.the-knowledge-project]]

@@ -57,7 +57,7 @@ Had a cheat day today with waffle fries and a burger. Can you guess when that ha
 - [SaaStr 468: Kevin Dorsey, VP of Inside Sales at PatientPop Shares the Cutting Edge Techniques for Building Trust in Today’s Competitive Market](https://overcast.fm/+OOu-hfAy8)
 
 ### Notes
-- for sales #business
+- for sales #area.business
   - people don’t care how much you know but know how much you care
   - information by itself doesn’t do anything, its information in right context 
   - work on things that don’t change, [[Jeff Bezos|people.jeff-bezos]] quote
