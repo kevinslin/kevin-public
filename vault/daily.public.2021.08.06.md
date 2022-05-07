@@ -6,7 +6,7 @@ updated: 1628445454115
 created: 1628445283528
 ---
 
-## [[Dendron|a.dendron]]
+## [[Dendron|area.dendron]]
 
 Met up with my YC batchmates from W21. We get together once a month to talk about how we are. Turns out we're all in similar positions:
 - working with hiring
