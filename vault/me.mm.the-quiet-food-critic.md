@@ -2,7 +2,7 @@
 id: 147ebbbd2t2cg15lynjpdy3
 title: The Quiet Food Critic
 desc: ''
-updated: 1651879156184
+updated: 1651934271256
 created: 1651877265702
 tags:
   - area.business
