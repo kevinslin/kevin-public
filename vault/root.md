@@ -24,4 +24,4 @@ This is the root of your dendron vault. If you decide to publish your entire vau
 
 - Journals
     - [[Mental Models|dendron://kevin-public/mm]]
-    - [[Resources|dendron://kevin-public/r]]
+    - [[Resources|dendron://kevin-public/res]]
