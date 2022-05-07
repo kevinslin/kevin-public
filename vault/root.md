@@ -10,7 +10,7 @@ created: 1626533471733
 This is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top. 
 
 ## Index
-- [[Area|dendron://kevin-public/a]]
+- [[Area|dendron://kevin-public/area]]
 - [[Books|dendron://kevin-public/res.books]]
 - [[Daily|dendron://kevin-public/daily]]
 - [[Film|dendron://kevin-public/film]]
