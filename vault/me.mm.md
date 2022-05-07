@@ -1,8 +1,8 @@
 ---
 id: LMpLWbLBIfRzkSjJlF7U1
-title: Mm
+title: Mental Models
 desc: ''
-updated: 1651879562424
+updated: 1651880152237
 created: 1640923677429
 has_collection: true
 sort_by: date
