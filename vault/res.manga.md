@@ -6,4 +6,4 @@ updated: 1647481646191
 created: 1647481625001
 ---
 
-[[r.manga.demon-slayer-kimetsuno-yaiba]]
+[[res.manga.demon-slayer-kimetsuno-yaiba]]

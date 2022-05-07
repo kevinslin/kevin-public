@@ -13,9 +13,9 @@ Had a cheat day today with waffle fries and a burger. Can you guess when that ha
 
 ![glucose levels](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/D73D2AD1-14B5-436B-9D17-06CD4CF7CE9C.png)
 
-- Researched [[low carb running|r.glucose.ref.running]].
+- Researched [[low carb running|res.glucose.ref.running]].
 
-## [[The Tim Ferriss Show|r.podcasts.tim-ferris]]
+## [[The Tim Ferriss Show|res.podcasts.tim-ferris]]
 - [#522: Anne Lamott on Taming Your Inner Critic, Finding Grace, and Prayer — The Tim Ferriss Show](https://overcast.fm/+KebtmHOww)
 - Human: [[Anne Lamott|people.anne-lamott]]
 
@@ -45,7 +45,7 @@ Had a cheat day today with waffle fries and a burger. Can you guess when that ha
 - i was flight attendant of family
 - twilight can be day to night or night to day
 
-## [[Indie Hackers|r.podcasts.indie-hackers]]
+## [[Indie Hackers|res.podcasts.indie-hackers]]
 - [#218 – Making Money and Being Happy with Sam Parr and Shaan Puri of My First Million — Indie Hackers](https://overcast.fm/+JmiMmWh4g)
 
 ### Notes
@@ -53,7 +53,7 @@ Had a cheat day today with waffle fries and a burger. Can you guess when that ha
   - instead of finding happiness in 10 years after the perfect exit, think of your perfect day and aim to do more of that
   - shower, wake up without alarm, etc
 
-## [[Saastr|r.podcasts.saastr]]
+## [[Saastr|res.podcasts.saastr]]
 - [SaaStr 468: Kevin Dorsey, VP of Inside Sales at PatientPop Shares the Cutting Edge Techniques for Building Trust in Today’s Competitive Market](https://overcast.fm/+OOu-hfAy8)
 
 ### Notes

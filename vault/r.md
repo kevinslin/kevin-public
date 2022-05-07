@@ -22,4 +22,4 @@ This is a section dedicated to topics I'm currently interested in
 - [[dendron://kevin-public/r.seo]] -->
 
 ![[dendron://kevin-public/res.books#summary,1]]
-![[dendron://kevin-public/r.podcasts#summary,1]]
+![[dendron://kevin-public/res.podcasts#summary,1]]

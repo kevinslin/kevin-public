@@ -19,4 +19,4 @@ date: '2022-03-02'
 - [[co.hubspot]] reached 20b by word of mouth growth
 
 ## Lookup
-- [[r.podcasts.the-knowledge-project]]
+- [[res.podcasts.the-knowledge-project]]

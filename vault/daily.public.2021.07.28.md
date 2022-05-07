@@ -17,11 +17,11 @@ That being said, I don't know what the healthy weight of a 6 foot asian male sho
 
 That being said, I have noticed the lack of carbs when I do workouts. Its harder to do more intense runs. 
 
-Did some research on [[low carbs and running|r.glucose.ref.running]] and the short of it is that it is hard. Body needs glucose for high intensity workouts (+60% VO2 max). It can learn to use fat for lighter workouts. 
+Did some research on [[low carbs and running|res.glucose.ref.running]] and the short of it is that it is hard. Body needs glucose for high intensity workouts (+60% VO2 max). It can learn to use fat for lighter workouts. 
 
 This actually works well for ultra marathons since you go at a steady pace for a very long time. But for marathons and under, you actually need speed to compete seriously (at least I do). Plus, I'm on a timie budget with Dendron work so I usually limit my runs to 1h, maybe pushing close to 2h on long run. That means I rather run fast than long which makes the lack of glucose noticable. 
 
-Maybe I will try [[carb cycling|r.glucose.ref.running#^lc0]]. Maybe switch exclusively to ultra marathons. My 800m track days are behind me anyhow. But the time for training runs for ultras is not something I can see happening anytime soon, if ever. 
+Maybe I will try [[carb cycling|res.glucose.ref.running#^lc0]]. Maybe switch exclusively to ultra marathons. My 800m track days are behind me anyhow. But the time for training runs for ultras is not something I can see happening anytime soon, if ever. 
 
 ## [Systems Leadership for Disruptors and Incumbents — a16z Podcast](https://overcast.fm/+BlzFIp9lY)
 - source: [[podcasts.a16z]]

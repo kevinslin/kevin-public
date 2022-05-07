@@ -13,7 +13,7 @@ created: 1629667143118
     - focus on one thing at a time
 - [[Crucial Conversations|books.cruicial_conversations]]
     - talking with people
-- [[What You Do Is Who You Are|dendron://kevin-public/r.books.what-you-do-is-who-you-are]]
+- [[What You Do Is Who You Are|dendron://kevin-public/res.books.what-you-do-is-who-you-are]]
     - culture is what you do
 
 ## Product

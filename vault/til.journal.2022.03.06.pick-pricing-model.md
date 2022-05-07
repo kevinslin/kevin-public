@@ -24,4 +24,4 @@ url: >
     - time (writing tutorials)
 
 ## Lookup
-- [[Saastr|dendron://kevin-public/r.podcasts.saastr]]
+- [[Saastr|dendron://kevin-public/res.podcasts.saastr]]

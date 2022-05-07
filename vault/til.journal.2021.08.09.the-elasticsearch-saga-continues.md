@@ -32,7 +32,7 @@ It is amazing how AWS is comming out as the good guy in this story. There are he
 
 ## [Gary Vaynerchuk](https://overcast.fm/+YsrYSmoaA)
 
-- seed: [[r.podcasts.how-i-built-this]]
+- seed: [[res.podcasts.how-i-built-this]]
 - people: [[people.gary-vaynerchuk]]
 
 - most people don't understand content marketing,

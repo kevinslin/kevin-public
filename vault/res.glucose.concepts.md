@@ -9,13 +9,13 @@ created: 1626494830708
 ## General
 
 ### Fasting Blood Glucose 
-- source: [[Glucose|r.glucose#^iTMnEFyrGtCqaGRU]]
+- source: [[Glucose|res.glucose#^iTMnEFyrGtCqaGRU]]
 - alias: FBG
 
 - glucose levels after not having calories for 8 hours
 
 ### Insulin
-- source: [[Glucose|r.glucose#^iTMnEFyrGtCqaGRU]]
+- source: [[Glucose|res.glucose#^iTMnEFyrGtCqaGRU]]
 
 - helps with glucose uptake
 - also has other functions (all cells have insulin receptors)
@@ -24,7 +24,7 @@ created: 1626494830708
 ## Conditions
 
 ### Insulin Resistance
-- source: [[Glucose|r.glucose#^iTMnEFyrGtCqaGRU]]
+- source: [[Glucose|res.glucose#^iTMnEFyrGtCqaGRU]]
 
 - potentially affects 88% of adults in the US
 - symptomps

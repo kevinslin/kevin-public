@@ -11,4 +11,4 @@ created: 1632665803306
 Depending on the phase of the company, you need either a [[mm.wartime-ceo]] or a [[mm.peacetime-ceo]] to be at the helm. 
 
 ## Source
-- [[r.books.the-hard-thing-about-hard-things]]
+- [[res.books.the-hard-thing-about-hard-things]]

@@ -1,6 +1,6 @@
 ---
 id: N266MRcnwtqGYhSK
-title: Relative 
+title: Relative
 desc: ''
 updated: 1627090570727
 created: 1626495237381
@@ -8,7 +8,7 @@ created: 1626495237381
 
 
 ## Reference
-- source: [[Glucose|r.glucose#^iTMnEFyrGtCqaGRU]]
+- source: [[Glucose|res.glucose#^iTMnEFyrGtCqaGRU]]
 
 
 ## Overview

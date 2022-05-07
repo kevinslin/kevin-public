@@ -7,7 +7,7 @@ created: 1626670061619
 ---
 
 ## Metabolism
-- source: [[Levels|r.glucose.sources#levels]]
+- source: [[Levels|res.glucose.sources#levels]]
 
 - generate energy from food and env
 - affects

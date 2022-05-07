@@ -135,7 +135,7 @@ servant that carved hole in stomach to preserve master's family genealogy in a f
         - Own up to mistakes
         - Explain how this action is good for greater missio
         - eg. Gettysburg address, taking bloodiest casualties and giving a new meaning to the civil war
-        - reminds me of [[Crucial Conversations|dendron://kevin-public/r.books.cruicial_conversations#^cDtMLqaHDlxz]] #MW
+        - reminds me of [[Crucial Conversations|dendron://kevin-public/res.books.cruicial_conversations#^cDtMLqaHDlxz]] #MW
 - Openness to bad nes
     - Encourage it 
     - Focus on issues

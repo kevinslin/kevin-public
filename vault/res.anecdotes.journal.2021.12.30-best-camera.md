@@ -4,11 +4,13 @@ title: 30 Best Camera
 desc: ''
 updated: 1641105394185
 created: 1640926761827
-source: 
+tags:
+  - area.self
+source:
   firstHeard: >
-    [#237 – The Minimalist Entrepreneur with Sahil Lavingia of Gumroad — Indie Hackers](https://overcast.fm/+JmiP42CLg)
-  origin:
-tags: [area.self]
+    [#237 – The Minimalist Entrepreneur with Sahil Lavingia of Gumroad — Indie
+    Hackers](https://overcast.fm/+JmiP42CLg)
+  origin: null
 ---
 
 

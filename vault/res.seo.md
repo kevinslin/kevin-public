@@ -25,6 +25,6 @@ created: 1638491598283
 
 
 ## Lookup
-- [[Concepts|dendron://kevin-public/r.seo.concepts]]
+- [[Concepts|dendron://kevin-public/res.seo.concepts]]
 
 [^1]: [UTM Codes: How to Create UTM Tracking URLs on Google Analytics](https://blog.hubspot.com/marketing/what-are-utm-tracking-codes-ht)

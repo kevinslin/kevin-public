@@ -27,4 +27,4 @@ date: '2022-03-02'
 - measure time to value #star #area.business.growth
 
 ## Lookup
-- [[r.podcasts.the-knowledge-project]]
+- [[res.podcasts.the-knowledge-project]]

@@ -15,7 +15,7 @@ How much can I improve my blood glucose in a month
 
 ## Context
 <!-- Background information -->
-Interested to see my glucose spikes. Recently got a continuous glucose monitor from [[levels health|r.thing.levels-health]] which made this project possible
+Interested to see my glucose spikes. Recently got a continuous glucose monitor from [[levels health|res.thing.levels-health]] which made this project possible
 
 ## Success Criteria
 <!-- milestones for this project -->
@@ -28,7 +28,7 @@ Interested to see my glucose spikes. Recently got a continuous glucose monitor f
 
 ## Notes
 <!-- use this space for arbitrary notes -->
-- [[Glucose|r.glucose]]
+- [[Glucose|res.glucose]]
 
 ## Lookup
 <!-- relevant prior work or resources -->

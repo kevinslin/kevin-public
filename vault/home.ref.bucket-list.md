@@ -11,7 +11,7 @@ Things I want to do
 
 ## Places
 - visit [[places.skylight-inn-bbq]] 
-    - source: [[Cooked|dendron://kevin-public/r.books.cooked]]
+    - source: [[Cooked|dendron://kevin-public/res.books.cooked]]
 
 ## Things
     - do a [[thing.pig-roast]]

@@ -39,7 +39,7 @@ The outline is just that. A few bullet points on what I want the piece to be abo
 
 ![[dendron://kevin-public/proj.2019-06-cdk-all-the-things.outline#summary,1:#*]]
 
-**V1** comes after the outline. This is my version of the [[shitty first draft|r.thing.shitty-first-draft]]. In **V1**, I add more details to each of the bullets and the overall structure of the article starts to take form. 
+**V1** comes after the outline. This is my version of the [[shitty first draft|res.thing.shitty-first-draft]]. In **V1**, I add more details to each of the bullets and the overall structure of the article starts to take form. 
 
 **V2** is when real sentences come in. I tend to start from scratch here and write sentences and transitions from the bullet points in **V1**. I will add titles of articles that I want to reference and leave a **TODO** for the actual link. In this version, my main focus is getting coherent prose down without being interrupted. If I'm stuck on the right wording for a particular sentence, I will leave a **TODO** there as well. 
 
@@ -57,7 +57,7 @@ I like to write in dedicated chunks of time. I aim for at least 30min and if I g
 
 All in all, the piece took me 8h over 4 days. You can find all my intermediary work on the piece [[here|proj.2019-06-cdk-all-the-things]]. The final output is 3.5k words, or 500 words per hour. To put that in context, I was doing [[independent AWS consulting|blog.aws.2020-01-06-everything_i_learned_from_aws_consulting]] at the time and 8 hours equaled a few thousand dollars in missed billable hours. 
 
-This is another reason why writing was hard - it is rare that any individual session would be worth the missed earnings. That doesn't mean you shouldn't do it  - over the long term, I find that its one of the most effective levers to increase your [[luck surface area|r.thing.luck-surface-area]]. Once you publish something, it will exist forever (like plastic), earning SEO points and potential new relationships.  Not taking time to write because you have other things going on is the true opportunity cost.
+This is another reason why writing was hard - it is rare that any individual session would be worth the missed earnings. That doesn't mean you shouldn't do it  - over the long term, I find that its one of the most effective levers to increase your [[luck surface area|res.thing.luck-surface-area]]. Once you publish something, it will exist forever (like plastic), earning SEO points and potential new relationships.  Not taking time to write because you have other things going on is the true opportunity cost.
 
 ![cavemen too busy](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/no-thanks-were-too-busy1.jpeg)
 

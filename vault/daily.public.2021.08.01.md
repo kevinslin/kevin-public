@@ -15,4 +15,4 @@ Some friends of ours were interested in the glucose monitoring thing and also si
 
 On the topic, my blood sugar dropped down to below 70 mg/dL today. This was at mile 7 for a ~10m run. Went up afterwards but definitely felt it when it was low. 
 
-Started doing research on [[Carb Cycling|r.glucose.ref.running#carb-cycling]]
+Started doing research on [[Carb Cycling|res.glucose.ref.running#carb-cycling]]

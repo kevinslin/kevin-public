@@ -10,7 +10,7 @@ created: 1627793038850
 - when you eat carbs, they get broken down to simple sugars and released into bloodstream [^1]
   - pancreas will produce insulin that manages the blood sugar
 - when eating mostly fat and protein, body will burn fat as main source of energy
-  - some fat will be converted to [[r.thing.ketones]] 
+  - some fat will be converted to [[res.thing.ketones]] 
   > result is more energy, clearer thinking and better health [^1]
 
 - benefits [^1]

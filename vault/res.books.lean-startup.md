@@ -21,21 +21,21 @@ Clear, actionable and effective ways of starting a new venture.
 ## Takeaways
 - don't assume, measure
 - be explicit about value and growth assumptions and then build-measure-learn
-- progress should be measured with [[Validated Learning|dendron://kevin-public/r.books.lean-startup.concepts#validated-learning]]
+- progress should be measured with [[Validated Learning|dendron://kevin-public/res.books.lean-startup.concepts#validated-learning]]
 
 ## Key Points
-- a [[Startup|dendron://kevin-public/r.books.lean-startup.concepts#startup]] tries to build something in extreme uncertainty
-- a startup tends to be based on a [[Leap of Faith Assumption|dendron://kevin-public/r.books.lean-startup.concepts#leap-of-faith-assumption]]
-	- these assumptions have a [[Growth Hypothesis|dendron://kevin-public/r.books.lean-startup.concepts#growth-hypothesis]] and [[Value Hypothesis|dendron://kevin-public/r.books.lean-startup.concepts#value-hypothesis]]
-- progress should be measured by [[Validated Learning|dendron://kevin-public/r.books.lean-startup.concepts#validated-learning]]
-- to achieve progress, adopt [[Build-Measure-Learn Loop|dendron://kevin-public/r.books.lean-startup.concepts#build-measure-learn-loop]] loop
+- a [[Startup|dendron://kevin-public/res.books.lean-startup.concepts#startup]] tries to build something in extreme uncertainty
+- a startup tends to be based on a [[Leap of Faith Assumption|dendron://kevin-public/res.books.lean-startup.concepts#leap-of-faith-assumption]]
+	- these assumptions have a [[Growth Hypothesis|dendron://kevin-public/res.books.lean-startup.concepts#growth-hypothesis]] and [[Value Hypothesis|dendron://kevin-public/res.books.lean-startup.concepts#value-hypothesis]]
+- progress should be measured by [[Validated Learning|dendron://kevin-public/res.books.lean-startup.concepts#validated-learning]]
+- to achieve progress, adopt [[Build-Measure-Learn Loop|dendron://kevin-public/res.books.lean-startup.concepts#build-measure-learn-loop]] loop
 - kanban with **limit on works in progress at any stage**
 - everything that doesn't help with learning is wasted work
-- making progress means understanding value that product is actually providing users and figuring out the [[Engine of Growth|dendron://kevin-public/r.books.lean-startup.concepts#engine-of-growth]]
-- make [[Proportional Investment|dendron://kevin-public/r.books.lean-startup.concepts#proportional-investment]] when growing and scaling
+- making progress means understanding value that product is actually providing users and figuring out the [[Engine of Growth|dendron://kevin-public/res.books.lean-startup.concepts#engine-of-growth]]
+- make [[Proportional Investment|dendron://kevin-public/res.books.lean-startup.concepts#proportional-investment]] when growing and scaling
 
 ## Concepts
-See [[Concepts|dendron://kevin-public/r.books.lean-startup.concepts]]
+See [[Concepts|dendron://kevin-public/res.books.lean-startup.concepts]]
 
 ## Notes
 
@@ -44,14 +44,14 @@ See [[Concepts|dendron://kevin-public/r.books.lean-startup.concepts]]
 ### 1 start
 - goal of startup is to figure out **what to build** (as quickly as possible)
 - startup is like driving a car, you want to continuously steer vs planning for a rocket launch where a single error could be a disaster
-- this process is the [[Build-Measure-Learn Loop|dendron://kevin-public/r.books.lean-startup.concepts#build-measure-learn-loop]]
+- this process is the [[Build-Measure-Learn Loop|dendron://kevin-public/res.books.lean-startup.concepts#build-measure-learn-loop]]
 - true north, strategy, product
 
 ### 2 define
-- a [[Startup|dendron://kevin-public/r.books.lean-startup.concepts#startup]] is an organization that is building something in environments of extreme uncertainty
+- a [[Startup|dendron://kevin-public/res.books.lean-startup.concepts#startup]] is an organization that is building something in environments of extreme uncertainty
 
 ### 3 learn
-- [[Validated Learning|dendron://kevin-public/r.books.lean-startup.concepts#validated-learning]] is discovering truth about current and future prospectsl
+- [[Validated Learning|dendron://kevin-public/res.books.lean-startup.concepts#validated-learning]] is discovering truth about current and future prospectsl
 - **real progress** in a startup is learning what work created value for users (anything else is waste)
 - goal of learning is to find the point of intersectino btw startup vision and what customers want
 - **EVERYTHING** that a startup is doing should be in the service of validated learning
@@ -66,30 +66,30 @@ See [[Concepts|dendron://kevin-public/r.books.lean-startup.concepts]]
 		- source: [[The Lean Startup|dendron://highlights/books.the-lean-startup#^2eeoztglckjc]]
 - to experiment, hypothesize, predict, and then measure
 - two most important hypothesis
-	- [[Value Hypothesis|dendron://kevin-public/r.books.lean-startup.concepts#value-hypothesis]]
-	- [[Growth Hypothesis|dendron://kevin-public/r.books.lean-startup.concepts#growth-hypothesis]]
+	- [[Value Hypothesis|dendron://kevin-public/res.books.lean-startup.concepts#value-hypothesis]]
+	- [[Growth Hypothesis|dendron://kevin-public/res.books.lean-startup.concepts#growth-hypothesis]]
 
 ### 5 leap
-- [[Leap of Faith Assumption|dendron://kevin-public/r.books.lean-startup.concepts#leap-of-faith-assumption]] is riskiest part of plan
+- [[Leap of Faith Assumption|dendron://kevin-public/res.books.lean-startup.concepts#leap-of-faith-assumption]] is riskiest part of plan
 - once assumptions are clear, build and validate
-- to measure learning, use [[Innovation Accounting|dendron://kevin-public/r.books.lean-startup.concepts#innovation-accounting]] and [[Learning Milestones|dendron://kevin-public/r.books.lean-startup.concepts#learning-milestones]]
-- after [[Build-Measure-Learn Loop|dendron://kevin-public/r.books.lean-startup.concepts#build-measure-learn-loop]], startup needs to decide to [[Pivot or Preserve|dendron://kevin-public/r.books.lean-startup.concepts#pivot-or-preserve]]
-- [[Analogue|dendron://kevin-public/r.books.lean-startup.concepts#analogue]] and [[Antilogue|dendron://kevin-public/r.books.lean-startup.concepts#antilogue]] can be a useful framework in [[Leap of Faith Assumption|dendron://kevin-public/r.books.lean-startup.concepts#leap-of-faith-assumption]]
+- to measure learning, use [[Innovation Accounting|dendron://kevin-public/res.books.lean-startup.concepts#innovation-accounting]] and [[Learning Milestones|dendron://kevin-public/res.books.lean-startup.concepts#learning-milestones]]
+- after [[Build-Measure-Learn Loop|dendron://kevin-public/res.books.lean-startup.concepts#build-measure-learn-loop]], startup needs to decide to [[Pivot or Preserve|dendron://kevin-public/res.books.lean-startup.concepts#pivot-or-preserve]]
+- [[Analogue|dendron://kevin-public/res.books.lean-startup.concepts#analogue]] and [[Antilogue|dendron://kevin-public/res.books.lean-startup.concepts#antilogue]] can be a useful framework in [[Leap of Faith Assumption|dendron://kevin-public/res.books.lean-startup.concepts#leap-of-faith-assumption]]
 - priorities of a startup
 	- be able to systematically test assumptions
 	- connect present tests with long term vision
 - as founder
 	- figure out what parts of original plan were good and what parts need to change
 	- **need to understand** what is responsible for startup growth
-- nothing as effective as [[Genchi Gembutsu|dendron://kevin-public/r.books.lean-startup.concepts#genchi-gembutsu]] 
+- nothing as effective as [[Genchi Gembutsu|dendron://kevin-public/res.books.lean-startup.concepts#genchi-gembutsu]] 
 	- "see for yourself", talk to the customer
 
 ### 6 test
-- create a [[Minimal Viable Product|dendron://kevin-public/r.books.lean-startup.concepts#minimal-viable-product]]
+- create a [[Minimal Viable Product|dendron://kevin-public/res.books.lean-startup.concepts#minimal-viable-product]]
 - early adopters will be suspicious if product too polished, time on polish can be waste of time
 - types of MVPs
-	- [[Video MVP|dendron://kevin-public/r.books.lean-startup.concepts#video-mvp]]
-	- [[Concierge MVP|dendron://kevin-public/r.books.lean-startup.concepts#concierge-mvp]]
+	- [[Video MVP|dendron://kevin-public/res.books.lean-startup.concepts#video-mvp]]
+	- [[Concierge MVP|dendron://kevin-public/res.books.lean-startup.concepts#concierge-mvp]]
 - when creating a MVP, don't waste time trying to fully solve problem
 	- until you know your customer, you don't know what **quality** even is
 	- #mw: doing things that don't scale
@@ -102,14 +102,14 @@ See [[Concepts|dendron://kevin-public/r.books.lean-startup.concepts]]
 - most startups, when asked if they're making the product better, will say yes but have no data to back it up
 	- eg. we launched a few features and our numbers went up (but then subsequently went down again)
 	- see [[The Lean Startup|dendron://highlights/books.the-lean-startup#^bw7mg6yq0k0g]]
-- begin process of [[Innovation Accounting|dendron://kevin-public/r.books.lean-startup.concepts#innovation-accounting]]
+- begin process of [[Innovation Accounting|dendron://kevin-public/res.books.lean-startup.concepts#innovation-accounting]]
 	- 1: build mvp to gather baseline data
-	- 2: tune [[Engine of Growth|dendron://kevin-public/r.books.lean-startup.concepts#engine-of-growth]] to get closer to ideal
-	- 3: make decision to [[Pivot or Preserve|dendron://kevin-public/r.books.lean-startup.concepts#pivot-or-preserve]]
+	- 2: tune [[Engine of Growth|dendron://kevin-public/res.books.lean-startup.concepts#engine-of-growth]] to get closer to ideal
+	- 3: make decision to [[Pivot or Preserve|dendron://kevin-public/res.books.lean-startup.concepts#pivot-or-preserve]]
 - when testing, test **riskiest assumption first**
 	- #MW: deploy in IAD
-- beware of [[Vanity Metrics|dendron://kevin-public/r.books.lean-startup.concepts#vanity-metrics]]
-- focus on [[Cohort Based Metrics|dendron://kevin-public/r.books.lean-startup.concepts#cohort-based-metrics]] and [[Split Testing|dendron://kevin-public/r.books.lean-startup.concepts#split-testing]]
+- beware of [[Vanity Metrics|dendron://kevin-public/res.books.lean-startup.concepts#vanity-metrics]]
+- focus on [[Cohort Based Metrics|dendron://kevin-public/res.books.lean-startup.concepts#cohort-based-metrics]] and [[Split Testing|dendron://kevin-public/res.books.lean-startup.concepts#split-testing]]
 - kanban 
 	- backlog, in progress, built, validated
 - **story not complete until we have validated learning from it**
@@ -178,7 +178,7 @@ See [[Concepts|dendron://kevin-public/r.books.lean-startup.concepts]]
 - mistakes
 	- be tolerant of 1st mistake
 	- no 2nd mistake
-- adopt [[Proportional Investment|dendron://kevin-public/r.books.lean-startup.concepts#proportional-investment]]
+- adopt [[Proportional Investment|dendron://kevin-public/res.books.lean-startup.concepts#proportional-investment]]
 - failure is working on things that don't matter #star
 - small batch sizes, quickbooks waterfall anti-example
 

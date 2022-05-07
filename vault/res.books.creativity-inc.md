@@ -4,7 +4,6 @@ title: 'Creativity, Inc.'
 desc: ''
 updated: 1593881520091
 created: 1593881520091
-stub: false
 author:
   - Amy Wallace
   - Edwin Catmull
