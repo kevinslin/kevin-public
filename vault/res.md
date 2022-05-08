@@ -2,7 +2,7 @@
 id: q7VooOfdLhTvZhfY
 title: Resources
 desc: ''
-updated: 1651940259861
+updated: 1652021874292
 created: 1626538880559
 config:
   global:
@@ -23,3 +23,15 @@ This is a section dedicated to topics I'm currently interested in
 
 ![[dendron://kevin-public/res.books#summary,1]]
 ![[dendron://kevin-public/res.podcasts#summary,1]]
+
+## Index
+- [[Anecdotes|dendron://kevin-public/res.anecdotes]]
+- [[Books|dendron://kevin-public/res.books]]
+- [[Food|dendron://kevin-public/res.food]]
+- [[Glucose|dendron://kevin-public/res.glucose]]
+- [[Manga|dendron://kevin-public/res.manga]]
+- [[Podcasts|dendron://kevin-public/res.podcasts]]
+- [[Quotes|dendron://kevin-public/res.quotes]]
+- [[Seo|dendron://kevin-public/res.seo]]
+- [[Startup|dendron://kevin-public/res.startup]]
+- [[Thing|dendron://kevin-public/res.thing]]
