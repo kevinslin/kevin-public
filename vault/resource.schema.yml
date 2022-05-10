@@ -1,10 +1,12 @@
 version: 1
 imports: []
 schemas:
-  - id: resource
-    pattern: r
+  - id: res
     parent: root
-    children: 
-      - pattern: anecdotes
+    children:
+      - pattern: books
+        namespace: true
+      - pattern: podcasts
+        namespace: true
 
 
