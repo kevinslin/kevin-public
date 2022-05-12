@@ -9,8 +9,6 @@
         "files.autoSave": "onFocusChange",
         "pasteImage.path": "${currentFileDir}/assets/images",
         "pasteImage.prefix": "/",
-        "markdown-preview-enhanced.enableWikiLinkSyntax": true,
-        "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
         "editor.snippetSuggestions": "inline",
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggest.showSnippets": true,
@@ -20,7 +18,6 @@
         "recommendations": [
             "dendron.dendron-paste-image",
             "dendron.dendron-markdown-shortcuts",
-            "dendron.dendron-markdown-preview-enhanced"
         ],
         "unwantedRecommendations": [
             "dendron.dendron-markdown-links",
