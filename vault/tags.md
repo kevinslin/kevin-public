@@ -2,7 +2,7 @@
 id: IXTVwLgliE37AbdN
 title: Tags
 desc: ''
-updated: 1651878713151
+updated: 1653143900757
 created: 1627135835254
 stub: false
 ---
@@ -24,3 +24,4 @@ These are tags used in this project
 - #star
 - #system
 - #thoughts
+- #solved
