@@ -2,8 +2,9 @@
 id: 6a6zlabtuxiralfjc44ybzm
 title: Deploy Private Repo on Amplitude
 desc: ''
-updated: 1653151240673
+updated: 1653152028885
 created: 1653147732793
+template: dendron://id-dzoypoljbtvlj0fhdxsyzi4
 ---
 
 ## Summary
@@ -86,8 +87,6 @@ and the repository exists.
 In my case, this was because of `StrictHostKeyChecking`
 
 ## Alternatives 
-
-### Tried
 
 ### Not Tried
 - [Using a github token instead of ssh](https://www.repost.aws/questions/QUUJ9KbqisTlaQEdIMATTBrw/amplify-build-error-could-not-read-from-remote-repository)
