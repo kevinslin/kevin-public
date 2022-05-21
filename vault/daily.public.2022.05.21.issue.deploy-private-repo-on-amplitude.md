@@ -2,7 +2,7 @@
 id: 6a6zlabtuxiralfjc44ybzm
 title: Deploy Private Repo on Amplitude
 desc: ''
-updated: 1653150489725
+updated: 1653151240673
 created: 1653147732793
 ---
 
@@ -98,16 +98,16 @@ In my case, this was because of `StrictHostKeyChecking`
 ### Internet
 - [Fetching Private Submodules in AWS Amplify Build](https://stackoverflow.com/questions/56219052/fetching-private-submodules-in-aws-amplify-build)
 - [Add Amplify deploy key to multiple github repositories](https://repost.aws/questions/QUMK_kIt1kSJKazyhV8u1vSA)
-- [Gitlab issue](https://gitlab.com/gitlab-examples/ssh-private-key/-/issues/1) ^kqz0w4afj5zo
+- [Gitlab issue](https://gitlab.com/gitlab-examples/ssh-private-key/-/issues/1) 
 
-[^gitlab]: [[#^kqz0w4afj5zo]]
+[^gitlab]: [Gitlab issue](https://gitlab.com/gitlab-examples/ssh-private-key/-/issues/1) 
 
 ### Dendron
 - Internal Investigation
     - [[Private Gh Repo|dendron://kevin-private/daily.journal.2022.05.20.private-gh-repo]]
 - Service Providers
     - [[Deploy Keys|dendron://notes/s.github.ref.deploy-keys]]
-    - [[Env|dendron://notes/aws.s.amplify-hosting.ref.env]]
+    - [[Amplify Environment Variables|dendron://notes/aws.s.amplify-hosting.ref.env]]
 - SSH
     - [[Ssh Config|dendron://notes/pkg.ssh.config.ssh-config]]
     - [[Ssh Agent|dendron://notes/cli.ssh-agent]]
