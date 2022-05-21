@@ -58,7 +58,7 @@ goodreads: null
 
 ### 6 - the downward spirla
 - the first mistake is not the one that sinks you, its what follows 
-- [[Presence as Parallel Lines|dendron://kevin-public/me.mm.presence-as-parallel-lines]]
+- ![[Presence as Parallel Lines|dendron://kevin-public/me.mm.presence-as-parallel-lines]]
 
 ## People
 
