@@ -2,7 +2,7 @@
 id: 75ad58b4-6557-486a-8878-0d5ab2dca455
 title: Travel Checkllist
 desc: ''
-updated: 1652402537761
+updated: 1653161332118
 created: 1600539904402
 ---
 
@@ -32,6 +32,7 @@ created: 1600539904402
 - [ ] Lock
 - [ ] First aid kit
 - [ ] Garbage bag
+- [ ] Flip Flops
 - --- clothing
 - [ ] Jacket
 - [ ] Shirts
@@ -74,3 +75,10 @@ created: 1600539904402
 ## Tips
 * Don't book flight on weekend
 * Don't book flights too early or too late
+
+## Reference
+
+### Via Light Rail
+- travel times (based on [[05 Arizona|dendron://kevin-private/proj.2022.05-arizona]])
+- 25min, house to station
+- 30min, station to airport
