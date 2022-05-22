@@ -2,8 +2,9 @@
 id: c7341f2c-8a0d-40ec-8492-a1be50aaf43a
 title: Man's Search For Meaning
 desc: ''
-updated: 1653239240945
+updated: 1653239905860
 created: 1593881520111
+published: true
 customLegacy:
   author: Victor E Frank
   genre: nonfiction
