@@ -2,7 +2,7 @@
 id: c7341f2c-8a0d-40ec-8492-a1be50aaf43a
 title: Man's Search For Meaning
 desc: ''
-updated: 1653238798037
+updated: 1653239240945
 created: 1593881520111
 customLegacy:
   author: Victor E Frank
