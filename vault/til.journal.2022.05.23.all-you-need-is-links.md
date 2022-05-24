@@ -3,13 +3,13 @@ id: kugez1yd9e5frboplescdvd
 title: |
   All you need is links
 desc: ''
-updated: 1653365943572
+updated: 1653408577865
 created: 1653365567633
 tags: []
 traitIds:
   - til
 url: 'https://subconscious.substack.com/p/all-you-need-is-links?s=r'
-date: 2022-05-23
+date: 2022-05-23T00:00:00.000Z
 ---
 
 ## Summary
