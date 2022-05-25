@@ -1,0 +1,19 @@
+version: 1
+imports: []
+schemas:
+  - id: weekly
+    title: weekly
+    parent: root
+    children:
+      - pattern: personal
+        children:
+          - pattern: '*'
+            children:
+              - pattern: '*'
+                children:
+                  - pattern: '*'
+                    title: "day"
+                    template: "weekly.temp"
+                    children:
+                      - pattern: rel-tune
+                        template: templates.rel-tune
