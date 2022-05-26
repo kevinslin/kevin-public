@@ -18,4 +18,4 @@ I like to have a fairly regular routine with consistent time to wake up every mo
 - afternoon: more work, mix in nap and meditation to get through the afternoon
 - evening: wind down, prepare for next day
 
-You can find a detailed breakdown [[here|dendron://kevin-public/home.setup.routine]]
+You can find a detailed breakdown [[here|dendron://kevin-public/me.setup.routine]]
