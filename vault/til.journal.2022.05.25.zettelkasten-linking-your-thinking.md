@@ -3,9 +3,9 @@ id: m4yx8udsl2sl4rp9uuuqi5b
 title: |
   Zettelkasten, Linking Your Thinking, and Nick Milo''s Search for Ground
 desc: ''
-updated: 1653509464666
+updated: 1653509624086
 created: 1653509300152
-tags: [#area.km]
+tags: [area.km]
 traitIds:
   - til
 url: 'https://writing.bobdoto.computer/zettelkasten-linking-your-thinking-and-nick-milos-search-for-ground/'
