@@ -2,22 +2,27 @@
 id: qm4lvh7xusf8tufke30gr2q
 title: Routine
 desc: My routine
-updated: 1653543859438
+updated: 1653659101976
 created: 1653542799422
 ---
 
 ## Summary
 
-I like to have a fairly regular routine with consistent time to wake up every morning. The typical day is divided into four phases: 
+I'm a fan of routine and not thinking about thinkgs I don't have to. This is why my days are fairly regular, especially in the morning. 
 
+## Overview
 - morning: start of with yoga and focus on most important work before noon
 - noon: take a breather with running, have lunch and read up on hacker news
 - afternoon: more work, mix in nap and meditation to get through the afternoon
 - evening: wind down, prepare for next day
 
-## Common
+### Time spent by category
+- 8h-9h work
+- 6h routine things (eating, running, meditation, walking the dog)
+- 7h-8h sleep 
+- 1h-2h discretionary time
 
-The following is my usual routine from Monday to Friday. 
+## Weekday Schedule
 
 ### Morning
 - 6:00 - 7:00: [[ent.yoga]], breakfast
