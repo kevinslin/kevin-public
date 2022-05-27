@@ -2,7 +2,7 @@
 id: LMpLWbLBIfRzkSjJlF7U1
 title: Mental Models
 desc: ''
-updated: 1651880152237
+updated: 1653609265441
 created: 1640923677429
 has_collection: true
 sort_by: date
@@ -17,3 +17,4 @@ config:
 > Source: [Farnam Street](https://fs.blog/mental-models/#what_are_mental_models)
 
 The following represent a collection of mental models that I have discovered or invented during the course of my living. 
+
