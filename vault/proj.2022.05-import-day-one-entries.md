@@ -2,7 +2,7 @@
 id: 5hucpqsfmfml3zs0mwnun0s
 title: 05 Import Day One Entries
 desc: ''
-updated: 1653787226174
+updated: 1653787406246
 created: 1653784697919
 ---
 
@@ -20,6 +20,7 @@ Back in my college days I used day one to do journallinng. I have +1K entries an
 ## Outputs
 - 1162 entries imported
 - 162MB images imported
+- [forked dayone-to-md for dendron](https://github.com/kevinslin/dayone-to-md)
 
 ## Tasks
 - [x] find my old day one exports
