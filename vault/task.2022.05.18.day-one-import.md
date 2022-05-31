@@ -4,12 +4,12 @@ title: Day One Import
 desc: ''
 updated: 1653786972613
 created: 1652904234841
-status: 'x'
+status: x
 ---
 
 
 ## Tasks
-- [[Lookup|dendron://kevin-private/task.2022.05.18.day-one-import.task.lookup]]
+- [[Lookup|dendron://kevin-public/task.2022.05.18.day-one-import.task.lookup]]
 - [x] basic trial run
 - [x] format daily journal
 - [x] import images

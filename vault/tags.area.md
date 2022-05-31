@@ -6,15 +6,21 @@ updated: 1653746068217
 created: 1640928474962
 ---
 
-- #area.dev
-- #area.dendron
-- #area.growth
-- #area.km
-- #area.psych
+## Self
 - #area.self
 - #area.prod
+- #area.decision-making
+
+## Work
+- #area.dev
+- #area.dendron
 - #area.business
+- #area.growth
+
+## Interests
+- #area.km
 - #area.economy
+- #area.psych
 - #area.tech
 - #area.people
 - #area.systems

@@ -4,6 +4,7 @@ title: Temp
 desc: ''
 updated: 1651880162098
 created: 1651878048997
+tags: []
 source: ''
 published: false
 ---
@@ -14,4 +15,5 @@ published: false
 > Source: {{fm.source}}
 
 
+### Thoughts
 <!-- Comments -->

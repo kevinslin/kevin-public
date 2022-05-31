@@ -12,7 +12,8 @@ Things I want to do
 ## Places
 - visit [[places.skylight-inn-bbq]] 
     - source: [[Cooked|dendron://kevin-public/res.books.cooked]]
+- [hoffman process](https://www.hoffmaninstitute.org)
 
 ## Things
-    - do a [[thing.pig-roast]]
-        - source: [[Cooked|dendron://kevin-public/books.cooked]]
+- do a [[thing.pig-roast]]
+    - source: [[Cooked|dendron://kevin-public/books.cooked]]

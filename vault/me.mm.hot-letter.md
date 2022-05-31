@@ -4,6 +4,7 @@ title: Hot Letter
 desc: ''
 updated: 1651956616830
 created: 1651879765708
+tags: [area.self]
 ---
 
 <!-- Quote -->

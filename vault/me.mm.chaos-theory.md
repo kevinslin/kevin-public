@@ -10,4 +10,3 @@ created: 1651978670145
 > 
 > [Wikipedia](https://en.wikipedia.org/wiki/Chaos_theory)
 
-
