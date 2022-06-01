@@ -5,7 +5,7 @@ desc: ''
 updated: 1653016925299
 created: 1652849901141
 image: null
-author: null
+author: Josh Waitzkin
 genre: null
 status: null
 source: null
@@ -15,12 +15,33 @@ goodreads: null
 ---
 
 ## Summary
+[[people.josh-waitzkin]] reflects on how he became a world master in both chess and martial arts and how underlying both pursuits was a single art of learning that is unversal in all pursuits.
 
 ## Review
+One of the most impactful books I've read in the past decade. Recommend to anyone looking to excel at their field.
+
+## Takeaways
+- performance = ability to focus **and** ability to relax (interval training helps)
+- [[dendron://kevin-public/res.books.the-art-of-learning.concepts.making-smaller-circles]] - master the fundamentals and keep refining them 
+- [[Presence as Parallel Lines|dendron://kevin-public/me.mm.presence-as-parallel-lines]]
+- **good** is a feeling - once you know it in one field, you can chase for it in other pursuits
+
 
 ## Key Points
-
-## Concepts
+- on growth
+    - [[Hermit Crab|dendron://kevin-public/me.mm.hermit-crab]] - growth = being vulnerable
+    - invest in loss
+    - have a rival
+- on resillience
+    - find the soft zone
+    - build [[Sandals|dendron://kevin-public/me.mm.sandals]] (vs forcing the world into compliance)
+    - [[Presence as Parallel Lines|dendron://kevin-public/me.mm.presence-as-parallel-lines]] - one line is the presence and the awareness of the presence, when the two go out of sync, trouble happens
+- the learning process
+    - start with fundamentals
+    - [[dendron://kevin-public/res.books.the-art-of-learning.concepts.making-smaller-circles]] - once you have mastered the basics, make it smaller but keep the same feeling
+    - expand from basics, build triggers to keep you present, create sandals to overcome adversity
+    - learn to alternate between focus and relaxation (do interval practice)
+    - known what **good** feels like and hone into that feeling - use it as a guide for learning anything
 
 ## Notes
 
@@ -131,8 +152,3 @@ goodreads: null
 > **Once you know what good feels like, you can zero in on it, search it out regardless of the pursuit**.
 > 
 > [[people.josh-waitzkin]] - [Location 2704](https://readwise.io/to_kindle?action=open&asin=B000QCQ970&location=2704))
-
-## People
-
-## Quotes
-
