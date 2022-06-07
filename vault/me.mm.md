@@ -37,6 +37,7 @@ The following represent a collection of mental models that I have discovered or 
 ## interests
 ## #area.systems
 - [[Chaos Theory|dendron://kevin-public/me.mm.chaos-theory]]
+- [[Color|dendron://kevin-public/me.mm.color]]
 
 ## #area.people
 - [[(Psychological) Denial of Service|dendron://kevin-public/me.mm.ddos]]
