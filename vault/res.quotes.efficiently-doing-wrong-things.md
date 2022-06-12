@@ -2,12 +2,13 @@
 id: dhw2ek2u3py21u93nbfnoi6
 title: Efficiently Doing Wrong Things
 desc: ''
-updated: 1654964413067
+updated: 1654992778998
 created: 1654964356548
 tags: [area.business]
 ---
 
 
-> There Is Surely Nothing Quite So Useless as Doing with Great Efficiency What Should Not Be Done At All
+> There is surely nothing quite so useless as doing with great efficiency what should not be done at all
 > 
-> [[people.figure.peter-drucker]]
+> Peter Drucker
+<!-- > [[people.figure.peter-drucker]] -->
