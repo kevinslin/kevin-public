@@ -1,8 +1,8 @@
 ---
 id: o9B8C0H4VG1knTn7vtSgT
-title: 30 Best Camera
+title: Best Camera
 desc: ''
-updated: 1641105394185
+updated: 1655043732794
 created: 1640926761827
 tags:
   - area.self
