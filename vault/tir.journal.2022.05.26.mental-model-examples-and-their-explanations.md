@@ -8,7 +8,7 @@ tags: []
 traitIds:
   - til
 url: 'https://fronterablog.com/mental-model-examples-and-their-explanations/'
-date: 2022-05-26
+date: 2022-05-26T00:00:00.000Z
 ---
 
 ## Summary

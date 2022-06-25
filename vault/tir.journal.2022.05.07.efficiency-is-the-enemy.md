@@ -4,11 +4,12 @@ title: Efficiency is the Enemy
 desc: ''
 updated: 1651978105859
 created: 1651977865475
-tags: [area.prod]
+tags:
+  - area.prod
 traitIds:
   - til
 url: 'http://fs.blog/slack/'
-date: 2022-05-07
+date: 2022-05-07T00:00:00.000Z
 ---
 
 ## Summary

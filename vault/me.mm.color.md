@@ -10,4 +10,4 @@ The idea that there is more to the nature of things that the bits that make them
 While it can't be measured, it is nevertheless real and has real world ramifications
 
 ## Thoughts
-![[dendron://kevin-public/til.journal.2022.05.19.what-colour-are-your-bits]]
+![[dendron://kevin-public/tir.journal.2022.05.19.what-colour-are-your-bits]]

@@ -4,11 +4,12 @@ title: What Happened to Tagging
 desc: ''
 updated: 1654574484747
 created: 1654572200615
-tags: [areas.km]
+tags:
+  - areas.km
 traitIds:
   - til
 url: 'https://daily.jstor.org/what-happened-to-tagging/'
-date: 2022-06-06
+date: 2022-06-06T00:00:00.000Z
 ---
 
 ## Summary

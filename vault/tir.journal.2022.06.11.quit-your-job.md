@@ -4,11 +4,13 @@ title: Quit Your Job
 desc: ''
 updated: 1655046489661
 created: 1654964297639
-tags: [area.self, area.growth]
+tags:
+  - area.self
+  - area.growth
 traitIds:
   - til
 url: 'https://palladiummag.com/2022/01/06/quit-your-job/'
-date: 2022-06-11
+date: 2022-06-11T00:00:00.000Z
 ---
 
 ## Summary

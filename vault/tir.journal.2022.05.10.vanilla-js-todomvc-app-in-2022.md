@@ -4,11 +4,12 @@ title: Vanilla JS TodoMVC App in 2022
 desc: ''
 updated: 1652237172339
 created: 1652237009905
-tags: [area.dev]
+tags:
+  - area.dev
 traitIds:
   - til
 url: 'https://github.com/1Marc/todomvc-vanillajs-2022'
-date: 2022-05-10
+date: 2022-05-10T00:00:00.000Z
 ---
 
 ## Summary

@@ -4,11 +4,13 @@ title: Star Citizen is doing 'bedsheet deformation' physics now
 desc: ''
 updated: 1652237532914
 created: 1652237362262
-tags: [area.dev]
+tags:
+  - area.dev
 traitIds:
   - til
-url: 'https://www.pcgamer.com/star-citizen-is-doing-bedsheet-deformation-physics-now-because-of-course-it-is/'
-date: 2022-05-10
+url: >-
+  https://www.pcgamer.com/star-citizen-is-doing-bedsheet-deformation-physics-now-because-of-course-it-is/
+date: 2022-05-10T00:00:00.000Z
 ---
 
 ## Summary

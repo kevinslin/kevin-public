@@ -4,11 +4,13 @@ title: American Billionaires Buy Second Passports As 'Plan B'
 desc: ''
 updated: 1652157097954
 created: 1652157035007
-tags: [area.economy]
+tags:
+  - area.economy
 traitIds:
   - til
-url: 'https://www.businessinsider.com/wealthy-americans-buy-second-passports-amid-covid-politics-climate-change-2022-5'
-date: 2022-05-09
+url: >-
+  https://www.businessinsider.com/wealthy-americans-buy-second-passports-amid-covid-politics-climate-change-2022-5
+date: 2022-05-09T00:00:00.000Z
 ---
 
 ## Summary

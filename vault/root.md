@@ -20,7 +20,7 @@ This is the root of your dendron vault. If you decide to publish your entire vau
 - [[Projects|dendron://kevin-public/proj]]
 - [[Scratch|dendron://kevin-public/scratch]]
 - [[Seeds|dendron://kevin-public/ref.seeds]]
-- [[Today I Learned|dendron://kevin-public/til]]# Hiearchies
+- [[Today I Learned|dendron://kevin-public/tir]]# Hiearchies
 
 - Journals
     - [[Mental Models|dendron://kevin-public/mm]]

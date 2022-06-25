@@ -4,11 +4,12 @@ title: When Buying the Dip Doesn’t Work
 desc: ''
 updated: 1652237325695
 created: 1652237271291
-tags: [area.economy]
+tags:
+  - area.economy
 traitIds:
   - til
 url: 'https://endlessmetrics.substack.com/p/when-buying-the-dip-doesnt-work-an'
-date: 2022-05-10
+date: 2022-05-10T00:00:00.000Z
 ---
 
 ## Summary

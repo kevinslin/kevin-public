@@ -4,11 +4,13 @@ title: The science behind ultrasonic motion sensing for Echo
 desc: ''
 updated: 1652156975424
 created: 1652156750287
-tags: [area.tech]
+tags:
+  - area.tech
 traitIds:
   - til
-url: 'https://www.amazon.science/blog/the-science-behind-ultrasonic-motion-sensing-for-echo'
-date: 2022-05-09
+url: >-
+  https://www.amazon.science/blog/the-science-behind-ultrasonic-motion-sensing-for-echo
+date: 2022-05-09T00:00:00.000Z
 ---
 
 ## Summary

@@ -1,14 +1,17 @@
 ---
 id: bwdv0wywdaim1ksapvkfyad
 title: 'Local-First Software: You Own Your Data, in Spite of the Cloud'
-desc: 'Introduces the concept of "local-first software", applications that are local first but still have the same capabilties as cloud-based apps (chiefly real time collaboration)'
+desc: >-
+  Introduces the concept of "local-first software", applications that are local
+  first but still have the same capabilties as cloud-based apps (chiefly real
+  time collaboration)
 updated: 1655698043219
 created: 1655689590682
 tags: []
 traitIds:
   - til
 url: 'https://www.inkandswitch.com/local-first/'
-date: 2022-06-19
+date: 2022-06-19T00:00:00.000Z
 published: false
 ---
 

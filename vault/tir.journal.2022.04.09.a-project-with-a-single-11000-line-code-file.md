@@ -4,7 +4,8 @@ title: 'A project with a single 11,000-line code file'
 desc: ''
 updated: 1649565629829
 created: 1649564842285
-tags: [area.dev]
+tags:
+  - area.dev
 traitIds:
   - til
 url: 'https://news.ycombinator.com/item?id=30898803'

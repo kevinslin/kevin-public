@@ -1,17 +1,17 @@
 ---
 id: r4RrLx4xTM2Sc0yOouLkb
-title: Today I Learned
+title: Today I Read
 desc: ''
-updated: 1650134895319
+updated: 1656169793288
 created: 1634863204360
+config:
+  global:
+    enableBackLinks: false
 skipLevels: 1
 has_collection: true
 sort_by: date
 sort_order: reverse
 nav_order: 4
-config:
-  global:
-    enableBackLinks: false
 ---
 
-Things I'm reading or learning about
+Things I'm reading about

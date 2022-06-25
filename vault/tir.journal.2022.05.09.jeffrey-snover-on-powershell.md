@@ -1,15 +1,18 @@
 ---
 id: yewo087ogtyx7d5k4gtqoqk
-title: |
-  Jeffrey Snover on Powershell: "When I was doing the prototype for what became PowerShell, a friend cautioned me saying that was the sort of thing that got people fired. I didn’t get fired. I got demoted." / Twitter
+title: >
+  Jeffrey Snover on Powershell: "When I was doing the prototype for what became
+  PowerShell, a friend cautioned me saying that was the sort of thing that got
+  people fired. I didn’t get fired. I got demoted." / Twitter
 desc: ''
 updated: 1652157299523
 created: 1652157141144
-tags: [area.people]
+tags:
+  - area.people
 traitIds:
   - til
 url: 'https://mobile.twitter.com/jsnover/status/1523010444570419200'
-date: 2022-05-09
+date: 2022-05-09T00:00:00.000Z
 ---
 
 ## Summary

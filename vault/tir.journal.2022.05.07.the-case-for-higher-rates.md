@@ -4,11 +4,12 @@ title: The Case for Higher Rates
 desc: ''
 updated: 1651978738975
 created: 1651978222948
-tags: [area.economy]
+tags:
+  - area.economy
 traitIds:
   - til
 url: 'https://thelastbearstanding.substack.com/p/the-case-for-higher-rates'
-date: 2022-05-07
+date: 2022-05-07T00:00:00.000Z
 ---
 
 ## Summary

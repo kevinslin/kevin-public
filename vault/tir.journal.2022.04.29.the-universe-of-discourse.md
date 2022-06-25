@@ -8,7 +8,7 @@ tags: []
 traitIds:
   - til
 url: 'https://blog.plover.com/math/se/notation.html'
-date: 2022-04-29
+date: 2022-04-29T00:00:00.000Z
 ---
 
 ## Summary

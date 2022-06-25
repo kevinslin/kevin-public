@@ -5,11 +5,13 @@ title: |
 desc: ''
 updated: 1653509624086
 created: 1653509300152
-tags: [area.km]
+tags:
+  - area.km
 traitIds:
   - til
-url: 'https://writing.bobdoto.computer/zettelkasten-linking-your-thinking-and-nick-milos-search-for-ground/'
-date: 2022-05-25
+url: >-
+  https://writing.bobdoto.computer/zettelkasten-linking-your-thinking-and-nick-milos-search-for-ground/
+date: 2022-05-25T00:00:00.000Z
 ---
 
 ## Summary

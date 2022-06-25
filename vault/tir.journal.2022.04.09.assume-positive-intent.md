@@ -8,7 +8,7 @@ tags: []
 traitIds:
   - til
 url: 'https://news.ycombinator.com/item?id=30907527'
-date: 2022-04-09
+date: 2022-04-09T00:00:00.000Z
 ---
 
 ## Summary

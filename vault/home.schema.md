@@ -19,7 +19,7 @@ Things that I'm maintaining over time
 
 ![[blog]]
 ![[daily]]
-![[til]]
+![[tir]]
 
 ## Resources
 

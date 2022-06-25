@@ -8,7 +8,7 @@ tags: []
 traitIds:
   - til
 url: 'https://fgiesen.wordpress.com/2016/01/30/thoughts-on-the-witness/'
-date: 2022-04-09
+date: 2022-04-09T00:00:00.000Z
 ---
 
 ## Summary

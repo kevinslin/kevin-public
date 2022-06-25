@@ -1,6 +1,6 @@
 ---
 id: weviragbg7w7qg6bjt1b1os
-title: "439: Tools of Titans — Derek Sivers, BJ Miller, and Christopher Sommer"
+title: '439: Tools of Titans — Derek Sivers, BJ Miller, and Christopher Sommer'
 desc: ''
 updated: 1653797196416
 created: 1653796781297
@@ -8,7 +8,7 @@ tags: []
 traitIds:
   - til
 url: 'https://tim.blog/2020/06/10/tools-of-titans-audiobook/'
-date: 2020-06-21
+date: 2020-06-21T00:00:00.000Z
 ---
 
 ## Summary
