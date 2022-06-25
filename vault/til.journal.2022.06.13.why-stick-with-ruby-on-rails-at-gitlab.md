@@ -2,7 +2,7 @@
 id: abirzhugtfwiflrlx79tcs3
 title: Why Stick with Ruby on Rails at GitLab
 desc: ''
-updated: 1655178671878
+updated: 1655179000871
 created: 1655177729543
 tags:
   - area.km
@@ -13,11 +13,13 @@ date: 2022-06-13T00:00:00.000Z
 ---
 
 ## Summary
-Gitlab CEO talking about why they chose to stick with ruby on rails and a monolith-based architecture.
+- source: {{fm.url}}
+
+Sid Sijbrandij, Gitlab CEO, talks about their rationale for choosing ruby on rails and a monolith based architecture.
 
 ## Thoughts
 
-Sid talks about coming from a background of writing web applications using java and PHP. Java frameworks enforced structured web apps but had too much overhead whereas PHP frameworks were very approachable but quickly lost coherence as the application grew. 
+The motivation came from a background of writing web applications using java and PHP. Java frameworks enforced structured web apps but had too much overhead whereas PHP frameworks were very approachable but quickly lost coherence as the application grew. 
 
 When ruby on rails came along - this was the status quo. You had one or the other but never both. Ruby on rails, according to Sid, represented having the best of both worlds - being both structured and easy to approach. 
 
