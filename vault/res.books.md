@@ -2,7 +2,7 @@
 id: ad075218-7dae-479b-8415-d54c10ef103e
 title: Books
 desc: ''
-updated: 1651258351567
+updated: 1656194463921
 created: 1597551650141
 published: true
 nav_exclude_children: true
@@ -18,3 +18,7 @@ This is a collection of books I've read and notes I've taken on them. It was ori
 
 You have been warned 😇
 
+## My Backlog
+Books I want to read
+
+- [The Death of Ivan Ilych](https://en.wikipedia.org/wiki/The_Death_of_Ivan_Ilyich) (source: Bad wizards podcast)

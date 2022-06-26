@@ -2,8 +2,9 @@
 id: LMpLWbLBIfRzkSjJlF7U1
 title: Mental Models
 desc: ''
-updated: 1653609265441
+updated: 1656189985866
 created: 1640923677429
+nav_exclude_children: true
 config:
   global:
     enableBackLinks: false

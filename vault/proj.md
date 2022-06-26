@@ -2,9 +2,10 @@
 id: 4TnpXmjT9fhWYPnQ
 title: Projects
 desc: ''
-updated: 1646014433180
+updated: 1656190890300
 created: 1626539999810
 nav_order: 1.0
+nav_exclude_children: true
 config:
   global:
     enableChildLinks: false

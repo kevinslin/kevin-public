@@ -2,12 +2,13 @@
 id: q7VooOfdLhTvZhfY
 title: Resources
 desc: ''
-updated: 1652021874292
+updated: 1656193351134
 created: 1626538880559
 config:
   global:
     enableChildLinks: false
 nav_order: 5
+nav_exclude_children: true
 ---
 
 
