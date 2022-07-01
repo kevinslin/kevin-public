@@ -30,7 +30,7 @@ This is a section dedicated to topics I'm currently interested in
 - [[Books|dendron://kevin-public/res.books]]
 - [[Food|dendron://kevin-public/res.food]]
 - [[Glucose|dendron://kevin-public/res.glucose]]
-- [[Manga|dendron://kevin-public/res.manga]]
+- [[Manga|dendron://kevin-private/res.manga]]
 - [[Podcasts|dendron://kevin-public/res.podcasts]]
 - [[Quotes|dendron://kevin-public/res.quotes]]
 - [[Seo|dendron://kevin-public/res.seo]]
