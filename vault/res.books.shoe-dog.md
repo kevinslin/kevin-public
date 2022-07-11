@@ -4,7 +4,7 @@ title: >
     Shoe Dog: A Memoir by the Creator of Nike
 desc: > 
     Nike founder and CEO Phil Knight shares the inside story of the company’s early days as an intrepid start-up and its evolution into one of the world’s most iconic, game-changing, and profitable brands
-updated: 1657498864360
+updated: 1657512933405
 created: 1657497840508
 image: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457284880l/27220736.jpg"
 author: Phil Knight
@@ -36,6 +36,10 @@ Inspiring story told candidly.
 - gather a group of people that believe in the mission and have the determinatino to see it through
 - always keep pushing forward
 - celebrity endorsements?
+
+#MW
+Physical goods business. High revenue, low profit, always a struggle to make payroll.
+Software business. No revenue (usually at start) but high profit once you start to charge (if you are solving a problem people care about). 
 
 ## Quotes
 
