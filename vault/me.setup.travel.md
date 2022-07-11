@@ -2,7 +2,7 @@
 id: 75ad58b4-6557-486a-8878-0d5ab2dca455
 title: Travel Checkllist
 desc: ''
-updated: 1653161332118
+updated: 1657243258389
 created: 1600539904402
 ---
 
@@ -11,34 +11,41 @@ created: 1600539904402
 - 1: good to have
 - 2: nice to have
 
+- #dayof: pack in the day of
+
 ## Core
 - --- lvl0
-- [ ] Tootl & Toothbrush
-- [ ] Phone
+- [ ] Tootl & Toothbrush #dayof
+- [ ] Phone #dayof
 - [ ] Currency 
 - [ ] Sticky Notes
-- [ ] Airpod
-- [ ] Wedding ring
-- --- lvl1
-- [ ] Notebook
-- [ ] Daypack
-- [ ] Sunscreen
-- [ ] Kindle + charger
-- [ ] Mobile Power Brick
-- [ ] Waterbottle
-- --- lvl2
-- [ ] Towel
-- [ ] Printed Travel Bookings
-- [ ] Lock
-- [ ] First aid kit
+- [ ] Airpod #dayof
+- [ ] Wedding ring #dayof
 - [ ] Garbage bag
-- [ ] Flip Flops
-- --- clothing
+
+- clothing
 - [ ] Jacket
 - [ ] Shirts
 - [ ] Pants
 - [ ] Socks
 - [ ] Underpants
+
+- --- lvl1
+- [ ] Notebook
+- [ ] Daypack
+- [ ] Sunscreen
+- [ ] Kindle + charger #dayof
+- [ ] Mobile Power Brick
+- [ ] Waterbottle (with water)
+
+- --- lvl2
+- [ ] Towel
+- [ ] Printed Travel Bookings
+- [ ] Lock
+- [ ] First aid kit
+- [ ] Flip Flops
+- [ ] whisky
+
 
 ## Optional
 - [ ] Laptop
@@ -46,7 +53,6 @@ created: 1600539904402
 - [ ] Stuffsack (clothing)
 - [ ] slippers
 - [ ] Tripod
-- [ ] Nail clippers
 
 ## Todo
 - [ ] shut down computer

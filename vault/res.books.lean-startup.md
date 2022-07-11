@@ -2,10 +2,10 @@
 id: 1da94030-c045-4002-8de0-67d35e6eee74
 title: The Lean Startup
 desc: ''
-updated: 1650243243202
+updated: 1657497966753
 created: 1593881520171
 author: Eric Ries
-genre: 'business, non-fiction'
+genre: [business, non-fiction]
 finished: '2018-11-18T00:00:00.000Z'
 goodreads: 'https://www.goodreads.com/book/show/10127019-the-lean-startup'
 ---
