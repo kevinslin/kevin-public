@@ -1,9 +1,10 @@
 ---
 id: g0n2fdfsrgazg9wdeynh4el
-title: Fitbit
+title: Fitbit Issue
 desc: ''
-updated: 1653143907309
+updated: 1657599325135
 created: 1653141077935
+tags: [kind.issue]
 ---
 
 ### Context

@@ -2,7 +2,7 @@
 id: IXTVwLgliE37AbdN
 title: Tags
 desc: ''
-updated: 1657512436020
+updated: 1657599300559
 created: 1627135835254
 nav_exclude_children: true
 ---
@@ -25,6 +25,7 @@ These are tags used in this project
 - #system
 - #thoughts
 - #solved
+- #kind.issue
 
 ## New
 - #trip

@@ -2,9 +2,10 @@
 id: 6a6zlabtuxiralfjc44ybzm
 title: Deploy Private Repo on Amplitude
 desc: ''
-updated: 1653152028885
+updated: 1657599280407
 created: 1653147732793
-template: dendron://id-dzoypoljbtvlj0fhdxsyzi4
+template: 'dendron://id-dzoypoljbtvlj0fhdxsyzi4'
+tags: [kind.issue]
 ---
 
 ## Summary
