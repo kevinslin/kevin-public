@@ -2,14 +2,20 @@
 id: drsxph834ccxcknuecpkmja
 title: Notation
 desc: ''
-updated: 1652144571632
+updated: 1659407207670
 created: 1652143331077
 ---
 
 ## Prototype
 
 ```
-[{num = 1}x] [{modifier}] {target}.{action} [(arguments)]
+[{num = 1}x] [{modifier}] {start}.{action} [(arguments)]
+```
+
+## Examples
+
+```
+hright
 ```
 
 ## Syntax
@@ -20,7 +26,9 @@ created: 1652143331077
     - r: right
     - b: both hands
 
-### Target
+
+### Start
+- values: [[BodyPart|dendron://kevin-public/parea.salsa.schema#bodypart]]
 - syntax:
     - e: elbow
     - h: hand
@@ -30,6 +38,13 @@ created: 1652143331077
 What is doing the action
 
 ### Actions
+
+What is being done
+- [[Loop|dendron://kevin-public/parea.salsa.notation.action.loop]]
+- [[Pull|dendron://kevin-public/parea.salsa.notation.action.pull]]
+- [[Raise|dendron://kevin-public/parea.salsa.notation.action.raise]]
+- [[Hold|dendron://kevin-public/parea.salsa.notation.action.hold]]
+
 
 ### cross over
 - alias: xo
@@ -59,12 +74,21 @@ Regular open hold position
     - bump
 
 ### Arguments
+
+#### [t]arget
+- [[BodyPart|dendron://kevin-public/parea.salsa.schema#bodypart]]
+
+what body part is being targeted
+
+#### [pre]sets
+- [[Xbody|dendron://kevin-public/parea.salsa.notation.preset.xbody]]
+- hl: hammer lock
+
+####
 - bo[dy]: 
     - behindBack
 - t[arget]
 - [pos]ition:
-- [pre]sets: 
-    - hl: hammer lock
 - dir[ection]
     - default: c
     - values: 
