@@ -2,7 +2,7 @@
 id: 1TEdl7V8XlCvbItYVYhAJ
 title: Area
 desc: 'Grouping of topidcs that I tend to think about'
-updated: 1653746068217
+updated: 1660356904163
 created: 1640928474962
 ---
 
@@ -24,3 +24,14 @@ created: 1640928474962
 - #area.tech
 - #area.people
 - #area.systems
+
+## Etc
+- #word.phrase
+- #word.anecdote
+- #word.vocab
+
+- #ent.lesson
+- #ent.model
+
+- #people.founder
+- #people.economist

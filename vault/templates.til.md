@@ -10,7 +10,7 @@ date: ''
 ---
 
 ## Summary
-- source: {{fm.url}}
+- source: 
 
 ## Notes
 
