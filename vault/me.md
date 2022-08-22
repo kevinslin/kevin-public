@@ -2,8 +2,9 @@
 id: rvfwgc8otd1b512ygrur22a
 title: Me
 desc: ''
-updated: 1647630114333
+updated: 1661133604638
 created: 1647630114333
+nav_order: 2
 ---
 
-Relating to myself and my workflows
+Practices, workflows, and things I have picked up over time.

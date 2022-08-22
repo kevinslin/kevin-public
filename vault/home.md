@@ -1,8 +1,8 @@
 ---
 id: 8cafc40b-9bb7-4e1d-b437-3701bedba9c6
-title: Hi 
+title: Hi 👋
 desc: 'Kevin home page'
-updated: 1655005154350
+updated: 1661132741277
 created: 1597551434931
 config:
   global:
@@ -11,25 +11,21 @@ config:
 
 ## Welcome to my [Digital Garden](https://joelhooks.com/digital-garden) 🌱
 
-I'm **Kevin**. I'm a software engineer that's been obsessed with PKM for the last decade - mostly for personal reasons as I needed a tool that could help me make use of my own corpus of **+30K notes**. 
+I'm **Kevin**, founder of [Dendron](https://dendron.so/) ([YCW21](https://news.ycombinator.com/item?id=29176158)) - an open-source, local-first, knowledge base for developers. Our goal is to help devs access and structure all the information they have ever come across using plain text, markdown, and version control. 
 
-After a decade of experimenting, I found that existing workflows and tools  (sometimes) made it easy to create notes but past the 1K note threshold, made it [[impossible to find again|dendron://kevin-blog/blog.pkm.2020-03-30-its_not_you_its_your_knowledge_base]]
 
-This led me to create my own workflow - [[A Hierarchy First Approach to Note Taking|dendron://kevin-blog/blog.pkm.2020-08-24-a-hierarchy-first-approach-to-note-taking]]. This workflow, combined with custom tooling I created to facilitate it, **completely solved information overload** for myself, allowing me to easily create, organize and reference my own knowledge.
+As a point of reference, I made Dendron because I wanted a better way of managing my own corpus of **30K+ notes**. Dendron is the result of a decade of experimenting with different tools and systems. 
 
-In 2019, I left my job at Amazon to focus on distilling everything I had learned about PKM to build [Dendron](https://dendron.so/) - a [tool for thought](https://numinous.productions/ttft/) that helps **humans** manage **knowledge at scale**.
+The end result is [[A Hierarchy First Approach to Note Taking|dendron://kevin-blog/blog.pkm.2020-08-24-a-hierarchy-first-approach-to-note-taking]], a system that helped me instantly access any information I've noted before. 
 
-![[home._ref.dendron-missions]]
+You are reading my personal site which is managed and published using Dendron. You can [clone this site locally](https://github.com/kevinslin/kevin-public-vault) or [make your own](https://wiki.dendron.so/notes/4ushYTDoX0TYQ1FDtGQSg). 
+
 
 ## Navigating the Garden
 
-![[home.schema]]
+The advantage of a garden is that it is non-linear and can offer much more context than a linear blog. This is also its greatest downside as it can be hard to know where to begin. If you want to ease into this experience and want a linear feed of blog posts, I would recommend starting off with the [[Blog|dendron://kevin-blog/blog]] hierarchy. 
 
-## About the Garden
-
-Dendron is not just for storing knowledge but also for sharing it. This is why [publishing](https://wiki.dendron.so/notes/4ushYTDoX0TYQ1FDtGQSg.html) is a first class feature in Dendron (this site that you're reading is published using Dendron). 
-
-Dendron makes it easy to publish any subset of your notes using a custom open source nextjs template that compiles everything down to static HTML which you can host anywhere. 
+If you are feeling more adventurous, you can learn about how this blog is structured via the [[blog schema|home.schema]] and go down other trails. 
 
 ## Contact
 
@@ -48,7 +44,7 @@ Code for this blog is available on [github](https://github.com/kevinslin/kevin-g
 
 ### Staying Updated
 
-Subscribe to my mailing list to get weekly updates on things I've published as well as things I'm reading. 
+Subscribe to my mailing list to get weekly updates on the things I'm thinking about. 
 
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">

@@ -2,16 +2,22 @@
 id: 16nfv4m800qkygz7h5mkyeu
 title: Schema
 desc: ''
-updated: 1646013402622
+updated: 1661134077016
 created: 1645933135937
 nav_exclude: true
 ---
 
-Kevin's Digital Garden is loosely structured around the [PARA](https://fortelabs.co/blog/para/) method which organizes all information along a few top level categories. 
-##  Projects 
-Things I'm working on 
+This goes over the major hierarchies in Kevin's Garden. 
 
-![[proj#active,1:#*]]
+## Me
+![[dendron://kevin-public/me]]
+
+## Blog
+
+##  Projects 
+
+Things I'm working on 
+![[dendron://kevin-public/proj#^begin]]
 
 ## Areas
 
