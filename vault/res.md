@@ -2,7 +2,7 @@
 id: q7VooOfdLhTvZhfY
 title: Resources
 desc: ''
-updated: 1656193351134
+updated: 1661134973152
 created: 1626538880559
 config:
   global:
@@ -11,8 +11,11 @@ nav_order: 5
 nav_exclude_children: true
 ---
 
+Notes on things I'm currently interested in
 
-This is a section dedicated to topics I'm currently interested in
+## Index
+![[dendron://kevin-public/res.books#summary,1]]
+![[dendron://kevin-public/res.podcasts#summary,1]]
 
 <!-- - [[Anecdotes|dendron://kevin-public/r.anecdotes]]
 - [[Food|dendron://kevin-public/r.food]]
@@ -22,10 +25,8 @@ This is a section dedicated to topics I'm currently interested in
 - [[Thing|dendron://kevin-public/r.thing]]
 - [[dendron://kevin-public/r.seo]] -->
 
-![[dendron://kevin-public/res.books#summary,1]]
-![[dendron://kevin-public/res.podcasts#summary,1]]
 
-## Index
+<!-- ## Index
 - [[Anecdotes|dendron://kevin-public/res.anecdotes]]
 - [[Books|dendron://kevin-public/res.books]]
 - [[Food|dendron://kevin-public/res.food]]
@@ -35,4 +36,4 @@ This is a section dedicated to topics I'm currently interested in
 - [[Quotes|dendron://kevin-public/res.quotes]]
 - [[Seo|dendron://kevin-public/res.seo]]
 - [[Startup|dendron://kevin-public/res.startup]]
-- [[Thing|dendron://kevin-public/res.thing]]
+- [[Thing|dendron://kevin-public/res.thing]] -->

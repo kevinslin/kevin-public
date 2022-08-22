@@ -2,7 +2,7 @@
 id: 16nfv4m800qkygz7h5mkyeu
 title: Schema
 desc: ''
-updated: 1661134077016
+updated: 1661135087189
 created: 1645933135937
 nav_exclude: true
 ---
@@ -13,22 +13,22 @@ This goes over the major hierarchies in Kevin's Garden.
 ![[dendron://kevin-public/me]]
 
 ## Blog
+![[dendron://kevin-blog/blog]]
 
-##  Projects 
+## Daily
+![[dendron://kevin-public/daily]]
 
-Things I'm working on 
-![[dendron://kevin-public/proj#^begin]]
+## Today I Read
+![[dendron://kevin-public/tir]]
 
-## Areas
-
-Things that I'm maintaining over time
-
-![[blog]]
-![[daily]]
-![[tir]]
+## Today I Learned
+![[dendron://kevin-public/til]]
 
 ## Resources
+![[dendron://kevin-public/res#^begin]]
 
-Things that I reference 
+## Projects 
+![[dendron://kevin-public/proj#^begin]]
 
-![[dendron://kevin-public/res]]
+## Tags
+![[dendron://kevin-public/tags]]

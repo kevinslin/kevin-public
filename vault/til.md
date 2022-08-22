@@ -2,7 +2,7 @@
 id: 694e2wfqg4tg9nxybjlntca
 title: Today I Learned
 desc: ''
-updated: 1661128101795
+updated: 1661134896507
 created: 1661119461792
 config:
   global:
@@ -14,4 +14,4 @@ sort_order: reverse
 nav_order: 4
 ---
 
-This is a collection of things I'm learning about 
+This is a collection of things I'm taking notes on
