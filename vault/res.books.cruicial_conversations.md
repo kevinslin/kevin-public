@@ -12,9 +12,6 @@ author:
 genre:
   - business
   - non-fiction
-status:
-  - reread
-  - incomplete
 ---
 
 ## Summary

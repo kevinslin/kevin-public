@@ -11,7 +11,6 @@ genre:
   - business
   - nonfiction
 finished: '2017-02-25'
-status: reviewed
 published: true
 ---
 

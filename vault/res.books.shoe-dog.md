@@ -9,7 +9,6 @@ created: 1657497840508
 image: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1457284880l/27220736.jpg"
 author: Phil Knight
 genre: [business, non-fiction]
-status: complete
 source: >
     Birthday present from [[people.katarina-slobodova]]
 finished: 2022-07-09

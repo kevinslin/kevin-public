@@ -7,7 +7,6 @@ created: 1652849901141
 image: null
 author: Josh Waitzkin
 genre: null
-status: null
 source: null
 finished: null
 kind: book

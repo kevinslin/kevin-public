@@ -8,7 +8,6 @@ image: >-
   https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1571347435i/44063692.jpg
 author: ben horowitz
 genre: business
-status: done
 source: null
 finished: '2021-09-25'
 kind: book

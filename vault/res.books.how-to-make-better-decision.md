@@ -8,7 +8,6 @@ created: 1662518625117
 image: null
 author: Annie Durke
 genre: null
-status: done
 source: podcast
 finished: '2022-09-06'
 kind: book
@@ -47,7 +46,7 @@ Annie Durke of poker fame wrote a book about decision making.
 - exercise: think of best and worst decisions, how do you judge them?
     - if your like most people, you judge quality of decision based on the outcome  #star
 
-### chapter 1 - resulting outcome 
+### 1 - resulting outcome 
 
 - called outcome bias or [[dendron://kevin-public/res.books.how-to-make-better-decision.concepts#resulting]]
     - use outcome to shortcut evaluating whether decision was good  

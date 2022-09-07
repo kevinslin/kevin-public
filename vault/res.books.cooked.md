@@ -10,8 +10,6 @@ image:
   alt: cooked title
 author: people.michael-pollan
 genre: nonfiction
-status: done
-source: null
 finished: 2021-10-01T00:00:00.000Z
 kind: book
 goodreads: 'https://www.goodreads.com/book/show/15811496-cooked'
