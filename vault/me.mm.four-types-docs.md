@@ -2,16 +2,21 @@
 id: y0swab2mazgi1793kp3v7f7
 title: Four Types Docs
 desc: ''
-updated: 1652213016909
+updated: 1661381010859
 created: 1652212748815
 ---
 
 There are four types of documentation:
 
     * learning-oriented tutorials
+        - #mw(eg. getting started docs)
     * goal-oriented how-to guides
+        - #mw(eg. how to publish wordpress using lightsail)
     * understanding-oriented discussions
-    * information-oriented reference material
+        - #mw(eg. architecture.md)
+    * information-oriented reference material 
+        - #mw(eg. api docs)
+
 Source: [Write the Docs](https://www.writethedocs.org/videos/eu/2017/the-four-kinds-of-documentation-and-why-you-need-to-understand-what-they-are-daniele-procida/)
 
 

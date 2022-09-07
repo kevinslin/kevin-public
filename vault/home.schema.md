@@ -1,13 +1,11 @@
 ---
 id: 16nfv4m800qkygz7h5mkyeu
 title: Schema
-desc: ''
-updated: 1661135087189
+desc: >-
+     This goes over the major hierarchies in Kevin's Garden
+updated: 1661696482676
 created: 1645933135937
-nav_exclude: true
 ---
-
-This goes over the major hierarchies in Kevin's Garden. 
 
 ## Me
 ![[dendron://kevin-public/me]]

@@ -2,7 +2,7 @@
 id: 75ad58b4-6557-486a-8878-0d5ab2dca455
 title: Travel Checkllist
 desc: ''
-updated: 1657243258389
+updated: 1661790911019
 created: 1600539904402
 ---
 
@@ -88,3 +88,6 @@ created: 1600539904402
 - travel times (based on [[05 Arizona|dendron://kevin-private/proj.2022.05-arizona]])
 - 25min, house to station
 - 30min, station to airport
+
+### Car
+- 8:20AM, 20min - 40min

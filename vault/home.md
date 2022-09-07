@@ -2,7 +2,7 @@
 id: 8cafc40b-9bb7-4e1d-b437-3701bedba9c6
 title: Hi 👋
 desc: 'Kevin home page'
-updated: 1661132741277
+updated: 1661696476895
 created: 1597551434931
 config:
   global:
@@ -25,7 +25,9 @@ You are reading my personal site which is managed and published using Dendron. Y
 
 The advantage of a garden is that it is non-linear and can offer much more context than a linear blog. This is also its greatest downside as it can be hard to know where to begin. If you want to ease into this experience and want a linear feed of blog posts, I would recommend starting off with the [[Blog|dendron://kevin-blog/blog]] hierarchy. 
 
-If you are feeling more adventurous, you can learn about how this blog is structured via the [[blog schema|home.schema]] and go down other trails. 
+If you are feeling more adventurous, you can read about how this blog is structured below and go down your own trail!
+
+![[dendron://kevin-public/home.schema#^begin]]
 
 ## Contact
 
