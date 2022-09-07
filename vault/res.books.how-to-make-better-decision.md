@@ -59,7 +59,7 @@ Annie Durke of poker fame wrote a book about decision making.
     - even good decisions are not necessarly the best decision, always study decisions to learn from them
 - anecdote: hollywood pass on star wars, was it a bad decision or a good one with bad luck?
 
-### 2 hindsight is not 20/20
+### 2 - hindsight is not 20/20
 
 - [[dendron://kevin-public/res.books.how-to-make-better-decision.concepts.hindisght-bias]]: believe event was predictable after it happened #star
 - [[dendron://kevin-public/res.books.how-to-make-better-decision.concepts.memory-creep]]: when items after outcome makes you feel you knew things all along
