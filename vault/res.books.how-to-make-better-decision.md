@@ -6,7 +6,7 @@ desc: ''
 updated: 1662522102241
 created: 1662518625117
 image: null
-author: Annie Durke
+author: Annie Duke
 genre: null
 source: podcast
 finished: '2022-09-06'
@@ -23,7 +23,7 @@ A guide to making better decisions.
 
 ## Review
 
-Annie Durke of poker fame wrote a book about decision making.
+Annie Duke of poker fame wrote a book about decision making.
 
 ## Takeaways
 - quality of decision is different from quality of outcome, good decisions do not always lead to good outcomes and vice versa (judging a decision based on outcome is known as [[res.books.how-to-make-better-decision.concepts.resulting]])
