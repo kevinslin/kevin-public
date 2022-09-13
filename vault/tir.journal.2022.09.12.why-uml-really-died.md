@@ -46,4 +46,3 @@ JSON vs XML, Javascript vs "any other programming language", Markdown vs AscciDo
 Some parting thoughts:
 - as we continue to make advancements in software, will we continue to be able to design "simple" abstractions to work with them? 
 - is there some limit to this process where we require complicated abstractions due to the [[essential complexity|dendron://kevin-public/me.mm.essential-complexity]] of the problem? (eg. https://kubernetes.io/)
-- 
