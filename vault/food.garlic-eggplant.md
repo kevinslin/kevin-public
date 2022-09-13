@@ -2,10 +2,11 @@
 id: 28waqxkt2e99qujuzssee0d
 title: Garlic Eggplant
 desc: ''
-updated: 1651451822758
+updated: 1662944551496
 created: 1651451569794
 ---
 
+- pg. 144 of [[res.books.chinese-soul-food]]
 
 ### Ingredients
 - 1.5 lbs [[ing.eggplant]]
@@ -37,3 +38,5 @@ created: 1651451569794
 1. add pork, soy sauce, water, chili, vinegar, sugar and stir
 1. add eggplant, add sauce, cook 1-2min
 1. add sesame oil, sprinkle cilantro
+
+## Rleated
