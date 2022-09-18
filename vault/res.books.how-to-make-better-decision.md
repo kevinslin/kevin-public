@@ -1,18 +1,18 @@
 ---
 id: a8jwloovyhl2a1pw0iyrzmd
-title: >-
-    How to Decide: Simple Tools for Making Better Choices
+title: 'How to Decide: Simple Tools for Making Better Choices'
 desc: ''
-updated: 1662522102241
+updated: 1663535158756
 created: 1662518625117
+tags:
+  - area.decision-making
 image: null
 author: Annie Duke
 genre: null
 source: podcast
 finished: '2022-09-06'
 kind: book
-goodreads: https://www.goodreads.com/book/show/51066664-how-to-decide
-tags: [area.decision-making]
+goodreads: 'https://www.goodreads.com/book/show/51066664-how-to-decide'
 ---
 
 ## Summary
@@ -169,7 +169,7 @@ Annie Duke of poker fame wrote a book about decision making.
 
 - techniques
     - mental contrasting: figure out what might go wrong and what to do
-    - pre-morten
+    - [[dendron://kevin-public/me.techniques.pre-mortem]]
     - [[dendron://kevin-public/res.books.how-to-make-better-decision.concepts.backpath]]: how to succeed
     - pre-commitment, [[dendron://kevin-public/res.books.how-to-make-better-decision.concepts.ulysses-contrac]]: heighten or lower barriers to do something
     - dr evil: death by a thousand cuts, give a rational sounding reason to not get closer to your goal
@@ -184,3 +184,4 @@ Annie Duke of poker fame wrote a book about decision making.
 - study with visual test of card with three lines, two of which which are clearly not the same length
     - in one room, planted confederates who said all lines were equal
     - over 30% of test participants went with confederates #ent.eg
+---
