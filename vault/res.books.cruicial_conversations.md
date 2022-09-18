@@ -2,7 +2,7 @@
 id: 7b30185c-7632-474e-8b6d-84b31ab3bc78
 title: Crucial Conversations
 desc: ''
-updated: 1631407628598
+updated: 1663185573330
 created: 1593881520165
 author:
   - patterson
@@ -75,3 +75,8 @@ How to have conversations when both stakes an demotions are high
 9. move to actio9n
 10. yeah, but
 11. putting it together
+
+
+## Related
+- [[dendron://kevin-public/res.books.cruicial_conversations.notes#quotes]]
+- [[dendron://highlights/books.crucial-conversations-tools-for-talking-when-stakes-are-high]]

@@ -7,5 +7,11 @@
       "command": " git add . && git commit -m 'sync' && git push",
       "problemMatcher": []
     },
+    {
+      "label": "edit dendron.yml",
+      "type": "shell",
+      "command": "code-insiders /Users/kevinlin/workspaces/kevin-public-garden/dendron.yml",
+      "problemMatcher": []
+    },
   ]
 }

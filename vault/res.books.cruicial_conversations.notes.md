@@ -2,7 +2,7 @@
 id: QpVyHPlhFWDONRF2SDBIp
 title: Notes
 desc: ''
-updated: 1631407846085
+updated: 1663185548592
 created: 1631407370093
 published: false
 ---
@@ -37,23 +37,23 @@ published: false
 - AMPP
 
 # Key Points
-- key to change is not implementing new process but getting people to hold one another accountable for process
-    - what eric brandwine sayd about commitment vs compliance, rather get commitment
+- **key to change is not implementing new process** but** getting people to hold one another accountable** for process
+    - what eric brandwine sayd about commitment vs compliance, rather get commitment #mw
 - spend time early on establishing shared pool of meaning
     - if people don't buy arguments, its still bad
 
 # Quotes
 
-"The single biggest problem in communication is the illusion that it takes place"
+"**The single biggest problem in communication is the illusion that it takes place**"
 - George Bernard Shaw
 
-"Our lives begin to end the day we become silent about things that matter"
+"**Our lives begin to end the day we become silent** about things that matter"
 - Martin Luther King Jr
 
-"He that complies against his will is of his own opinion still"
+"**He that complies against his will is of his own opinion still**"
 - Samuel Butler
 
-"Speak when you are angry and you will make the best speech you will ever regret"
+"**Speak when you are angry and you will make the best speech you will ever regret**"
 - Ambrose Bierce
 
 # Summary
