@@ -2,7 +2,7 @@
 id: r4RrLx4xTM2Sc0yOouLkb
 title: Today I Read
 desc: ''
-updated: 1661134870887
+updated: 1663878258067
 created: 1634863204360
 config:
   global:
@@ -14,4 +14,4 @@ sort_order: reverse
 nav_order: 4
 ---
 
-Things I'm reading 
+Things I'm reading (for loose definitions of "reading")
