@@ -6,7 +6,7 @@ schemas:
     children:
       - pattern: books
         namespace: true
-        template: res.books.temp
+        template: templates.book
       - pattern: podcasts
         namespace: true
 

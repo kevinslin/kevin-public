@@ -1,8 +1,8 @@
 ---
 id: 5e6e617b-3baf-432f-a515-7e72f11da723
-title: Temp
+title: Book
 desc: ''
-updated: 1657498791828
+updated: 1665893876036
 created: 1597522418237
 image: null
 author: null
@@ -25,8 +25,11 @@ goodreads: null
 ## Concepts
 
 ## Notes
+<!-- split by chapter-->
 
 ## People
 
 ## Quotes
 
+## Related
+<!-- highlights -->
