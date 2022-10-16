@@ -2,7 +2,7 @@
 id: a8jwloovyhl2a1pw0iyrzmd
 title: 'How to Decide: Simple Tools for Making Better Choices'
 desc: ''
-updated: 1663535158756
+updated: 1665892016136
 created: 1662518625117
 tags:
   - area.decision-making
