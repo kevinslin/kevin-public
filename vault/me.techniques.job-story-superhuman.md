@@ -2,7 +2,7 @@
 id: 40bd7xe4lwvipedju4rehv4
 title: Job Story Superhuman
 desc: ''
-updated: 1665930282489
+updated: 1666022812940
 created: 1665930224346
 ---
 
@@ -30,3 +30,6 @@ In 2015, we came up with this positioning:
 > It’s what Gmail could be if it were made today instead of 12 years ago
 >
 > Unlike Gmail -Superhuman is meticulously crafted so that everything happens in 100ms or less.
+
+## Related
+- [[dendron://private/proj.2022.10-dendron-index.ref.pmf.value-prop]]
