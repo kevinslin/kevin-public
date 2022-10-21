@@ -10,3 +10,4 @@ created: 1663535039289
 - [[dendron://kevin-public/me.techniques.pre-mortem]]
 - [[dendron://kevin-public/me.techniques.rolling-snowball]]
 - [[dendron://kevin-public/me.techniques.job-story-superhuman]]
+- [[dendron://kevin-public/me.techniques.structured-procrastination]]

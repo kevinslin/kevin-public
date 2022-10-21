@@ -2,7 +2,7 @@
 id: fk95c7tpa4lpmvzmmslub0r
 title: The Mom Test
 desc: ''
-updated: 1666226409640
+updated: 1666283437170
 created: 1646792724057
 author: Rob Fitzpatrick
 genre:
@@ -40,7 +40,7 @@ goodreads: 'https://www.goodreads.com/book/show/52283963-the-mom-test'
     - try to pitch if a signal is lukewarm - find a strong signal
 
 - when: 
-    - problem => ask for current workaround
+    - problem => **ask for current workaround**
         - questions
             - how do they solve X?  
             - how much do they pay for X? what is their budget?
