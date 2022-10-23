@@ -2,7 +2,7 @@
 id: q7VooOfdLhTvZhfY
 title: Resources
 desc: ''
-updated: 1666021819614
+updated: 1666497051037
 created: 1626538880559
 config:
   global:
@@ -17,6 +17,7 @@ Notes on things I'm currently interested in
 ![[dendron://kevin-public/res.books#summary,1]]
 ![[dendron://kevin-public/res.podcasts#summary,1]]
 ![[dendron://kevin-public/res.research]]
+![[dendron://kevin-public/res.startup]]
 <!-- - [[Anecdotes|dendron://kevin-public/r.anecdotes]]
 - [[Food|dendron://kevin-public/r.food]]
 - [[Glucose|dendron://kevin-public/r.glucose]]

@@ -2,7 +2,7 @@
 id: psy3lsv0a4jz04f4l49qt8q
 title: Development Proces
 desc: ''
-updated: 1666276766023
+updated: 1666393127654
 created: 1666219055079
 ---
 
@@ -29,12 +29,11 @@ My mental model for the modern software development process (MSDP)
     - qa: testing
     - commit: version control
     - review: review process
+    - docs: internal and external docs, api docs
 - release
     - deploy: deploying code to staging/production
-    - docs: internal and external docs, api docs
-    - operate: running a service after its been deployed
-    - feedback: dashboards and learnings
-    - loopback: communicate changes upstream to start the cycle again
+    - operate: running a service after its been deployed: dashboard, monitoring
+    - loopback: learnings, communicate changes upstream to start the cycle again
 
 > Source:  this is heavily inspired by the [gitlab master plan](https://about.gitlab.com/blog/2016/09/13/gitlab-master-plan/)
 
