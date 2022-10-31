@@ -13,5 +13,14 @@
       "command": "code-insiders /Users/kevinlin/workspaces/kevin-public-garden/dendron.yml",
       "problemMatcher": []
     },
+    {
+      "label": "dev",
+      "type": "shell",
+      "command": "yarn dendron publish dev",
+      "problemMatcher": [],
+      "options": {
+        "cwd": "/Users/kevinlin/workspaces/kevin-public-garden"
+      }
+    },
   ]
 }
