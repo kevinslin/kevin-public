@@ -2,7 +2,7 @@
 id: LMpLWbLBIfRzkSjJlF7U1
 title: Mental Models
 desc: ''
-updated: 1656189985866
+updated: 1667667642067
 created: 1640923677429
 nav_exclude_children: true
 config:
@@ -27,6 +27,7 @@ The following represent a collection of mental models that I have discovered or 
 
 
 ## self
+
 ### #area.self
 - [[Hot Letter|dendron://kevin-public/me.mm.hot-letter]]
 
@@ -39,6 +40,7 @@ The following represent a collection of mental models that I have discovered or 
 ## #area.systems
 - [[Chaos Theory|dendron://kevin-public/me.mm.chaos-theory]]
 - [[Color|dendron://kevin-public/me.mm.color]]
+- [[me.mm.sturgeons-law]]
 
 ## #area.people
 - [[(Psychological) Denial of Service|dendron://kevin-public/me.mm.ddos]]
