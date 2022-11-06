@@ -1,0 +1,10 @@
+-
+    id: blog
+    title: blog
+    desc: ""
+    parent: root
+    namespace: true
+    children:
+      - post
+- id: post
+  pattern: '*'
