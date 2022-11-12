@@ -24,12 +24,14 @@ goodreads: null
 
 ## Concepts
 
-## Notes
-<!-- split by chapter-->
-
 ## People
 
 ## Quotes
+
+## Questions
+
+## Notes
+<!-- split by chapter-->
 
 ## Related
 <!-- highlights -->
