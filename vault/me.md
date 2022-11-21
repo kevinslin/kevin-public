@@ -17,8 +17,8 @@ Some Memorable fact:
 ## Index
 - [[Coping|dendron://kevin-public/me.coping]]
 - [[Mental Models|dendron://kevin-public/me.mm]]
-- [[Now|dendron://kevin-public/me.now]]
 - [[Setup|dendron://kevin-public/me.setup]]
 - [[Workflows|dendron://kevin-public/me.workflows]]
+
 - new
     - [[dendron://kevin-public/me.techniques]]
