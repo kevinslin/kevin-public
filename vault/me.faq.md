@@ -41,5 +41,5 @@ Dendron went with the AGPLV3 license. This is to satisfy the following requireme
 - we wanted to keep our product open source and available for others to build on top of
 - we wanted to build a sustainable business on top of Dendron (this would be harder to do if someone just made a proprietary fork of Dendron)
 
-It was because of the latter that we did not go with MIT or Apache Version 2. That being said, we did implement a End User License Agreement for all pull requests which lets us relicense when necessary. 
-This gives us room to accomdate individuals and organizations that absolutely cannot work with the AGPLV3 license.
+It was because of the latter that we did not go with MIT or Apache Version 2. That being said, we did implement an End User License Agreement for all pull requests which lets us relicense when necessary. 
+This gives us room to accommodate individuals and organizations that absolutely cannot work with the AGPLV3 license.
