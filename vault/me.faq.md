@@ -51,3 +51,9 @@ Almost everything we do at Dendron happens async and remote. This works because 
 - instead of standups, we ask everyone to keep a [daily journal](https://handbook.dendron.so/notes/f143773d-3f97-4dbd-8518-603fbb3b0288): this is a short note inside our knowledge base that goes over what people did the previous day, what they'll be working on, and any blockers they might encounter
 
 Asyncs and daily journals make up most of our remote workflow. We make sure that all essential information goes through these channels
+
+More details in the [dendron handbook](https://handbook.dendron.so/notes/27237fd0-4ae1-4e31-9c15-34167fb264d8)
+
+### On virtual team events
+
+We do an online secret santa using [secret santa organizer](https://www.secretsantaorganizer.com/) and give all employees a budget of $100 + shipping to buy something for another teammate. We then do a virtual unwrapping ceremony afterwards. 
