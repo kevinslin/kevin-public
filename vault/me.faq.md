@@ -2,7 +2,7 @@
 id: mx7a1dww1iccbvm57xtvghd
 title: Faq
 desc: Frequently asked questions
-updated: 1653543890336
+updated: 1669655971789
 created: 1653543441697
 ---
 
@@ -46,7 +46,8 @@ This gives us room to accommodate individuals and organizations that absolutely 
 
 ### On communication as a remote team
 
-Almost everything we do at Dendron happens async and remote. This works because of the following practices:
+Dendron (my company) is all remote (5 people, 4 countries, -8UTC to 8UTC).  Almost everything we do at Dendron happens async and remote. This works because of the following practices:
+
 - instead of meetings, we run [asyncs](https://handbook.dendron.so/notes/9bacfb70-5777-4fc4-b069-f902f42762b9): this is a note we create inside of our knowledge base and then also copy a pointer to in a gdoc called "meet.daily" (this has all asyncs for the week - it is merged back into our knowledge base and cleared at the end of the week)
 - instead of standups, we ask everyone to keep a [daily journal](https://handbook.dendron.so/notes/f143773d-3f97-4dbd-8518-603fbb3b0288): this is a short note inside our knowledge base that goes over what people did the previous day, what they'll be working on, and any blockers they might encounter
 
