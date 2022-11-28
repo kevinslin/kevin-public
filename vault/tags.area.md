@@ -2,7 +2,7 @@
 id: 1TEdl7V8XlCvbItYVYhAJ
 title: Area
 desc: 'Grouping of topidcs that I tend to think about'
-updated: 1662521331881
+updated: 1669610340134
 created: 1640928474962
 ---
 
@@ -37,3 +37,7 @@ created: 1640928474962
 
 - #people.founder
 - #people.economist
+
+
+## Internal
+> pmf.pain: pain points
