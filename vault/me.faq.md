@@ -58,3 +58,16 @@ More details in the [dendron handbook](https://handbook.dendron.so/notes/27237fd
 ### On virtual team events
 
 We do an online secret santa using [secret santa organizer](https://www.secretsantaorganizer.com/) and give all employees a budget of $100 + shipping to buy something for another teammate. We then do a virtual unwrapping ceremony afterwards. 
+
+### On CRMs and managing contacts
+
+I use Dendron as my CRM. This is done using two hierarchies:
+- a `people.*` hierarchy to keep track of contacts
+- a `meet.*` hierarchy to keep track of meetings
+
+More details here: https://wiki.dendron.so/notes/de93124b-c23b-4028-9e2c-6de6a56ca5e9
+
+In general, this system has served me well. The features it lacks compared to salesforce/hubspot:
+- filtering through metadata is a bit harder (its currently not easy to filter by anything thats not a tag)
+- no automatic email integration (I compose in Dendron and c/p to email)
+- no followup reminders (I create tasks for myself manually if I want to follow up)
