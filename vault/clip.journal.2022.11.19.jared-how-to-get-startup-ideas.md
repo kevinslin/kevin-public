@@ -2,7 +2,7 @@
 id: sav0caui4n1j76phjcepam6
 title: jared-how-to-get-startup-ideas
 desc: ''
-updated: 1668883362428
+updated: 1670206455173
 created: 1668883362428
 traitIds:
   - clip
@@ -59,10 +59,13 @@ traitIds:
 
 * evaluate your idea on four criteria, and then you take the average of the scores.
 
-* The first criteria is how big is this idea? The best way to judge this, I think, is to look for existing large companies that do something similar.
+* The first criteria is how big is this idea? 
+  - The best way to judge this, I think, is to look for existing large companies that do something similar.
 * Founder/market fit. This is like, are the founders experts in what they're doing?
-* The next criteria is how sure are you that you're solving a big problem? Ideally, you have personal experience with this proble
-* And finally, do you have a new, important insight into this idea? And a great example of this is Airbnb. When Airbnb got started, most people thought that the idea of allowing strangers you met on the internet to sleep in your apartment was really weird, and probably dangerous. But the Airbnb founders had actually tried this. They'd invite strangers from the internet to stay with them, and they realized it was really fun
+- how sure are you that you're solving a big problem? 
+  - Ideally, you have personal experience with this proble
+* And finally, do you have a new, important insight into this idea? 
+  - And a great example of this is Airbnb. When Airbnb got started, most people thought that the idea of allowing strangers you met on the internet to sleep in your apartment was really weird, and probably dangerous. But the Airbnb founders had actually tried this. They'd invite strangers from the internet to stay with them, and they realized it was really fun
 
 * Here are some other signs to look for that your idea is probably a good one
   * you're making something you personally want to have
