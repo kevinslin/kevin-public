@@ -2,7 +2,7 @@
 id: 0diwerbmsay8qnf4vworsbx
 title: The Art of Learning
 desc: ''
-updated: 1671407189745
+updated: 1671407419691
 created: 1652849901141
 image: null
 author: Josh Waitzkin
@@ -76,9 +76,12 @@ One of the most impactful books I've read in the past decade. Recommend to anyon
 - soft zone is like blade of grass, can survive in hurrican like winds 
     - [[Sandals|dendron://kevin-public/me.mm.sandals]]
     - mental resilience 
+- always look for ways to become stronger
 
 ### 6 - the downward spirla
 - the first mistake is not the one that sinks you, its what follows 
+- momentum is real
+- beware of downward spiral
 - ![[Presence as Parallel Lines|dendron://kevin-public/me.mm.presence-as-parallel-lines]]
 
 ### 7 - changing voice 
