@@ -2,7 +2,7 @@
 id: 0diwerbmsay8qnf4vworsbx
 title: The Art of Learning
 desc: ''
-updated: 1671407419691
+updated: 1671407721468
 created: 1652849901141
 image: null
 author: Josh Waitzkin
@@ -102,7 +102,7 @@ One of the most impactful books I've read in the past decade. Recommend to anyon
 - obstacle to calm existence is irregular breathin
 
 ### 10 - investment in loss
-- loss as a teacher
+- loss is a teacher
 
 ### 11 - making smaller circles
 
@@ -113,6 +113,7 @@ One of the most impactful books I've read in the past decade. Recommend to anyon
 - an earthquake during a competition sparked a period of intense concentration
 - next step is to invoke an earthquake like concentration without the earthquake
 - whenever you control two of the opponents limbs with one of your own, then you have advantage #star
+- to be the best, you need to take risks that others would avoid and use adversity as a teacher
 
 ### 13 - slowing down time
 - relying on intuition and the unconcious in high level play
