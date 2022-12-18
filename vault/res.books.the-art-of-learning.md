@@ -2,7 +2,7 @@
 id: 0diwerbmsay8qnf4vworsbx
 title: The Art of Learning
 desc: ''
-updated: 1653016925299
+updated: 1671407189745
 created: 1652849901141
 image: null
 author: Josh Waitzkin
@@ -17,11 +17,11 @@ goodreads: null
 [[people.josh-waitzkin]] reflects on how he became a world master in both chess and martial arts and how underlying both pursuits was a single art of learning that is unversal in all pursuits.
 
 ## Review
-One of the most impactful books I've read in the past decade. Recommend to anyone looking to excel at their field.
+One of the most impactful books I've read in the past decade. Recommend to anyone looking to xcel at their field.
 
 ## Takeaways
-- performance = ability to focus **and** ability to relax (interval training helps)
-- [[dendron://kevin-public/res.books.the-art-of-learning.concepts.making-smaller-circles]] - master the fundamentals and keep refining them 
+- performance = ability to focus **and** ability to relax (aka do interval training)
+- [[dendron://kevin-public/res.books.the-art-of-learning.concepts.making-smaller-circles]]
 - [[Presence as Parallel Lines|dendron://kevin-public/me.mm.presence-as-parallel-lines]]
 - **good** is a feeling - once you know it in one field, you can chase for it in other pursuits
 
@@ -52,7 +52,7 @@ One of the most impactful books I've read in the past decade. Recommend to anyon
 
 ### 1 - innocenet moves
 - learning chess, coach that could dicipline without breaking the child (josh)
-- learning without any inner conflict (eg. fame )
+- learning without any inner conflict (eg. fame)
 
 ### 2 - losing to win
 - loss is biggest teacher
@@ -66,6 +66,7 @@ One of the most impactful books I've read in the past decade. Recommend to anyon
 
 ### 4 - loving the game 
 - your opponent is your greatest teacher, the one that knows you the best and challenges you the most 
+- growth comes at the point of resistance: this is where we must push
 
 ### 5 - the soft zone
 - performance training:
