@@ -2,7 +2,7 @@
 id: 0diwerbmsay8qnf4vworsbx
 title: The Art of Learning
 desc: ''
-updated: 1671408937033
+updated: 1671408967909
 created: 1652849901141
 image: null
 author: Josh Waitzkin
@@ -53,6 +53,7 @@ One of the most impactful books I've read in the past decade. Recommend to anyon
     - go with your nature and however you're feeling
     - know what good feels like
     - whatever comes, use it
+    - turn weakness into strength (eg. emotion to fuel action)
 
 - on presence
     - be present to what happens, its not he first mistake that sinks you
