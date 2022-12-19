@@ -2,7 +2,7 @@
 id: 0diwerbmsay8qnf4vworsbx
 title: The Art of Learning
 desc: ''
-updated: 1671408967909
+updated: 1671408998448
 created: 1652849901141
 image: null
 author: Josh Waitzkin
@@ -56,7 +56,7 @@ One of the most impactful books I've read in the past decade. Recommend to anyon
     - turn weakness into strength (eg. emotion to fuel action)
 
 - on presence
-    - be present to what happens, its not he first mistake that sinks you
+    - be present to what happens, **its not he first mistake that sinks you**
     - relaxation and presnce allows unconcious to flow
     - being present and have a higher frame rate to see what is happening
     - breathe
