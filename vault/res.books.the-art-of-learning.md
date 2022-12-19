@@ -2,7 +2,7 @@
 id: 0diwerbmsay8qnf4vworsbx
 title: The Art of Learning
 desc: ''
-updated: 1671408578866
+updated: 1671408937033
 created: 1652849901141
 image: null
 author: Josh Waitzkin
@@ -28,9 +28,11 @@ One of the most impactful books I've read in the past decade. Recommend to anyon
 ## Key Points
 - on growth
     - [[Hermit Crab|dendron://kevin-public/me.mm.hermit-crab]] - growth = being vulnerable
-    - invest in loss
-    - have a rival
-    - use dirty players as a means of strengthening mental defenses
+    - growth comes at point of resistance
+    - growth comes after loss
+    - growth comes from rivals - they know you best
+    - growth comes from dirty players - they expose fears and indignation 
+    - growth comes from taking risks tha others would not 
 
 - on resillience
     - find the soft zone
@@ -40,9 +42,28 @@ One of the most impactful books I've read in the past decade. Recommend to anyon
 - the learning process
     - start with fundamentals
     - [[dendron://kevin-public/res.books.the-art-of-learning.concepts.making-smaller-circles]] - once you have mastered the basics, make it smaller but keep the same feeling
-    - expand from basics, build triggers to keep you present, create sandals to overcome adversity
-    - learn to alternate between focus and relaxation (do interval practice)
+    - expand from basics, build routines and triggers to keep you present, create sandals to overcome adversity
+    - create your own earthquakes
+
+    - learn to **alternate between focus and relaxation** (do interval practice)
     - known what **good** feels like and hone into that feeling - use it as a guide for learning anything
+
+- on flow
+    - find the soft zone where you can be like grass in a hurricane
+    - go with your nature and however you're feeling
+    - know what good feels like
+    - whatever comes, use it
+
+- on presence
+    - be present to what happens, its not he first mistake that sinks you
+    - relaxation and presnce allows unconcious to flow
+    - being present and have a higher frame rate to see what is happening
+    - breathe
+    - ability to be clearheaded under fire is what separates the best
+
+- on competition
+    - when you control two of your opponents limbs with one of your own, you have an advantage
+    - rivals and dirty players are your teachers
 
 ## Next
 - checkout the Human Performance Institute
