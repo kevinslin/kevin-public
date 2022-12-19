@@ -2,7 +2,7 @@
 id: 0diwerbmsay8qnf4vworsbx
 title: The Art of Learning
 desc: ''
-updated: 1671407721468
+updated: 1671408578866
 created: 1652849901141
 image: null
 author: Josh Waitzkin
@@ -25,16 +25,18 @@ One of the most impactful books I've read in the past decade. Recommend to anyon
 - [[Presence as Parallel Lines|dendron://kevin-public/me.mm.presence-as-parallel-lines]]
 - **good** is a feeling - once you know it in one field, you can chase for it in other pursuits
 
-
 ## Key Points
 - on growth
     - [[Hermit Crab|dendron://kevin-public/me.mm.hermit-crab]] - growth = being vulnerable
     - invest in loss
     - have a rival
+    - use dirty players as a means of strengthening mental defenses
+
 - on resillience
     - find the soft zone
     - build [[Sandals|dendron://kevin-public/me.mm.sandals]] (vs forcing the world into compliance)
     - [[Presence as Parallel Lines|dendron://kevin-public/me.mm.presence-as-parallel-lines]] - one line is the presence and the awareness of the presence, when the two go out of sync, trouble happens
+
 - the learning process
     - start with fundamentals
     - [[dendron://kevin-public/res.books.the-art-of-learning.concepts.making-smaller-circles]] - once you have mastered the basics, make it smaller but keep the same feeling
@@ -42,13 +44,16 @@ One of the most impactful books I've read in the past decade. Recommend to anyon
     - learn to alternate between focus and relaxation (do interval practice)
     - known what **good** feels like and hone into that feeling - use it as a guide for learning anything
 
+## Next
+- checkout the Human Performance Institute
+
 ## Notes
 
 ### intro
 - duality of things: external and internal have same principles
 - study of numbers to leave numbers, forms to leave forms
 
-### 1 - foundation
+## 1 - foundation
 
 ### 1 - innocenet moves
 - learning chess, coach that could dicipline without breaking the child (josh)
@@ -117,20 +122,25 @@ One of the most impactful books I've read in the past decade. Recommend to anyon
 
 ### 13 - slowing down time
 - relying on intuition and the unconcious in high level play
+- deep presence and relaxation of concious mind allows unconcious to flow 
 
 ### 14 - the illusion of the mystical
-- the superpower is perceiving more detail, which slows down time and allows you to perceive more frames than your opponen
+- the superpower is perceiving more detail, which slows down time and allows you to perceive more frames than your opponent
 
 ## 3 - bringing it all together
 
 ### 15 - the power of presence
 - even when positions were even, the first to cave to pressure in a chess match would lose
 - the solution is to embrace the pressure
+- ability to be clearheaded and present under fire is what separates the best
+- maximize each moments creative potential
+- presence is breathing
 
 ### 16 - searching for the zone
 - interval training as the foundation to be good under pressure #star
     - eg. bike at 170 bpm, relax down to 144 bpm, and cycle every minute
 - there is release knowing that full relxation is just a breath away from total concentration
+- incorporate stress and recovery into all aspects of life
 
 ### 17 - building your trigger
 - waiting is life, we have to learn to wait
@@ -139,8 +149,12 @@ One of the most impactful books I've read in the past decade. Recommend to anyon
 
 ### 18 - making sandals
 - use dirty players as teachers who expose weaknesses in your mind
-- accept reality and emotions, use it
+    - accept reality and emotions, use it
+    - anger and negative emotions come from something lacking within (eg. fear)
+    - when someone gets in your head, that is a weakness that they have helped you identify
+
 - highest level performers need to be true to themselves
+
 - formula
     - cultivate soft zone, be aware of feelings and ready to either hold or let go of whats arising 
     - turn weakness into strength, use emotion to fuel performance
@@ -152,7 +166,4 @@ One of the most impactful books I've read in the past decade. Recommend to anyon
 - make small circles from single technique/idea 
     - keep condensing the movements 
 - slow down time, make smaller circles on a group of techniques
-
 > **Once you know what good feels like, you can zero in on it, search it out regardless of the pursuit**.
-> 
-> [[people.josh-waitzkin]] - [Location 2704](https://readwise.io/to_kindle?action=open&asin=B000QCQ970&location=2704))
