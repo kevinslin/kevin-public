@@ -2,7 +2,7 @@
 id: ad075218-7dae-479b-8415-d54c10ef103e
 title: Books
 desc: ''
-updated: 1673117753269
+updated: 1673674821911
 created: 1597551650141
 published: true
 nav_exclude_children: true
@@ -48,10 +48,10 @@ Books I've read and taken notes on
 
 ### Fiction
 - [[The Alchemist|dendron://kevin-public/res.books.the-alchemist]]
+- [[res.books.congo]]
 
 ### Biographies
 - [[res.books.mind-at-play]]
-
 
 ### Unsorted
 - [[Cooked|dendron://kevin-public/res.books.cooked]]
