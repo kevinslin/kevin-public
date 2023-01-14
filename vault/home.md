@@ -2,7 +2,7 @@
 id: 8cafc40b-9bb7-4e1d-b437-3701bedba9c6
 title: Hi 👋
 desc: 'Kevin home page'
-updated: 1661696476895
+updated: 1673670223686
 created: 1597551434931
 config:
   global:
@@ -46,23 +46,19 @@ Code for this blog is available on [github](https://github.com/kevinslin/kevin-g
 
 ### Staying Updated
 
-Subscribe to my mailing list to get weekly updates on the things I'm thinking about. 
+Subscribe to my newsletter to get my thoughts around growth
 
-<!-- Begin Mailchimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="https://kevinslin.us17.list-manage.com/subscribe/post?u=f67ef4c2df3acd207460ebc20&amp;id=ebffcd90c3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-<div id="mc_embed_signup_scroll">
-
-<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f67ef4c2df3acd207460ebc20_ebffcd90c3" tabindex="-1" value=""></div>
-<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-</div>
+<form
+  action="https://buttondown.email/api/emails/embed-subscribe/kevins8"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/kevins8', 'popupwindow')"
+  class="embeddable-buttondown-form"
+>
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email" />
+  <input type="submit" value="Subscribe" />
+  <p>
+    <a href="https://buttondown.email" target="_blank">Powered by Buttondown.</a>
+  </p>
 </form>
-</div>
