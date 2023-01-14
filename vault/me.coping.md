@@ -2,7 +2,7 @@
 id: ttanp4aqo23cenwtf8soo7x
 title: Coping
 desc: 'My coping strategies'
-updated: 1656190098622
+updated: 1673669948455
 created: 1651879609345
 has_collection: true
 sort_by: date
@@ -13,3 +13,8 @@ config:
     enableBackLinks: false
 ---
 
+## Index
+- [[Breathing|me.coping.breathing]]
+- [[Going Far Away|me.coping.going-far-away]]
+- [[Organizing Notes|me.coping.organizing-notes]]
+- [[Writing|me.coping.writing]]
