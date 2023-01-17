@@ -2,7 +2,7 @@
 id: ttanp4aqo23cenwtf8soo7x
 title: Coping
 desc: 'My coping strategies'
-updated: 1673669948455
+updated: 1673927510141
 created: 1651879609345
 has_collection: true
 sort_by: date
