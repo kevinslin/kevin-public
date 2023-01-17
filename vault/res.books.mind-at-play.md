@@ -2,7 +2,7 @@
 id: 816l338o6sha75lflvjxtoq
 title: Mind at Play
 desc: ''
-updated: 1673117798482
+updated: 1673799553063
 created: 1673117754069
 image: null
 author: null
@@ -13,6 +13,9 @@ finished: null
 kind: book
 goodreads: null
 ---
+
+## Status
+- 2023-01-15 08:19: punt
 
 ## Summary
 
