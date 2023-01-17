@@ -2,7 +2,7 @@
 id: lw6ywdceftsipm3p2j2wq2k
 title: Techniques
 desc: ''
-updated: 1667756715759
+updated: 1673927919105
 created: 1663535039289
 ---
 
@@ -18,3 +18,4 @@ created: 1663535039289
 
 ## Unsorted
 - [[dendron://kevin-public/me.techniques.structured-procrastination]]
+- [[dendron://kevin-public/me.techniques.star-method]]
