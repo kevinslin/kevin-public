@@ -7,7 +7,7 @@ created: 1673117754069
 image: null
 author: null
 genre: null
-status: null
+status: x
 source: null
 finished: null
 kind: book
