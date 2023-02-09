@@ -37,7 +37,7 @@ published: false
 - AMPP
 
 # Key Points
-- **key to change is not implementing new process** but** getting people to hold one another accountable** for process
+- **key to change is not implementing new process** but getting people to hold one another accountable** for process
     - what eric brandwine sayd about commitment vs compliance, rather get commitment #mw
 - spend time early on establishing shared pool of meaning
     - if people don't buy arguments, its still bad
@@ -68,7 +68,7 @@ published: false
 
 ## 2 mastering crucial conversation
 - break past fool choice, you can win argument or you will lose friend, if you do it right, you can do both
-- be good at filling pool of shared meaning, we're all on the same playing field, make safe for everyone to talk
+- be good at **filling pool of shared meaning**, we're all on the same playing field, make safe for everyone to talk
 
 ## 3 start with heart
 - start with right motives and stay focused
@@ -91,7 +91,7 @@ published: false
     - emotions
     - behavioral
 - its not about content but about safety, watch out if safety is at risk
-- conversation turns crucial once people no longer feel safe
+- **conversation turns crucial once people no longer feel safe**
     - leads to silence (not speaking up) or violence (force meaning)
     - silence
         - masking: being sarcastic or flippant, eg: your idea is amazing. people can't appreciate its genius
