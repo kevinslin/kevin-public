@@ -73,7 +73,7 @@ published: false
 ## 3 start with heart
 - start with right motives and stay focused
 - before conversation
-    - ask what do you really want (for yourself, for others, for the relationship)
+    - **ask what do you really want** (for yourself, for others, for the relationship)
         - how would i behave if this is what I want?
         - clarify what you don't want
     - don't make fool choices, find the 'and'
@@ -127,6 +127,8 @@ published: false
 - make sure there's a mutual purpose, common goal
     - know this isn't the case if there is a debate
 
+## 6 master my stories
+
 ## 7 STATE
 - STATE
     - share facts
@@ -147,6 +149,36 @@ published: false
 
 - when you feel strong about your idea, you're not looking to expand the shared pool of meaning
     - instead, use attacking techniques to get your way
+
+- Don’t pile it on. Sometimes we lack the confidence to speak up, so we let problems simmer for a long time. Given the chance, we generate a whole arsenal of unflattering conclusions.
+
+### ask for other paths
+- We mentioned that the key to sharing sensitive ideas is a blend of confidence and humility.
+- So once you’ve shared your point of view—facts and stories alike—invite others to do the same. If your goal is to keep expanding the pool of meaning rather than to be right, to make the best decision rather than to get your way, then you’ll willingly listen to other views. By being open to learning we are demonstrating humility at its best.
+
+### talk tenativel
+
+
+- Too soft: “This is probably stupid, but . . .” 
+- Too hard: “How come you ripped us off?” 
+- Just right: “It’s starting to look like you’re taking this home for your own use. Is that right?”
+
+### encourage testing
+
+- how you phrase your invitation makes a big difference. Not only should you invite others to talk, but you have to do so in a way that makes it clear that no matter how controversial their ideas might be, you want to hear them.
+- Safety becomes particularly important when you’re having a crucial conversation with people who might move to silence. Some people make Fool’s Choices in these circumstances. They worry that if they share their true opinions, others will clam up.
+- Make sure they have the opportunity to share by actively inviting them to do so: “Does anyone see it differently?” “What am I missing here?” “I’d really like to hear the other side of this story.”
+- Model disagreeing by disagreeing with your own view. “Maybe I’m wrong here. What if the opposite is true? What if the reason sales have dropped is because . . .”
+
+### STRONG BELIEF
+
+- In the end, nobody is listening, everyone is committed to silence or violence, and the Pool of Shared Meaning remains parched and tainted.
+
+### How Did We Get Like This? 
+
+It starts with a story. When we feel the need to push our ideas on others, it’s generally because we believe we’re right and everyone else is wrong.
+
+We feel justified in using dirty tricks. Once we’re convinced that it’s our duty to fight for the truth, we start pulling out the big guns. We use debating tricks that we’ve picked up throughout the years. Chief among them is the ability to “stack the deck.”
 
 ## 8 Explore other paths
 - AMPP:
