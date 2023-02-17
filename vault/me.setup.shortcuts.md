@@ -118,5 +118,12 @@ created: 1648916969485
 - cmd+shift+d: toggle debug pane
 
 ## Other
-
 - ctrl+cmd+d: lookup now for mac
+
+
+
+## VSCode
+
+## Navigation
+- terminal, prev: cmd+shift+h
+- terminal, next: cmd+shift+l

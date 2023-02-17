@@ -4,8 +4,9 @@ title: Deploy Private Repo on Amplitude
 desc: ''
 updated: 1657599280407
 created: 1653147732793
+tags:
+  - kind.issue
 template: 'dendron://id-dzoypoljbtvlj0fhdxsyzi4'
-tags: [kind.issue]
 ---
 
 ## Summary
@@ -106,7 +107,7 @@ In my case, this was because of `StrictHostKeyChecking`
 - Internal Investigation
     - [[Private Gh Repo|dendron://kevin-private/daily.journal.2022.05.20.private-gh-repo]]
 - Service Providers
-    - [[Deploy Keys|dendron://notes/s.github.ref.deploy-keys]]
+    - [[Deploy Keys|dendron://notes/vs.github.ref.deploy-keys]]
     - [[Amplify Environment Variables|dendron://notes/aws.s.amplify-hosting.ref.env]]
 - SSH
     - [[Ssh Config|dendron://notes/pkg.ssh.config.ssh-config]]
