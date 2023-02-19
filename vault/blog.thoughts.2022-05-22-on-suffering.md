@@ -33,7 +33,7 @@ The nice (or infuriating) part of EELM  is that as an individual, it's not falsi
 When doing a startup, there can be much suffering. Sometimes it's type I suffering (the hero's journey). Other times, it's type II (no reason at all).
 
 For the latter, the following are some strategies that have helped me cope:
-- [[writing|dendron://kevin-public/me.coping.writing]] 
+- [[writing|dendron://kevin-public/me.techniques.writing]] 
 - reaching out to friends and mentors
 - exercise 
 
