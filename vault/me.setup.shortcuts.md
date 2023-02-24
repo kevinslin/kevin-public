@@ -6,6 +6,32 @@ updated: 1666021643604
 created: 1648916969485
 ---
 
+## Modifiers
+- ctrl
+- [lr]shift
+- [lr]alt
+- [lr]cmd
+
+## Overview
+- navigation
+- views: eg. switch views
+- execute
+    - execute-cell:
+        - ctrl-enter: execute cell (default)
+        - shift-space: my override [2023-02-24 08:53]
+    - execute and enter below 
+        - shift-enter: default
+    - execute-cell and insert below:
+        - alt-enter: edfault
+
+- launch
+    - bring up alfred
+
+## Global
+- launch:
+    - alfred: ctrl-space
+    - raycast: alt-space
+
 ## VSCode
 
 ### Toggle Side Bar
@@ -119,10 +145,6 @@ created: 1648916969485
 
 ## Other
 - ctrl+cmd+d: lookup now for mac
-
-
-
-## VSCode
 
 ## Navigation
 - terminal, prev: cmd+shift+h
