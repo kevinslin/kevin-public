@@ -12,12 +12,19 @@ published: false
 - read again
 
 # Concepts
-- crucial conversation
-    - stakes high
-    - opinions vary
-    - strong emotions
-- shared pool of meaning
-    - common beliefs in which people are committed to (vs compliance)
+
+### Crucial Conversation
+- stakes high
+- opinions vary
+- strong emotions
+
+### Shared Pool of Meaning
+- common beliefs in which people are committed to (vs compliance)
+
+### Contrasting
+- eg. i know that you are good at what you do. i don't question that. i'm concerned about this decision though because it affects my child's future
+- > NOTE: don't water down your message, just give other side enough to be sure that they can actually hear you
+
 
 # ToC
 1. what's a crucial conversation
@@ -37,10 +44,24 @@ published: false
 - AMPP
 
 # Key Points
+
 - **key to change is not implementing new process** but getting people to hold one another accountable** for process
     - what eric brandwine sayd about commitment vs compliance, rather get commitment #mw
+
 - spend time early on establishing shared pool of meaning
     - if people don't buy arguments, its still bad
+
+- STATE ^cDtMLqaHDlxz
+    - share fact
+    - tell story
+    - ask for other path
+    - talk tentatively
+    - encourage testing
+- AMPP
+    - ask
+    - mirror
+    - paraphrase
+    - prime
 
 # Quotes
 
