@@ -8,10 +8,10 @@ published: false
 ---
 
 
-# Status
+## Status
 - read again
 
-# Concepts
+## Concepts
 
 ### Crucial Conversation
 - stakes high
@@ -25,8 +25,13 @@ published: false
 - eg. i know that you are good at what you do. i don't question that. i'm concerned about this decision though because it affects my child's future
 - > NOTE: don't water down your message, just give other side enough to be sure that they can actually hear you
 
+### Fool's choice
+- you can't have it both
 
-# ToC
+### Silence
+- people that won't sspeak up
+
+## ToC
 1. what's a crucial conversation
 2. mastering crucial conversation
 3. start with heart
@@ -175,7 +180,8 @@ published: false
 
 ### ask for other paths
 - We mentioned that the key to sharing sensitive ideas is a blend of confidence and humility.
-- So once you’ve shared your point of view—facts and stories alike—invite others to do the same. If your goal is to keep expanding the pool of meaning rather than to be right, to make the best decision rather than to get your way, then you’ll willingly listen to other views. By being open to learning we are demonstrating humility at its best.
+- So once you’ve shared your point of view—facts and stories alike—invite others to do the same. 
+    - If your goal is to keep expanding the pool of meaning rather than to be right, to make the best decision rather than to get your way, then you’ll willingly listen to other views. By being open to learning we are demonstrating humility at its best.
 
 ### talk tenativel
 
@@ -186,8 +192,10 @@ published: false
 
 ### encourage testing
 
-- how you phrase your invitation makes a big difference. Not only should you invite others to talk, but you have to do so in a way that makes it clear that no matter how controversial their ideas might be, you want to hear them.
-- Safety becomes particularly important when you’re having a crucial conversation with people who might move to silence. Some people make Fool’s Choices in these circumstances. They worry that if they share their true opinions, others will clam up.
+- how you phrase your invitation makes a big difference. 
+    - Not only should you invite others to talk, but you have to do so in a way that makes it clear that no matter how controversial their ideas might be, you want to hear them.
+- Safety becomes particularly important when you’re having a crucial conversation with people who might move to silence. 
+    - Some people make Fool’s Choices in these circumstances. They worry that if they share their true opinions, others will clam up.
 - Make sure they have the opportunity to share by actively inviting them to do so: “Does anyone see it differently?” “What am I missing here?” “I’d really like to hear the other side of this story.”
 - Model disagreeing by disagreeing with your own view. “Maybe I’m wrong here. What if the opposite is true? What if the reason sales have dropped is because . . .”
 
