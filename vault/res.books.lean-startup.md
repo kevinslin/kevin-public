@@ -2,7 +2,7 @@
 id: 1da94030-c045-4002-8de0-67d35e6eee74
 title: The Lean Startup
 desc: ''
-updated: 1657497966753
+updated: 1678147467647
 created: 1593881520171
 author: Eric Ries
 genre: [business, non-fiction]
@@ -24,15 +24,31 @@ Clear, actionable and effective ways of starting a new venture.
 - progress should be measured with [[Validated Learning|dendron://kevin-public/res.books.lean-startup.concepts#validated-learning]]
 
 ## Key Points
-- a [[Startup|dendron://kevin-public/res.books.lean-startup.concepts#startup]] tries to build something in extreme uncertainty
-- a startup tends to be based on a [[Leap of Faith Assumption|dendron://kevin-public/res.books.lean-startup.concepts#leap-of-faith-assumption]]
-	- these assumptions have a [[Growth Hypothesis|dendron://kevin-public/res.books.lean-startup.concepts#growth-hypothesis]] and [[Value Hypothesis|dendron://kevin-public/res.books.lean-startup.concepts#value-hypothesis]]
-- progress should be measured by [[Validated Learning|dendron://kevin-public/res.books.lean-startup.concepts#validated-learning]]
-- to achieve progress, adopt [[Build-Measure-Learn Loop|dendron://kevin-public/res.books.lean-startup.concepts#build-measure-learn-loop]] loop
-- kanban with **limit on works in progress at any stage**
-- everything that doesn't help with learning is wasted work
-- making progress means understanding value that product is actually providing users and figuring out the [[Engine of Growth|dendron://kevin-public/res.books.lean-startup.concepts#engine-of-growth]]
-- make [[Proportional Investment|dendron://kevin-public/res.books.lean-startup.concepts#proportional-investment]] when growing and scaling
+
+- what is startup
+	- a [[Startup|dendron://kevin-public/res.books.lean-startup.concepts#startup]] tries to build something in extreme uncertainty
+	- a startup tends to be based on a [[Leap of Faith Assumption|dendron://kevin-public/res.books.lean-startup.concepts#leap-of-faith-assumption]]
+		- these assumptions have a [[Growth Hypothesis|dendron://kevin-public/res.books.lean-startup.concepts#growth-hypothesis]] and [[Value Hypothesis|dendron://kevin-public/res.books.lean-startup.concepts#value-hypothesis]]
+- how to startup
+	- progress should be measured by [[Validated Learning|dendron://kevin-public/res.books.lean-startup.concepts#validated-learning]]
+	- to achieve progress, adopt [[Build-Measure-Learn Loop|dendron://kevin-public/res.books.lean-startup.concepts#build-measure-learn-loop]] loop
+		- hypothesize, predict, measure
+	- kanban with **limit on works in progress at any stage**
+- prioritize
+	- systematically testing assumptions
+	- connect tests with long term vision
+	- everything that doesn't help with learning is wasted work
+	- making progress means understanding value that product is actually providing users and figuring out the [[Engine of Growth|dendron://kevin-public/res.books.lean-startup.concepts#engine-of-growth]]
+- etc
+	- make [[Proportional Investment|dendron://kevin-public/res.books.lean-startup.concepts#proportional-investment]] when growing and scaling
+
+- startup should
+	- know where they are now
+	- figure out how to get closer to ideal
+- metrics
+	- actionable
+	- accessible
+	- auditable
 
 ## Concepts
 See [[Concepts|dendron://kevin-public/res.books.lean-startup.concepts]]
@@ -43,12 +59,12 @@ See [[Concepts|dendron://kevin-public/res.books.lean-startup.concepts]]
 
 ### 1 start
 - goal of startup is to figure out **what to build** (as quickly as possible)
-- startup is like driving a car, you want to continuously steer vs planning for a rocket launch where a single error could be a disaster
+- startup is like driving a car, **you want to continuously steer** vs planning for a rocket launch where a single error could be a disaster
 - this process is the [[Build-Measure-Learn Loop|dendron://kevin-public/res.books.lean-startup.concepts#build-measure-learn-loop]]
 - true north, strategy, product
 
 ### 2 define
-- a [[Startup|dendron://kevin-public/res.books.lean-startup.concepts#startup]] is an organization that is building something in environments of extreme uncertainty
+- a [[Startup|dendron://kevin-public/res.books.lean-startup.concepts#startup]] is an organization that is **building something in environments of extreme uncertainty**
 
 ### 3 learn
 - [[Validated Learning|dendron://kevin-public/res.books.lean-startup.concepts#validated-learning]] is discovering truth about current and future prospectsl
@@ -64,7 +80,7 @@ See [[Concepts|dendron://kevin-public/res.books.lean-startup.concepts]]
 - if you can't fail then you can't learn
 	- eg. Zappos beginning, take picture of other people's inventory and try to sell online to see if there is demand
 		- source: [[The Lean Startup|dendron://highlights/books.the-lean-startup#^2eeoztglckjc]]
-- to experiment, hypothesize, predict, and then measure
+- to experiment, **hypothesize, predict, and then measure**
 - two most important hypothesis
 	- [[Value Hypothesis|dendron://kevin-public/res.books.lean-startup.concepts#value-hypothesis]]
 	- [[Growth Hypothesis|dendron://kevin-public/res.books.lean-startup.concepts#growth-hypothesis]]

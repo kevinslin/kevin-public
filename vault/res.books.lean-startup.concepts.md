@@ -2,7 +2,7 @@
 id: 5vsnanlfwtyp25d9m6hb9mh
 title: Concepts
 desc: ''
-updated: 1647728764313
+updated: 1678143849958
 created: 1647728764313
 ---
 
@@ -29,7 +29,6 @@ Discovery truth about current and future prospects
 - source: [[The Lean Startup|dendron://highlights/books.the-lean-startup#^k29akwc3d2oj]]
 
 How do new customers discover the product or service
-
 
 ### Value Hypothesis
 - source: [[The Lean Startup|dendron://highlights/books.the-lean-startup#^o4zrgnjaupq2]]
