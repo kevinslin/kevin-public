@@ -2,9 +2,10 @@
 id: jjqsuelut7me7wzllw5oc1j
 title: Travel
 desc: ''
-updated: 1664031804268
+updated: 1678341830116
 created: 1661984140098
 ---
+
 
 ## Legend
 - 0: core items
